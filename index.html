@@ -117,8 +117,10 @@
   XMLHttpRequest.prototype.open = function (method, url) { this.__twtUrl = url; return origOpen.apply(this, arguments); };
   XMLHttpRequest.prototype.send = function () {
     var xhr = this, id = begin(xhr.__twtUrl);
-    var r = origSend.apply(this, arguments);
-    if (xhr.readyState === 4) end(id, xhr.status || 'error', null); else xhr.addEventListener('loadend', function () { end(id, xhr.status || 'error', null); });
+    var t = Date.now(), r = origSend.apply(this, arguments);
+    // A synchronous XHR (the game's file reads) blocks the page for its whole round trip; keep the list.
+    if (xhr.readyState === 4) { (window.twtSyncXhr = window.twtSyncXhr || []).push([short(xhr.__twtUrl), Date.now() - t]); end(id, xhr.status || 'error', null); }
+    else xhr.addEventListener('loadend', function () { end(id, xhr.status || 'error', null); });
     return r;
   };
 
@@ -343,6 +345,10 @@
   const warmed = warmShaders().catch(e => console.warn("[twt-warm] failed: " + e)).finally(() => { warming = false; });
   // The opening scene downloads now, alongside the code; the game's own request later reads it from the HTTP cache.
   download("./packed/GameScene/Gameplay.glb.zst", false).catch(e => console.warn("[twt-loading] scene prefetch: " + e));
+  // The game reads its data files (about 1.5 MB) with synchronous XHR, each one blocking the page for a round trip;
+  // fetched here first, those reads come from the HTTP cache. build_site.py fills the list.
+  const preloaded = Promise.all(["dirs.json", "zst.json", "ref/baked/audio.json", "ref/baked/catalog.ron", "ref/baked/clips.json", "ref/baked/cutscenes.json", "ref/baked/hidden-at-start.json", "ref/baked/lighting.json", "ref/baked/loc_en.json", "ref/baked/navmesh.json", "ref/baked/prefab-tiles.json", "ref/baked/prefab_list.json", "ref/baked/prefabs.json", "ref/baked/shop-layout.json", "ref/baked/static-lootables.json", "ref/baked/worldmap.json", "packed/fonts/Oswald-Bold.ttf"].map(u => download("./" + u, false)
+    .catch(e => console.warn("[twt-loading] preload: " + e))));
   const wasm = download(`./game_bg.wasm?v=${v}`, true)
     .then(chunks => new Response(new Blob(chunks), { headers: { "Content-Type": "application/wasm" } }));
   window.twtStage = stage => {
@@ -362,6 +368,7 @@
   const { default: init } = await import(`./game.js?v=${v}`);
   // The game starts once the shaders are compiled, so its own links all hit Chrome's program cache.
   await warmed;
+  await preloaded;
   try {
     await init({ module_or_path: wasm });
   } catch (e) {
