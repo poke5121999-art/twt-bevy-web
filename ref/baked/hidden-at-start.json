@@ -1,0 +1,1156 @@
+{
+"inactive": [
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)",
+"pos": [
+120.626,
+-0.013,
+-49.866
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)/UnsearchedView",
+"pos": [
+120.626,
+-0.013,
+-49.866
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)/UnsearchedView/Mesh",
+"pos": [
+120.626,
+-0.013,
+-49.866
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (4)",
+"pos": [
+129.487,
+1.341,
+-18.562
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (4)/UnsearchedView",
+"pos": [
+129.487,
+1.341,
+-18.562
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (4)/UnsearchedView/Mesh",
+"pos": [
+129.487,
+1.341,
+-18.562
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (2)",
+"pos": [
+116.08,
+0.511,
+-71.12
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (2)/UnsearchedView",
+"pos": [
+116.08,
+0.511,
+-71.12
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (2)/UnsearchedView/Mesh",
+"pos": [
+116.08,
+0.511,
+-71.12
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (3)",
+"pos": [
+112.822,
+0.334,
+-64.748
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (3)/UnsearchedView",
+"pos": [
+112.822,
+0.334,
+-64.748
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (3)/UnsearchedView/Mesh",
+"pos": [
+112.822,
+0.334,
+-64.748
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)",
+"pos": [
+68.029,
+-0.02,
+-72.489
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)/UnsearchedView",
+"pos": [
+68.029,
+-0.02,
+-72.489
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)/UnsearchedView/Mesh",
+"pos": [
+68.029,
+-0.02,
+-72.489
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)",
+"pos": [
+107.158,
+-0.131,
+-28.385
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)/UnsearchedView",
+"pos": [
+107.158,
+-0.131,
+-28.385
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)/UnsearchedView/Mesh",
+"pos": [
+107.158,
+-0.131,
+-28.385
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/SM_Prop_Car_Wrecked_OpenBoot_01 (1)/DuffleBagStaticLootableObjectPrefab",
+"pos": [
+86.434,
+0.255,
+-39.017
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/SM_Prop_Car_Wrecked_OpenBoot_01 (1)/DuffleBagStaticLootableObjectPrefab/UnsearchedView",
+"pos": [
+86.434,
+0.255,
+-39.017
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/SM_Prop_Car_Wrecked_OpenBoot_01 (1)/DuffleBagStaticLootableObjectPrefab/UnsearchedView/Mesh",
+"pos": [
+86.434,
+0.255,
+-39.017
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab",
+"pos": [
+106.429,
+-0.019,
+-17.406
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab/UnsearchedView",
+"pos": [
+106.429,
+-0.019,
+-17.406
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab/UnsearchedView/SM_Prop_JunkPile_01 (1)",
+"pos": [
+106.429,
+-0.019,
+-17.406
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (1)",
+"pos": [
+83.666,
+-0.019,
+-63.824
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (1)/UnsearchedView",
+"pos": [
+83.666,
+-0.019,
+-63.824
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_JunkPile_01 (1)",
+"pos": [
+83.666,
+-0.019,
+-63.824
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (8)",
+"pos": [
+64.649,
+0.021,
+-29.475
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (8)/UnsearchedView",
+"pos": [
+64.649,
+0.021,
+-29.475
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (8)/UnsearchedView/SM_Prop_JunkPile_01 (1)",
+"pos": [
+64.649,
+0.021,
+-29.475
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (5)",
+"pos": [
+117.971,
+-0.019,
+-74.79
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (5)/UnsearchedView",
+"pos": [
+117.971,
+-0.019,
+-74.79
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (5)/UnsearchedView/SM_Prop_JunkPile_01 (1)",
+"pos": [
+117.971,
+-0.019,
+-74.692
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (2)",
+"pos": [
+73.512,
+0.601,
+-72.811
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (2)/UnsearchedView",
+"pos": [
+73.512,
+0.601,
+-72.811
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (2)/UnsearchedView/SM_Prop_SupplyPile_01",
+"pos": [
+73.181,
+0.601,
+-72.872
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (6)",
+"pos": [
+101.659,
+-0.061,
+-77.422
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (6)/UnsearchedView",
+"pos": [
+101.659,
+-0.061,
+-77.422
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (6)/UnsearchedView/SM_Prop_SupplyPile_01",
+"pos": [
+101.659,
+-0.061,
+-77.422
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (3)",
+"pos": [
+76.881,
+0.575,
+-73.826
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (3)/UnsearchedView",
+"pos": [
+76.881,
+0.575,
+-73.826
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (3)/UnsearchedView/SM_Prop_Rubbish_Pile_03",
+"pos": [
+76.881,
+0.575,
+-73.826
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (7)",
+"pos": [
+122.24,
+-0.018,
+-17.678
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (7)/UnsearchedView",
+"pos": [
+122.24,
+-0.018,
+-17.678
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (7)/UnsearchedView/SM_Prop_Rubbish_Pile_03",
+"pos": [
+122.24,
+-0.018,
+-17.678
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (4)",
+"pos": [
+106.912,
+-0.001,
+-75.521
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (4)/UnsearchedView",
+"pos": [
+106.912,
+-0.001,
+-75.521
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (4)/UnsearchedView/SM_Prop_Rubbish_Pile_03",
+"pos": [
+106.912,
+-0.001,
+-75.521
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView",
+"pos": [
+69.427,
+-0.019,
+-54.728
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_CardboardBox_01 (1)",
+"pos": [
+69.468,
+0.479,
+-54.639
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Item_Bottle_01",
+"pos": [
+69.573,
+0.761,
+-54.364
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_GasCan_01",
+"pos": [
+69.7,
+0.811,
+-54.6
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Chr_Attach_Backpack_Large_Extras_01",
+"pos": [
+69.14,
+0.797,
+-55.036
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_ShoppingCart_01",
+"pos": [
+69.427,
+-0.019,
+-54.728
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_ShoppingCart_01/SM_Prop_ShoppingCart_Wheel_Guard_fl",
+"pos": [
+68.852,
+0.115,
+-54.821
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_ShoppingCart_01/SM_Prop_ShoppingCart_Wheel_Guard_fl/SM_Prop_ShoppingCart_Wheel_fl",
+"pos": [
+68.875,
+0.056,
+-54.798
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_ShoppingCart_01/SM_Prop_ShoppingCart_Wheel_Guard_fr",
+"pos": [
+69.335,
+0.115,
+-55.303
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_ShoppingCart_01/SM_Prop_ShoppingCart_Wheel_Guard_fr/SM_Prop_ShoppingCart_Wheel_fr",
+"pos": [
+69.357,
+0.056,
+-55.281
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_ShoppingCart_01/SM_Prop_ShoppingCart_Wheel_rl",
+"pos": [
+69.416,
+0.056,
+-54.178
+]
+},
+{
+"path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)/UnsearchedView/SM_Prop_ShoppingCart_01/SM_Prop_ShoppingCart_Wheel_rr",
+"pos": [
+69.977,
+0.056,
+-54.739
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.721,
+1.105,
+-52.886
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.645,
+1.105,
+-52.886
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.571,
+1.104,
+-52.931
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.49,
+1.105,
+-52.913
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.427,
+1.105,
+-52.886
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.34,
+1.104,
+-52.931
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.277,
+1.105,
+-52.888
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.19,
+1.104,
+-52.933
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.102,
+1.104,
+-52.979
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab (1)/SM_Prop_Syringe_01_Content",
+"pos": [
+113.058,
+1.111,
+-52.964
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.417,
+1.122,
+-52.839
+]
+},
+{
+"path": "Gameplay/Stage/MedicalRoom/BloodExtractStation/SyringePrefab/SM_Prop_Syringe_01_Content",
+"pos": [
+113.628,
+1.128,
+-52.941
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash",
+"pos": [
+100.262,
+0.0,
+-58.321
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/WheelJunkItemPrefab",
+"pos": [
+99.015,
+0.252,
+-56.031
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/WheelJunkItemPrefab (1)",
+"pos": [
+99.665,
+0.372,
+-54.699
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab",
+"pos": [
+97.135,
+0.189,
+-57.948
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab/SM_Prop_TrashBag_09",
+"pos": [
+97.135,
+0.189,
+-57.948
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab/SM_Prop_TrashBag_09/Armature",
+"pos": [
+97.135,
+0.189,
+-57.948
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab/SM_Prop_TrashBag_09/Armature/Bone",
+"pos": [
+97.135,
+0.35,
+-58.407
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab/SM_Prop_TrashBag_09/Armature/Bone/Bone.001",
+"pos": [
+97.164,
+0.328,
+-58.206
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab/SM_Prop_TrashBag_09/SM_Prop_TrashBag_09",
+"pos": [
+97.169,
+0.327,
+-58.097
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (1)",
+"pos": [
+95.641,
+0.39,
+-52.87
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (1)/SM_Prop_TrashBag_09",
+"pos": [
+95.641,
+0.39,
+-52.87
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (1)/SM_Prop_TrashBag_09/Armature",
+"pos": [
+95.641,
+0.39,
+-52.87
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (1)/SM_Prop_TrashBag_09/Armature/Bone",
+"pos": [
+95.576,
+0.87,
+-52.834
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (1)/SM_Prop_TrashBag_09/Armature/Bone/Bone.001",
+"pos": [
+95.651,
+0.685,
+-52.871
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (1)/SM_Prop_TrashBag_09/SM_Prop_TrashBag_09",
+"pos": [
+95.7,
+0.587,
+-53.391
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (2)",
+"pos": [
+95.791,
+0.413,
+-53.84
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (2)/SM_Prop_TrashBag_09",
+"pos": [
+95.791,
+0.413,
+-53.84
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (2)/SM_Prop_TrashBag_09/Armature",
+"pos": [
+95.791,
+0.413,
+-53.84
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (2)/SM_Prop_TrashBag_09/Armature/Bone",
+"pos": [
+95.684,
+0.882,
+-53.911
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (2)/SM_Prop_TrashBag_09/Armature/Bone/Bone.001",
+"pos": [
+95.78,
+0.705,
+-53.878
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/TrashbagPrefab (2)/SM_Prop_TrashBag_09/SM_Prop_TrashBag_09",
+"pos": [
+95.832,
+0.615,
+-53.845
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/SM_Prop_Toilet_Broken_01",
+"pos": [
+104.799,
+-0.028,
+-61.633
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/HammerWeaponItemPrefab",
+"pos": [
+103.852,
+0.056,
+-61.678
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/HammerWeaponItemPrefab/ItemView",
+"pos": [
+103.852,
+0.056,
+-61.678
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/StartingTrash/HammerWeaponItemPrefab/ItemView/HammerMeleeWeaponItemViewPrefab",
+"pos": [
+103.852,
+0.056,
+-61.678
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape",
+"pos": [
+95.659,
+0.189,
+-55.721
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape/SM_Prop_CautionLine_01",
+"pos": [
+95.947,
+0.816,
+-55.056
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (4)",
+"pos": [
+95.356,
+0.815,
+-55.055
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (3)",
+"pos": [
+95.944,
+0.745,
+-55.062
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (5)",
+"pos": [
+95.358,
+0.744,
+-55.062
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (1)",
+"pos": [
+95.947,
+0.745,
+-55.056
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (6)",
+"pos": [
+95.356,
+0.744,
+-55.055
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (2)",
+"pos": [
+95.358,
+0.745,
+-56.403
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (7)",
+"pos": [
+95.944,
+0.744,
+-56.403
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape",
+"pos": [
+104.868,
+0.189,
+-57.588
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape/SM_Prop_CautionLine_01",
+"pos": [
+104.581,
+0.816,
+-58.254
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape/SM_Prop_CautionLine_01 (4)",
+"pos": [
+105.172,
+0.815,
+-58.254
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape/SM_Prop_CautionLine_01 (3)",
+"pos": [
+104.584,
+0.745,
+-58.248
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape/SM_Prop_CautionLine_01 (5)",
+"pos": [
+105.169,
+0.744,
+-58.248
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape/SM_Prop_CautionLine_01 (1)",
+"pos": [
+104.581,
+0.745,
+-58.254
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape/SM_Prop_CautionLine_01 (6)",
+"pos": [
+105.172,
+0.744,
+-58.254
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape/SM_Prop_CautionLine_01 (2)",
+"pos": [
+105.169,
+0.745,
+-56.907
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)/UnsecureTape/SM_Prop_CautionLine_01 (7)",
+"pos": [
+104.584,
+0.744,
+-56.907
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape",
+"pos": [
+99.886,
+0.0,
+-60.557
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (1)",
+"pos": [
+99.223,
+0.814,
+-60.159
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (2)",
+"pos": [
+99.187,
+0.81,
+-60.956
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (6)",
+"pos": [
+99.227,
+-0.012,
+-60.162
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (3)",
+"pos": [
+99.191,
+-0.016,
+-60.954
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (7)",
+"pos": [
+99.223,
+-0.012,
+-60.159
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (4)",
+"pos": [
+99.186,
+-0.016,
+-60.956
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (9)",
+"pos": [
+100.607,
+-0.007,
+-60.988
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/CheckoutItemPrefab/UnsecureTape/SM_Prop_CautionLine_01 (5)",
+"pos": [
+100.616,
+-0.012,
+-60.21
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab",
+"pos": [
+97.19,
+0.037,
+-58.786
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab/Mesh",
+"pos": [
+97.19,
+0.029,
+-58.786
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (4)",
+"pos": [
+104.646,
+0.044,
+-59.442
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (4)/Mesh",
+"pos": [
+104.646,
+0.035,
+-59.442
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (5)",
+"pos": [
+100.983,
+0.056,
+-57.647
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (5)/Mesh",
+"pos": [
+100.983,
+0.047,
+-57.647
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (1)",
+"pos": [
+99.216,
+0.051,
+-55.141
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (1)/Mesh",
+"pos": [
+99.216,
+0.043,
+-55.141
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (1)/Mesh/SM_Prop_TrashBag_08",
+"pos": [
+98.184,
+-0.001,
+-54.346
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (3)",
+"pos": [
+104.01,
+0.051,
+-53.479
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (3)/Mesh",
+"pos": [
+104.01,
+0.04,
+-53.479
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (2)",
+"pos": [
+103.57,
+0.036,
+-60.33
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (2)/Mesh",
+"pos": [
+103.57,
+0.028,
+-60.33
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/TrashPilePrefab (2)/Mesh/SM_Prop_TrashBag_07",
+"pos": [
+103.035,
+0.014,
+-60.157
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/GlassShardItemPrefab",
+"pos": [
+96.643,
+0.017,
+-53.066
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/GlassShardItemPrefab/Mesh",
+"pos": [
+96.643,
+0.017,
+-53.066
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/GlassShardItemPrefab (1)",
+"pos": [
+98.141,
+0.017,
+-53.047
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/GlassShardItemPrefab (1)/Mesh",
+"pos": [
+98.141,
+0.017,
+-53.047
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/GlassShardItemPrefab (2)",
+"pos": [
+97.336,
+0.017,
+-53.854
+]
+},
+{
+"path": "Gameplay/Stage/ShopFloor/SweepPiles/GlassShardItemPrefab (2)/Mesh",
+"pos": [
+97.336,
+0.017,
+-53.854
+]
+}
+]
+}

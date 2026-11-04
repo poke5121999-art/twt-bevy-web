@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Walking Trade (Bevy)</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0d0f12; overflow: hidden; font-family: system-ui, sans-serif; color: #e8e2d4; }
+  #twt-canvas { display: block; width: 100%; height: 100%; outline: none; }
+  #gate { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+          background: radial-gradient(circle at 50% 40%, #2a2419, #0d0f12 70%); cursor: pointer; text-align: center; padding: 24px; }
+  #gate h1 { margin: 0; font-size: 34px; letter-spacing: 1px; }
+  #gate p { margin: 0; max-width: 560px; line-height: 1.5; opacity: .85; }
+  #gate button { font-size: 18px; padding: 12px 34px; border-radius: 8px; border: 0; background: #d9a441; color: #1b1407; font-weight: 700; cursor: pointer; }
+  #gate .small { font-size: 13px; opacity: .6; }
+  #status { position: fixed; left: 12px; bottom: 10px; font-size: 13px; opacity: .7; pointer-events: none; }
+</style>
+</head>
+<body>
+<canvas id="twt-canvas" tabindex="0"></canvas>
+<div id="gate">
+  <h1>The Walking Trade</h1>
+  <p>Bản viết lại bằng Bevy (Rust), chạy WebAssembly trong trình duyệt. Mở quán giữa thời xác sống: nhập hàng, đặt giá, bán lấy pin, đi raid.</p>
+  <button id="start">Chơi</button>
+  <p class="small">Cần máy tính có card đồ hoạ (Chrome hoặc Edge). Lần đầu tải khoảng vài trăm MB. Save lưu trong trình duyệt.<br>
+  WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu</p>
+</div>
+<div id="status"></div>
+<script>
+  // The game reads its launch settings as environment variables (crate::vfs::var); the URL query
+  // overrides any of them, e.g. ?TWT_SKIP_INTRO=1.
+  window.TWT_ENV = { TWT_PLAY: "GameScene/Gameplay.glb", TWT_ASSETS: "packed", TWT_SKIP_INTRO: "0" };
+  for (const [k, v] of new URLSearchParams(location.search)) if (k.startsWith("TWT_")) window.TWT_ENV[k] = v;
+</script>
+<script type="module">
+  import init from "./game.js";
+  const status = document.getElementById("status");
+  const gate = document.getElementById("gate");
+  let started = false;
+  async function start() {
+    if (started) return;
+    started = true;
+    gate.style.display = "none";
+    status.textContent = "Đang tải game…";
+    document.getElementById("twt-canvas").focus();
+    try {
+      await init();
+    } catch (e) {
+      // winit ends the wasm main loop by throwing a control-flow exception; that one is not a failure.
+      if (!String(e).includes("Using exceptions for control flow")) {
+        status.textContent = "Lỗi khi chạy game: " + e;
+        console.error(e);
+        return;
+      }
+    }
+    status.textContent = "";
+  }
+  gate.addEventListener("click", start);
+</script>
+</body>
+</html>

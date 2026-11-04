@@ -1,0 +1,544 @@
+{
+ "spawn": [
+  [
+   75.1624,
+   0,
+   -50.5713
+  ],
+  [
+   116.4924,
+   0,
+   -46.0314
+  ]
+ ],
+ "entrance": [
+  100.2623,
+  0,
+  -52.6114
+ ],
+ "checkout": {
+  "purchase": [
+   99.8863,
+   0,
+   -59.9514
+  ],
+  "other": [
+   100.6063,
+   0,
+   -59.9514
+  ],
+  "service": [
+   99.8863,
+   0,
+   -61.1974
+  ]
+ },
+ "tiles": [
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (0, 0)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.1963
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (0, 1)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.3713
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (0, 2)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.5463
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (0, 3)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.7213
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (0, 4)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.8963
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (0, 5)",
+   "pos": [
+    95.4843,
+    0.812,
+    -56.0713
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (0, 6)",
+   "pos": [
+    95.4843,
+    0.812,
+    -56.2463
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (1, 0)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.1963
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (1, 1)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.3713
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (1, 2)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.5463
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (1, 3)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.7213
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (1, 4)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.8963
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (1, 5)",
+   "pos": [
+    95.6593,
+    0.812,
+    -56.0713
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (1, 6)",
+   "pos": [
+    95.6593,
+    0.812,
+    -56.2463
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (2, 0)",
+   "pos": [
+    95.8343,
+    0.812,
+    -55.1963
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (2, 1)",
+   "pos": [
+    95.8343,
+    0.812,
+    -55.3713
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (2, 2)",
+   "pos": [
+    95.8343,
+    0.812,
+    -55.5463
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (2, 3)",
+   "pos": [
+    95.8343,
+    0.812,
+    -55.7213
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (2, 4)",
+   "pos": [
+    95.8343,
+    0.812,
+    -55.8963
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (2, 5)",
+   "pos": [
+    95.8343,
+    0.812,
+    -56.0713
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab",
+   "name": "Tile (2, 6)",
+   "pos": [
+    95.8343,
+    0.812,
+    -56.2463
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (0, 0)",
+   "pos": [
+    105.0433,
+    0.812,
+    -58.1134
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (0, 1)",
+   "pos": [
+    105.0433,
+    0.812,
+    -57.9384
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (0, 2)",
+   "pos": [
+    105.0433,
+    0.812,
+    -57.7634
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (0, 3)",
+   "pos": [
+    105.0433,
+    0.812,
+    -57.5884
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (0, 4)",
+   "pos": [
+    105.0433,
+    0.812,
+    -57.4134
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (0, 5)",
+   "pos": [
+    105.0433,
+    0.812,
+    -57.2384
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (0, 6)",
+   "pos": [
+    105.0433,
+    0.812,
+    -57.0634
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (1, 0)",
+   "pos": [
+    104.8683,
+    0.812,
+    -58.1134
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (1, 1)",
+   "pos": [
+    104.8683,
+    0.812,
+    -57.9384
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (1, 2)",
+   "pos": [
+    104.8683,
+    0.812,
+    -57.7634
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (1, 3)",
+   "pos": [
+    104.8683,
+    0.812,
+    -57.5884
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (1, 4)",
+   "pos": [
+    104.8683,
+    0.812,
+    -57.4134
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (1, 5)",
+   "pos": [
+    104.8683,
+    0.812,
+    -57.2384
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (1, 6)",
+   "pos": [
+    104.8683,
+    0.812,
+    -57.0634
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (2, 0)",
+   "pos": [
+    104.6933,
+    0.812,
+    -58.1134
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (2, 1)",
+   "pos": [
+    104.6933,
+    0.812,
+    -57.9384
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (2, 2)",
+   "pos": [
+    104.6933,
+    0.812,
+    -57.7634
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (2, 3)",
+   "pos": [
+    104.6933,
+    0.812,
+    -57.5884
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (2, 4)",
+   "pos": [
+    104.6933,
+    0.812,
+    -57.4134
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (2, 5)",
+   "pos": [
+    104.6933,
+    0.812,
+    -57.2384
+   ]
+  },
+  {
+   "shelf": "Gameplay/Stage/ShopFloor/FlimsyWoodenShelfItemPrefab (1)",
+   "name": "Tile (2, 6)",
+   "pos": [
+    104.6933,
+    0.812,
+    -57.0634
+   ]
+  }
+ ],
+ "start_items": [
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (4)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.5463
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (14)",
+   "pos": [
+    95.6593,
+    0.812,
+    -56.2463
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (15)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.3713
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (10)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.8963
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (16)",
+   "pos": [
+    95.4843,
+    0.812,
+    -56.2463
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (1)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.1963
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (17)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.3713
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (3)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.7213
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (8)",
+   "pos": [
+    95.6593,
+    0.812,
+    -56.0713
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (12)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.5463
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (21)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.1963
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (22)",
+   "pos": [
+    95.6593,
+    0.812,
+    -55.7213
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (23)",
+   "pos": [
+    95.4843,
+    0.812,
+    -56.0713
+   ]
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "node": "Gameplay/Stage/Bedroom/Tins/UnlabelledTinItemPrefab (24)",
+   "pos": [
+    95.4843,
+    0.812,
+    -55.8963
+   ]
+  }
+ ]
+}

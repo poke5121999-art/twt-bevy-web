@@ -1,0 +1,905 @@
+{
+ "items": [
+  {
+   "key": "12GaugeAmmoCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "12GaugeAmmoItem",
+   "path": "Assets/GameObject/12GaugeAmmoItemPrefab.prefab"
+  },
+  {
+   "key": "556mmAmmoItem",
+   "path": "Assets/GameObject/556mmAmmoItemPrefab.prefab"
+  },
+  {
+   "key": "762AmmoItem",
+   "path": "Assets/GameObject/SniperAmmoItemPrefab.prefab"
+  },
+  {
+   "key": "9mmAmmoCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "9mmAmmoItem",
+   "path": "Assets/GameObject/9mmAmmoItemPrefab.prefab"
+  },
+  {
+   "key": "AK47WeaponData",
+   "path": "Assets/GameObject/AK47WeaponItemPrefab.prefab"
+  },
+  {
+   "key": "AlpacaPlushItemData",
+   "path": "Assets/GameObject/AlpacaPlushItemPrefab.prefab"
+  },
+  {
+   "key": "ArrowAmmoItem",
+   "path": "Assets/GameObject/ArrowItemPrefab.prefab"
+  },
+  {
+   "key": "AutoMinigunItemData",
+   "path": "Assets/GameObject/AutoMinigunTurretItemPrefab.prefab"
+  },
+  {
+   "key": "AutoMinigunWeaponData",
+   "path": "Assets/GameObject/MinigunWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "AxeMeleeWeapon",
+   "path": "Assets/GameObject/AxeWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "BabyPalmItemData",
+   "path": "Assets/GameObject/BabyPalmPlantItemPrefabNew.prefab"
+  },
+  {
+   "key": "BandageCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "BandageMedicalItemData",
+   "path": "Assets/GameObject/BandageItemPrefab.prefab"
+  },
+  {
+   "key": "BarStoolItemData",
+   "path": "Assets/GameObject/BarStoolItemPrefab.prefab"
+  },
+  {
+   "key": "BarbedFlamingoItemData",
+   "path": "Assets/GameObject/BarbedFlamingoItemPrefab.prefab"
+  },
+  {
+   "key": "BarbedWireCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "BarbedWireItemData",
+   "path": "Assets/GameObject/BarbedWireItemPrefab.prefab"
+  },
+  {
+   "key": "BaseballBatCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "BatMeleeWeapon",
+   "path": "Assets/GameObject/BatWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "BearPlushItemData",
+   "path": "Assets/GameObject/TeddyPlushItemPrefab.prefab"
+  },
+  {
+   "key": "BearTrapItemData",
+   "path": "Assets/GameObject/BearTrapItemPrefab.prefab"
+  },
+  {
+   "key": "BeerFoodItemData",
+   "path": "Assets/GameObject/BeerItemPrefab.prefab"
+  },
+  {
+   "key": "BirtherBossHeadItemData",
+   "path": "Assets/GameObject/BirtherBossHeadItemPrefab.prefab"
+  },
+  {
+   "key": "BlackSofaChairItemData",
+   "path": "Assets/GameObject/BlackSofaChairItemPrefab.prefab"
+  },
+  {
+   "key": "BlackSofaItemData",
+   "path": "Assets/GameObject/BlackSofaItemPrefab Variant.prefab"
+  },
+  {
+   "key": "BladedWrenchMeleeWeapon",
+   "path": "Assets/GameObject/BladedWrenchWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "BloodSyringeMedicalItemData",
+   "path": "Assets/GameObject/BloodSyringeItemPrefab.prefab"
+  },
+  {
+   "key": "BlueBarrelItemData",
+   "path": "Assets/GameObject/BlueBarrelItemPrefab.prefab"
+  },
+  {
+   "key": "BlueLongDrapeItemData",
+   "path": "Assets/GameObject/BlueLongDrapeItemPrefab.prefab"
+  },
+  {
+   "key": "BlueLongRugItemData",
+   "path": "Assets/GameObject/BlueLongRugItemPrefab Variant.prefab"
+  },
+  {
+   "key": "BlueRugItemData",
+   "path": "Assets/GameObject/BlueRugItemPrefab.prefab"
+  },
+  {
+   "key": "BlueSofaChairItemData",
+   "path": "Assets/GameObject/BlueSofaChairItemPrefab.prefab"
+  },
+  {
+   "key": "BlueSofaItemData",
+   "path": "Assets/GameObject/BlueSofaItemPrefab.prefab"
+  },
+  {
+   "key": "BoneDaggerMeleeWeapon",
+   "path": "Assets/GameObject/BoneDaggerWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "BoneItemData",
+   "path": "Assets/GameObject/BoneItemPrefab.prefab"
+  },
+  {
+   "key": "BoneRevolverCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "BoneRevolverWeaponData",
+   "path": "Assets/GameObject/BoneRevolverWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "BoneThroneCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "BoneThroneItemData",
+   "path": "Assets/GameObject/BoneThroneItemPrefab.prefab"
+  },
+  {
+   "key": "BowWeaponData",
+   "path": "Assets/GameObject/BowWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "BruteBossHeadItemData",
+   "path": "Assets/GameObject/BruteBossHeadItemPrefab.prefab"
+  },
+  {
+   "key": "BuffTwinBossHeadItemData",
+   "path": "Assets/GameObject/BuffSisterBossHeadItemPrefab.prefab"
+  },
+  {
+   "key": "BunnyPlushItemData",
+   "path": "Assets/GameObject/BunnyPlushItemPrefab.prefab"
+  },
+  {
+   "key": "BuntingItemData",
+   "path": "Assets/GameObject/BuntingItemPrefab.prefab"
+  },
+  {
+   "key": "CampingChairItemData",
+   "path": "Assets/GameObject/CampingChairItemPrefab.prefab"
+  },
+  {
+   "key": "CampingStoolItemData",
+   "path": "Assets/GameObject/CampingStoolItemPrefab.prefab"
+  },
+  {
+   "key": "CarcassBalloonCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "CarcassBalloonItemData",
+   "path": "Assets/GameObject/CarcassBalloonItemPrefab.prefab"
+  },
+  {
+   "key": "CardboardBoxItemData",
+   "path": "Assets/GameObject/CardboardBoxItemPrefab.prefab"
+  },
+  {
+   "key": "CarnivalBalloonItemData",
+   "path": "Assets/GameObject/CarnivalBalloonItemPrefab.prefab"
+  },
+  {
+   "key": "ChainsawMeleeWeapon",
+   "path": "Assets/GameObject/ChainsawWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "CheckoutItemData",
+   "path": "Assets/GameObject/CheckoutItemPrefab.prefab"
+  },
+  {
+   "key": "CoffeeTableItemData",
+   "path": "Assets/GameObject/CoffeeTableItemPrefab.prefab"
+  },
+  {
+   "key": "CopperPipeItemData",
+   "path": "Assets/GameObject/CopperPipeItemPrefab.prefab"
+  },
+  {
+   "key": "CreamSofaChairItemData",
+   "path": "Assets/GameObject/CreamSofaChairItemPrefab.prefab"
+  },
+  {
+   "key": "CreamSofaItemData",
+   "path": "Assets/GameObject/CreamSofaItemPrefab.prefab"
+  },
+  {
+   "key": "CrossbowWeaponData",
+   "path": "Assets/GameObject/CrossbowWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "CrowbarMeleeWeapon",
+   "path": "Assets/GameObject/CrowbarWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "CutleryClockItemData",
+   "path": "Assets/GameObject/CutleryClockItemPrefab.prefab"
+  },
+  {
+   "key": "DarkLongRugItemData",
+   "path": "Assets/GameObject/BlackLongRugItemPrefab Variant.prefab"
+  },
+  {
+   "key": "DarkRugItemData",
+   "path": "Assets/GameObject/BlackRugItemPrefab.prefab"
+  },
+  {
+   "key": "DinoPlushItemData",
+   "path": "Assets/GameObject/DinoPlushItemPrefab.prefab"
+  },
+  {
+   "key": "DogOrnamentItemData",
+   "path": "Assets/GameObject/DogOrnamentItemPrefab.prefab"
+  },
+  {
+   "key": "DogPlushItemData",
+   "path": "Assets/GameObject/DogPlushItemPrefab.prefab"
+  },
+  {
+   "key": "DoubleStorageCrateItemData",
+   "path": "Assets/GameObject/DoubleStorageCrateItemPrefab.prefab"
+  },
+  {
+   "key": "DualShelvingUnit",
+   "path": "Assets/GameObject/DualShelvingUnitItemPrefab.prefab"
+  },
+  {
+   "key": "DualShelvingUnitCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "DurableMattressItemData",
+   "path": "Assets/GameObject/DurableMattressItemPrefab.prefab"
+  },
+  {
+   "key": "DustbinItemData",
+   "path": "Assets/GameObject/DustbinItemPrefab.prefab"
+  },
+  {
+   "key": "ElegantTableItemData",
+   "path": "Assets/GameObject/ElegantTableItemPrefab.prefab"
+  },
+  {
+   "key": "ExitSignItemData",
+   "path": "Assets/GameObject/ExitSignItemPrefab.prefab"
+  },
+  {
+   "key": "ExplosiveBarrelItemData",
+   "path": "Assets/GameObject/ExplosiveBarrelItemPrefab.prefab"
+  },
+  {
+   "key": "FanItemData",
+   "path": "Assets/GameObject/FanItemPrefab.prefab"
+  },
+  {
+   "key": "FancyPottedPlantItemData",
+   "path": "Assets/GameObject/SmallWhitePottedPlantItemPrefabNew.prefab"
+  },
+  {
+   "key": "FemalePictureFrameItemData",
+   "path": "Assets/GameObject/FemalePictureFrameItemPrefab.prefab"
+  },
+  {
+   "key": "FirePitItemData",
+   "path": "Assets/GameObject/FirepitItemPrefab.prefab"
+  },
+  {
+   "key": "FireworksRPGAmmoItem",
+   "path": "Assets/GameObject/FireworksRPGItemPrefab.prefab"
+  },
+  {
+   "key": "FirstAidBoxMedicalItemData",
+   "path": "Assets/GameObject/FirstAidBoxItemPrefab.prefab"
+  },
+  {
+   "key": "FlamethrowerWeaponData",
+   "path": "Assets/GameObject/FlamethrowerWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "FlimsyWoodenShelf",
+   "path": "Assets/GameObject/FlimsyWoodenShelfItemPrefab.prefab"
+  },
+  {
+   "key": "FlimsyWoodenShelfCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "GasCanItemData",
+   "path": "Assets/GameObject/GasCanItemPrefab.prefab"
+  },
+  {
+   "key": "GlobeItemData",
+   "path": "Assets/GameObject/GlobeItemPrefab.prefab"
+  },
+  {
+   "key": "GoodMeatItemData",
+   "path": "Assets/GameObject/GoodMeatItemPrefab.prefab"
+  },
+  {
+   "key": "GrandfatherClockItemData",
+   "path": "Assets/GameObject/GrandfatherClockItemPrefab.prefab"
+  },
+  {
+   "key": "GreenLongDrapeItemData",
+   "path": "Assets/GameObject/GreenLongDrapeItemPrefab.prefab"
+  },
+  {
+   "key": "GreenLongRugItemData",
+   "path": "Assets/GameObject/GreenLongRugItemPrefab Variant.prefab"
+  },
+  {
+   "key": "GreenRugItemData",
+   "path": "Assets/GameObject/GreenRugItemPrefab.prefab"
+  },
+  {
+   "key": "GreenSofaChairItemData",
+   "path": "Assets/GameObject/GreenSofaChairItemPrefab.prefab"
+  },
+  {
+   "key": "GreenSofaItemData",
+   "path": "Assets/GameObject/GreenSofaItemPrefab.prefab"
+  },
+  {
+   "key": "GrenadeItemData",
+   "path": "Assets/GameObject/GrenadeItemPrefab.prefab"
+  },
+  {
+   "key": "GunballMachineItemData",
+   "path": "Assets/GameObject/GunballMachineItemPrefab.prefab"
+  },
+  {
+   "key": "GunpowderItemData",
+   "path": "Assets/GameObject/GunpowderItemPrefab.prefab"
+  },
+  {
+   "key": "HammerMeleeWeapon",
+   "path": "Assets/GameObject/HammerWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "HangingLightItemData",
+   "path": "Assets/GameObject/HangingLightItemPrefab Variant.prefab"
+  },
+  {
+   "key": "HangingPaintedSkullsItemData",
+   "path": "Assets/GameObject/FreeHangingSkullsItemPrefab Variant.prefab"
+  },
+  {
+   "key": "HangingSkullsItemData",
+   "path": "Assets/GameObject/HangingSkullsItemPrefab.prefab"
+  },
+  {
+   "key": "HardwoodLogItemData",
+   "path": "Assets/GameObject/HardwoodLogItemPrefab.prefab"
+  },
+  {
+   "key": "HardwoodPianoItemData",
+   "path": "Assets/GameObject/HardwoodPianoItemPrefab.prefab"
+  },
+  {
+   "key": "HardwoodPlankItemData",
+   "path": "Assets/GameObject/HardwoodPlankItemPrefab.prefab"
+  },
+  {
+   "key": "HealerTwinBossHeadItemData",
+   "path": "Assets/GameObject/HealerSisterBossHeadItemPrefab.prefab"
+  },
+  {
+   "key": "HeavyDutyRadioItemData",
+   "path": "Assets/GameObject/HeavyDutyRadioItemPrefab.prefab"
+  },
+  {
+   "key": "HighGradeFloorMaterialsItemData",
+   "path": "Assets/GameObject/HighGradeFloorMaterialsPrefab.prefab"
+  },
+  {
+   "key": "HighGradePaintItemData",
+   "path": "Assets/GameObject/HighGradePaintBucketPrefab.prefab"
+  },
+  {
+   "key": "HomemadeAntibioticsCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "HomemadeAntibioticsMedicalItemData",
+   "path": "Assets/GameObject/HomemadeAntibioticsItemPrefab.prefab"
+  },
+  {
+   "key": "KnifeMeleeWeapon",
+   "path": "Assets/GameObject/KnifeWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "LargePalmPlantItemData",
+   "path": "Assets/GameObject/LargePalmPlantItemPrefab.prefab"
+  },
+  {
+   "key": "LinearLightItemData",
+   "path": "Assets/GameObject/LinearLightItemPrefab.prefab"
+  },
+  {
+   "key": "LowFrequencyRadioItemData",
+   "path": "Assets/GameObject/LowFrequencyRadioItemPrefab.prefab"
+  },
+  {
+   "key": "LowGradeFloorMaterialsItemData",
+   "path": "Assets/GameObject/LowGradeFloorMaterialsPrefab.prefab"
+  },
+  {
+   "key": "LowGradePaintItemData",
+   "path": "Assets/GameObject/LowGradePaintBucketPrefab.prefab"
+  },
+  {
+   "key": "MalePictureFrameItemData",
+   "path": "Assets/GameObject/MalePictureFrameItemPrefab.prefab"
+  },
+  {
+   "key": "MediumFancyPottedPlantItemData",
+   "path": "Assets/GameObject/MediumWhitePottedPlantItemPrefabNew.prefab"
+  },
+  {
+   "key": "MediumStorageCrateItemData",
+   "path": "Assets/GameObject/MediumStorageCrateItemPrefab.prefab"
+  },
+  {
+   "key": "MetalChairItemData",
+   "path": "Assets/GameObject/RockingChairItemPrefab.prefab"
+  },
+  {
+   "key": "MetalPipeItemData",
+   "path": "Assets/GameObject/MetalPipeItemPrefab.prefab"
+  },
+  {
+   "key": "MetalScrapItemData",
+   "path": "Assets/GameObject/MetalScrapItemPrefab.prefab"
+  },
+  {
+   "key": "MidGradeFloorMaterialsItemData",
+   "path": "Assets/GameObject/MidGradeFloorMaterialsPrefab.prefab"
+  },
+  {
+   "key": "MidGradePaintItemData",
+   "path": "Assets/GameObject/MidGradePaintBucketPrefab.prefab"
+  },
+  {
+   "key": "MinigunWeaponData",
+   "path": "Assets/GameObject/MinigunWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "ModdedNailGunWeaponData",
+   "path": "Assets/GameObject/ModdedNailGunWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "ModemItemData",
+   "path": "Assets/GameObject/ModemItemPrefab.prefab"
+  },
+  {
+   "key": "MolotovCocktailCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "MolotovCocktailItemData",
+   "path": "Assets/GameObject/MolotovCocktailItemPrefab.prefab"
+  },
+  {
+   "key": "MouldyBreadItemData",
+   "path": "Assets/GameObject/MouldyBreadItemPrefab.prefab"
+  },
+  {
+   "key": "MountableTurretItemData",
+   "path": "Assets/GameObject/MountableTurretItemPrefab.prefab"
+  },
+  {
+   "key": "MutantCodItemData",
+   "path": "Assets/GameObject/MutantCodItemPrefab.prefab"
+  },
+  {
+   "key": "MutantPlantItemData",
+   "path": "Assets/GameObject/MutantPlantItemPrefab.prefab"
+  },
+  {
+   "key": "MutantTunaItemData",
+   "path": "Assets/GameObject/MutantTunaItemPrefab.prefab"
+  },
+  {
+   "key": "NailBombCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "NailBombItemData",
+   "path": "Assets/GameObject/NailBombItemPrefab.prefab"
+  },
+  {
+   "key": "NailGunItemData",
+   "path": "Assets/GameObject/NailgunItemPrefab.prefab"
+  },
+  {
+   "key": "NailPlankCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "NailPlankMeleeWeapon",
+   "path": "Assets/GameObject/NailPlankWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "NailsItemData",
+   "path": "Assets/GameObject/NailsItemPrefab.prefab"
+  },
+  {
+   "key": "PCItemData",
+   "path": "Assets/GameObject/PCItemPrefab.prefab"
+  },
+  {
+   "key": "PaintedSkullsItemData",
+   "path": "Assets/GameObject/PaintedSkullsItemPrefab.prefab"
+  },
+  {
+   "key": "PalletItemData",
+   "path": "Assets/GameObject/PalletItemPrefab.prefab"
+  },
+  {
+   "key": "PillsMedicalItemData",
+   "path": "Assets/GameObject/PillsItemPrefab.prefab"
+  },
+  {
+   "key": "PipeWrenchItemData",
+   "path": "Assets/GameObject/PipeWrenchItemPrefab.prefab"
+  },
+  {
+   "key": "PistolWeaponData",
+   "path": "Assets/GameObject/PistolWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "PlankItemData",
+   "path": "Assets/GameObject/PlankItemPrefab.prefab"
+  },
+  {
+   "key": "PotItemData",
+   "path": "Assets/GameObject/PotItemPrefab.prefab"
+  },
+  {
+   "key": "PotatoFoodItemData",
+   "path": "Assets/GameObject/PotatoItemPrefab.prefab"
+  },
+  {
+   "key": "PotatoSeedItemData",
+   "path": "Assets/GameObject/PotatoSeedsItemPrefab.prefab"
+  },
+  {
+   "key": "PropaneTankItemData",
+   "path": "Assets/GameObject/PropaneTankItemPrefab.prefab"
+  },
+  {
+   "key": "PurpleLongRugItemData",
+   "path": "Assets/GameObject/PurpleLongRugItemPrefab Variant.prefab"
+  },
+  {
+   "key": "PurpleRugItemData",
+   "path": "Assets/GameObject/PurpleRugItemPrefab.prefab"
+  },
+  {
+   "key": "RadiatorItemData",
+   "path": "Assets/GameObject/RadiatorItemPrefab.prefab"
+  },
+  {
+   "key": "RebarClubMeleeWeapon",
+   "path": "Assets/GameObject/RebarClubWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "RedBearPlushItemData",
+   "path": "Assets/GameObject/RedTeddyPlushItemPrefab.prefab"
+  },
+  {
+   "key": "RedLongDrapeItemData",
+   "path": "Assets/GameObject/RedLongDrapeItemPrefab.prefab"
+  },
+  {
+   "key": "RedLongRugItemData",
+   "path": "Assets/GameObject/RedLongRugItemPrefab Variant.prefab"
+  },
+  {
+   "key": "RedRugItemData",
+   "path": "Assets/GameObject/RedRugItemPrefab.prefab"
+  },
+  {
+   "key": "RedSofaChairItemData",
+   "path": "Assets/GameObject/RedSofaChairItemPrefab.prefab"
+  },
+  {
+   "key": "RedSofaItemData",
+   "path": "Assets/GameObject/RedSofaItemPrefab.prefab"
+  },
+  {
+   "key": "Refrigerator",
+   "path": "Assets/GameObject/FridgeItemPrefab.prefab"
+  },
+  {
+   "key": "RelayDeviceItemData",
+   "path": "Assets/GameObject/RelayDeviceItemPrefab.prefab"
+  },
+  {
+   "key": "RemoteBombItemData",
+   "path": "Assets/GameObject/RemoteBombItemPrefab.prefab"
+  },
+  {
+   "key": "RemoteDetonatorCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "RemoteDetonatorMeleeWeapon",
+   "path": "Assets/GameObject/RemoteDetonatorWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "RemoteIncendiaryItemData",
+   "path": "Assets/GameObject/RemoteIncendiaryItemPrefab.prefab"
+  },
+  {
+   "key": "RocketLauncherWeaponData",
+   "path": "Assets/GameObject/RocketLauncherWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "RockingChairItemData",
+   "path": "Assets/GameObject/RockingChairItemPrefab.prefab"
+  },
+  {
+   "key": "RopeItemData",
+   "path": "Assets/GameObject/RopeItemPrefab.prefab"
+  },
+  {
+   "key": "RustedBarrelItemData",
+   "path": "Assets/GameObject/RustedBarrelItemPrefab.prefab"
+  },
+  {
+   "key": "SawLauncherWeaponData",
+   "path": "Assets/GameObject/SawLauncherWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "SawbladeClubMeleeWeapon",
+   "path": "Assets/GameObject/SawbladeClubWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "SawbladeItemData",
+   "path": "Assets/GameObject/SawbladeItemPrefab.prefab"
+  },
+  {
+   "key": "SecureShelf",
+   "path": "Assets/GameObject/HighValueCabinetItemPrefab.prefab"
+  },
+  {
+   "key": "SecureTable",
+   "path": "Assets/GameObject/SecureTableItemPrefab.prefab"
+  },
+  {
+   "key": "SecurityCameraItemData",
+   "path": "Assets/GameObject/SecurityCameraItemPrefab.prefab"
+  },
+  {
+   "key": "ShotgunWeaponData",
+   "path": "Assets/GameObject/ShotgunWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "SingerOrnamentItemData",
+   "path": "Assets/GameObject/SingerOrnamentItemPrefab.prefab"
+  },
+  {
+   "key": "SkullItemData",
+   "path": "Assets/GameObject/SkullItemPrefab.prefab"
+  },
+  {
+   "key": "SkullOnAStickItemData",
+   "path": "Assets/GameObject/SkullOnASpikeItemPrefab.prefab"
+  },
+  {
+   "key": "SkullWallArtItemData",
+   "path": "Assets/GameObject/SkullWallArtItemPrefab.prefab"
+  },
+  {
+   "key": "SlatCrateItemData",
+   "path": "Assets/GameObject/SlatCrateItemPrefab.prefab"
+  },
+  {
+   "key": "SleepingBagItemData",
+   "path": "Assets/GameObject/SleepingBagItemPrefab.prefab"
+  },
+  {
+   "key": "SmallPottedPlantItemData",
+   "path": "Assets/GameObject/SmallPottedPlantItemPrefabNew Variant.prefab"
+  },
+  {
+   "key": "SmileyPictureFrameItemData",
+   "path": "Assets/GameObject/SmileyPictureFrameItemPrefab.prefab"
+  },
+  {
+   "key": "SniperRifleWeaponData",
+   "path": "Assets/GameObject/SniperRifleWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "SpecialItemUnit",
+   "path": "Assets/GameObject/SpecialItemShelfItemPrefab.prefab"
+  },
+  {
+   "key": "SpecialPCItemData",
+   "path": "Assets/GameObject/SpecialPCItemPrefab.prefab"
+  },
+  {
+   "key": "SpikeWallCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "SpikeWallItemData",
+   "path": "Assets/GameObject/SpikeWallItemPrefab.prefab"
+  },
+  {
+   "key": "SpikyBatCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "SpikyBatMeleeWeapon",
+   "path": "Assets/GameObject/SpikedBatWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "StandingLampItemData",
+   "path": "Assets/GameObject/StandingLampItemPrefab.prefab"
+  },
+  {
+   "key": "StorageCrateItemData",
+   "path": "Assets/GameObject/StorageCrateItemPrefab.prefab"
+  },
+  {
+   "key": "StudyDeskItemData",
+   "path": "Assets/GameObject/StudyDeskItemPrefab.prefab"
+  },
+  {
+   "key": "StudyLampItemData",
+   "path": "Assets/GameObject/StudyLampItemPrefab.prefab"
+  },
+  {
+   "key": "StunStickMeleeWeapon",
+   "path": "Assets/GameObject/StunStickWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "SweatyRotterBossHeadItemData",
+   "path": "Assets/GameObject/SweatyBossHeadItemPrefab.prefab"
+  },
+  {
+   "key": "TallBonsaiItemData",
+   "path": "Assets/GameObject/TallBonsaiPottedPlantItemPrefabNew Variant.prefab"
+  },
+  {
+   "key": "TapeItemData",
+   "path": "Assets/GameObject/TapeItemPrefab.prefab"
+  },
+  {
+   "key": "TapedPipesCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "TapedPipesMeleeWeapon",
+   "path": "Assets/GameObject/PipeWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "TinnedBeansFoodItemData",
+   "path": "Assets/GameObject/TinnedBeansItemPrefab.prefab"
+  },
+  {
+   "key": "TinnedFruitFoodItemData",
+   "path": "Assets/GameObject/TinnedFruitItemPrefab.prefab"
+  },
+  {
+   "key": "TinnedTunaFoodItemData",
+   "path": "Assets/GameObject/TinnedTunaItemPrefab.prefab"
+  },
+  {
+   "key": "TinyFlowerPotItemData",
+   "path": "Assets/GameObject/TinyFlowerPotItemPrefab.prefab"
+  },
+  {
+   "key": "TinyWhiteFlowerPotItemData",
+   "path": "Assets/GameObject/TinyWhiteFlowerPotItemPrefab.prefab"
+  },
+  {
+   "key": "TrolleyCorpseItemData",
+   "path": "Assets/GameObject/TrolleyCorpseItemPrefab.prefab"
+  },
+  {
+   "key": "UnlabelledTinnedFoodItemData",
+   "path": "Assets/GameObject/UnlabelledTinItemPrefab.prefab"
+  },
+  {
+   "key": "UziWeaponData",
+   "path": "Assets/GameObject/UziWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "VaccinatorCraftingRecipe",
+   "path": "Assets/GameObject/CraftingRecipeItemPrefab.prefab"
+  },
+  {
+   "key": "VaccinatorMeleeWeapon",
+   "path": "Assets/GameObject/VaccinatorWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "WallSpeakerItemData",
+   "path": "Assets/GameObject/WallSpeakerItemPrefab.prefab"
+  },
+  {
+   "key": "WastelandChandelierItemData",
+   "path": "Assets/GameObject/WastelandChandelierItemPrefab.prefab"
+  },
+  {
+   "key": "WastelandChilledCounterItemData",
+   "path": "Assets/GameObject/WastelandChilledCounterItemPrefab.prefab"
+  },
+  {
+   "key": "WastelandChillerItemData",
+   "path": "Assets/GameObject/WastelandChillerItemPrefab.prefab"
+  },
+  {
+   "key": "WhiskyFoodItemData",
+   "path": "Assets/GameObject/WhiskyItemPrefab.prefab"
+  },
+  {
+   "key": "WideWeaponRack",
+   "path": "Assets/GameObject/WideWeaponRackItemPrefab.prefab"
+  },
+  {
+   "key": "WineFoodItemData",
+   "path": "Assets/GameObject/WineItemPrefab.prefab"
+  },
+  {
+   "key": "WiringItemData",
+   "path": "Assets/GameObject/MetalWiringItemPrefab.prefab"
+  },
+  {
+   "key": "WoodenBarrelItemData",
+   "path": "Assets/GameObject/WoodenBarrelItemPrefab.prefab"
+  },
+  {
+   "key": "WoodenSpearMeleeWeapon",
+   "path": "Assets/GameObject/WoodenSpearWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "WorkingTVItemData",
+   "path": "Assets/GameObject/WorkingTVItemPrefab.prefab"
+  },
+  {
+   "key": "WornClothItemData",
+   "path": "Assets/GameObject/WornClothItemPrefab.prefab"
+  },
+  {
+   "key": "WrenchbladeMeleeWeapon",
+   "path": "Assets/GameObject/WrenchbladeWeaponItemPrefab.prefab"
+  },
+  {
+   "key": "YellowLongDrapeItemData",
+   "path": "Assets/GameObject/YellowLongDrapeItemPrefab.prefab"
+  }
+ ],
+ "missing": []
+}

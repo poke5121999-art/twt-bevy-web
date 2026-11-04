@@ -1,0 +1,2927 @@
+{
+ "12GaugeAmmoCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "12GaugeAmmoItem": {
+  "glb": "Prefabs/12GaugeAmmoItemPrefab.glb",
+  "aabb_min": [
+   -0.1051,
+   0,
+   -0.0657
+  ],
+  "aabb_max": [
+   0.1051,
+   0.0788,
+   0.0657
+  ]
+ },
+ "556mmAmmoItem": {
+  "glb": "Prefabs/556mmAmmoItemPrefab.glb",
+  "aabb_min": [
+   -0.1051,
+   0,
+   -0.0657
+  ],
+  "aabb_max": [
+   0.1051,
+   0.0654,
+   0.0657
+  ]
+ },
+ "762AmmoItem": {
+  "glb": "Prefabs/SniperAmmoItemPrefab.glb",
+  "aabb_min": [
+   -0.1342,
+   0,
+   -0.038
+  ],
+  "aabb_max": [
+   0.1342,
+   0.1186,
+   0.038
+  ]
+ },
+ "9mmAmmoCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "9mmAmmoItem": {
+  "glb": "Prefabs/9mmAmmoItemPrefab.glb",
+  "aabb_min": [
+   -0.1051,
+   0,
+   -0.0657
+  ],
+  "aabb_max": [
+   0.1051,
+   0.0788,
+   0.0489
+  ]
+ },
+ "AK47WeaponData": {
+  "glb": "Prefabs/AK47WeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0428,
+   -0.1839,
+   -0.5561
+  ],
+  "aabb_max": [
+   0.0293,
+   0.1488,
+   0.4732
+  ]
+ },
+ "AlpacaPlushItemData": {
+  "glb": "Prefabs/AlpacaPlushItemPrefab.glb",
+  "aabb_min": [
+   -0.1202,
+   -0.0143,
+   -0.1833
+  ],
+  "aabb_max": [
+   0.1202,
+   0.4506,
+   0.2119
+  ]
+ },
+ "ArrowAmmoItem": {
+  "glb": "Prefabs/ArrowItemPrefab.glb",
+  "aabb_min": [
+   -0.0469,
+   -0.0208,
+   -0.2847
+  ],
+  "aabb_max": [
+   0.0474,
+   0.0401,
+   0.3243
+  ]
+ },
+ "AutoMinigunItemData": {
+  "glb": "Prefabs/AutoMinigunTurretItemPrefab.glb",
+  "aabb_min": [
+   -0.5894,
+   0,
+   -1.053
+  ],
+  "aabb_max": [
+   0.6041,
+   1.4223,
+   0.9485
+  ]
+ },
+ "AutoMinigunWeaponData": {
+  "glb": "Prefabs/MinigunWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.2878,
+   -0.01,
+   -0.7466
+  ],
+  "aabb_max": [
+   0.1803,
+   0.4437,
+   0.7414
+  ]
+ },
+ "AxeMeleeWeapon": {
+  "glb": "Prefabs/AxeWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.3958,
+   -0.144,
+   -0.0607
+  ],
+  "aabb_max": [
+   0.5807,
+   0.2083,
+   0.0607
+  ]
+ },
+ "BabyPalmItemData": {
+  "glb": "Prefabs/BabyPalmPlantItemPrefabNew.glb",
+  "aabb_min": [
+   -0.3115,
+   0,
+   -0.3823
+  ],
+  "aabb_max": [
+   0.4047,
+   1.4319,
+   0.3295
+  ]
+ },
+ "BandageCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "BandageMedicalItemData": {
+  "glb": "Prefabs/BandageItemPrefab.glb",
+  "aabb_min": [
+   -0.0735,
+   0,
+   -0.0699
+  ],
+  "aabb_max": [
+   0.0735,
+   0.2214,
+   0.0699
+  ]
+ },
+ "BarStoolItemData": {
+  "glb": "Prefabs/BarStoolItemPrefab.glb",
+  "aabb_min": [
+   -0.2102,
+   -0.0203,
+   -0.2051
+  ],
+  "aabb_max": [
+   0.2051,
+   0.9107,
+   0.2683
+  ]
+ },
+ "BarbedFlamingoItemData": {
+  "glb": "Prefabs/BarbedFlamingoItemPrefab.glb",
+  "aabb_min": [
+   -0.1307,
+   -0.6803,
+   -0.3802
+  ],
+  "aabb_max": [
+   0.1155,
+   0.7628,
+   0.3735
+  ]
+ },
+ "BarbedWireCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "BarbedWireItemData": {
+  "glb": "Prefabs/BarbedWireItemPrefab.glb",
+  "aabb_min": [
+   -2.2681,
+   -0.1897,
+   -0.1849
+  ],
+  "aabb_max": [
+   2.36,
+   0.6048,
+   0.2065
+  ]
+ },
+ "BaseballBatCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "BatMeleeWeapon": {
+  "glb": "Prefabs/BatWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.167,
+   -0.036,
+   -0.036
+  ],
+  "aabb_max": [
+   0.7857,
+   0.0382,
+   0.036
+  ]
+ },
+ "BearPlushItemData": {
+  "glb": "Prefabs/TeddyPlushItemPrefab.glb",
+  "aabb_min": [
+   -0.1606,
+   0.0079,
+   -0.0204
+  ],
+  "aabb_max": [
+   0.1606,
+   0.5781,
+   0.2451
+  ]
+ },
+ "BearTrapItemData": {
+  "glb": "Prefabs/BearTrapItemPrefab.glb",
+  "aabb_min": [
+   -0.6687,
+   -0.0011,
+   -0.4381
+  ],
+  "aabb_max": [
+   0.703,
+   0.1308,
+   0.4165
+  ]
+ },
+ "BeerFoodItemData": {
+  "glb": "Prefabs/BeerItemPrefab.glb",
+  "aabb_min": [
+   -0.0562,
+   0,
+   -0.0486
+  ],
+  "aabb_max": [
+   0.0562,
+   0.3806,
+   0.0486
+  ]
+ },
+ "BirtherBossHeadItemData": {
+  "glb": "Prefabs/BirtherBossHeadItemPrefab.glb",
+  "aabb_min": [
+   -0.2483,
+   -0.4093,
+   -0.2854
+  ],
+  "aabb_max": [
+   0.3478,
+   0.3814,
+   0.2884
+  ]
+ },
+ "BlackSofaChairItemData": {
+  "glb": "Prefabs/BlackSofaChairItemPrefab.glb",
+  "aabb_min": [
+   -0.5059,
+   0,
+   -0.4381
+  ],
+  "aabb_max": [
+   0.5059,
+   1.1481,
+   0.4663
+  ]
+ },
+ "BlackSofaItemData": {
+  "glb": "Prefabs/BlackSofaItemPrefab Variant.glb",
+  "aabb_min": [
+   -1.3981,
+   0,
+   -0.4631
+  ],
+  "aabb_max": [
+   1.3981,
+   1.1921,
+   0.4631
+  ]
+ },
+ "BladedWrenchMeleeWeapon": {
+  "glb": "Prefabs/BladedWrenchWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.2998,
+   -0.0425,
+   -0.0338
+  ],
+  "aabb_max": [
+   0.2998,
+   0.0425,
+   0.0338
+  ]
+ },
+ "BloodSyringeMedicalItemData": {
+  "glb": "Prefabs/BloodSyringeItemPrefab.glb",
+  "aabb_min": [
+   -0.054,
+   -0.2111,
+   -0.0195
+  ],
+  "aabb_max": [
+   0.054,
+   0.2107,
+   0.0195
+  ]
+ },
+ "BlueBarrelItemData": {
+  "glb": "Prefabs/BlueBarrelItemPrefab.glb",
+  "aabb_min": [
+   -0.3517,
+   0,
+   -0.3503
+  ],
+  "aabb_max": [
+   0.3517,
+   1.0314,
+   0.3503
+  ]
+ },
+ "BlueLongDrapeItemData": {
+  "glb": "Prefabs/BlueLongDrapeItemPrefab.glb",
+  "aabb_min": [
+   -0.0664,
+   -1.1977,
+   -0.6548
+  ],
+  "aabb_max": [
+   0.0664,
+   1.0881,
+   0.6548
+  ]
+ },
+ "BlueLongRugItemData": {
+  "glb": "Prefabs/BlueLongRugItemPrefab Variant.glb",
+  "aabb_min": [
+   -0.8189,
+   0,
+   -2.1135
+  ],
+  "aabb_max": [
+   0.8189,
+   0.1387,
+   2.1135
+  ]
+ },
+ "BlueRugItemData": {
+  "glb": "Prefabs/BlueRugItemPrefab.glb",
+  "aabb_min": [
+   -0.7588,
+   -0.0238,
+   -0.9838
+  ],
+  "aabb_max": [
+   0.7588,
+   0.0991,
+   0.9838
+  ]
+ },
+ "BlueSofaChairItemData": {
+  "glb": "Prefabs/BlueSofaChairItemPrefab.glb",
+  "aabb_min": [
+   -0.5059,
+   0,
+   -0.4381
+  ],
+  "aabb_max": [
+   0.5059,
+   1.1481,
+   0.4663
+  ]
+ },
+ "BlueSofaItemData": {
+  "glb": "Prefabs/BlueSofaItemPrefab.glb",
+  "aabb_min": [
+   -1.3981,
+   0,
+   -0.4631
+  ],
+  "aabb_max": [
+   1.3981,
+   1.1921,
+   0.4631
+  ]
+ },
+ "BoneDaggerMeleeWeapon": {
+  "glb": "Prefabs/BoneDaggerWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.1066,
+   -0.0235,
+   -0.2703
+  ],
+  "aabb_max": [
+   0.0694,
+   0.0511,
+   0.2542
+  ]
+ },
+ "BoneItemData": {
+  "glb": "Prefabs/BoneItemPrefab.glb",
+  "aabb_min": [
+   -0.0999,
+   -0.0378,
+   -0.3007
+  ],
+  "aabb_max": [
+   0.0916,
+   0.0802,
+   0.283
+  ]
+ },
+ "BoneRevolverCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "BoneRevolverWeaponData": {
+  "glb": "Prefabs/BoneRevolverWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0718,
+   -0.1234,
+   -0.0912
+  ],
+  "aabb_max": [
+   0.0812,
+   0.1899,
+   0.4161
+  ]
+ },
+ "BoneThroneCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "BoneThroneItemData": {
+  "glb": "Prefabs/BoneThroneItemPrefab.glb",
+  "aabb_min": [
+   -1.478,
+   -0.015,
+   -0.8784
+  ],
+  "aabb_max": [
+   1.6676,
+   2.7334,
+   0.4376
+  ]
+ },
+ "BowWeaponData": {
+  "glb": "Prefabs/BowWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.1054,
+   -0.7846,
+   -0.2227
+  ],
+  "aabb_max": [
+   0.0699,
+   0.7748,
+   0.1407
+  ]
+ },
+ "BruteBossHeadItemData": {
+  "glb": "Prefabs/BruteBossHeadItemPrefab.glb",
+  "aabb_min": [
+   -0.1689,
+   -0.6364,
+   -0.4506
+  ],
+  "aabb_max": [
+   0.551,
+   0.3958,
+   0.455
+  ]
+ },
+ "BuffTwinBossHeadItemData": {
+  "glb": "Prefabs/BuffSisterBossHeadItemPrefab.glb",
+  "aabb_min": [
+   -0.2055,
+   -0.5751,
+   -0.4203
+  ],
+  "aabb_max": [
+   0.454,
+   0.4115,
+   0.4239
+  ]
+ },
+ "BunnyPlushItemData": {
+  "glb": "Prefabs/BunnyPlushItemPrefab.glb",
+  "aabb_min": [
+   -0.1942,
+   -0.0005,
+   -0.1331
+  ],
+  "aabb_max": [
+   0.1474,
+   0.3869,
+   0.1331
+  ]
+ },
+ "BuntingItemData": {
+  "glb": "Prefabs/BuntingItemPrefab.glb",
+  "aabb_min": [
+   -0.0305,
+   -0.2955,
+   -1.2558
+  ],
+  "aabb_max": [
+   0.0293,
+   0.0263,
+   1.255
+  ]
+ },
+ "CampingChairItemData": {
+  "glb": "Prefabs/CampingChairItemPrefab.glb",
+  "aabb_min": [
+   -0.368,
+   0,
+   -0.2955
+  ],
+  "aabb_max": [
+   0.368,
+   1.1282,
+   0.3154
+  ]
+ },
+ "CampingStoolItemData": {
+  "glb": "Prefabs/CampingStoolItemPrefab.glb",
+  "aabb_min": [
+   -0.2628,
+   0,
+   -0.2173
+  ],
+  "aabb_max": [
+   0.2628,
+   0.5175,
+   0.2173
+  ]
+ },
+ "CarcassBalloonCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "CarcassBalloonItemData": {
+  "glb": "Prefabs/CarcassBalloonItemPrefab.glb",
+  "aabb_min": [
+   -0.5664,
+   -1.2437,
+   -0.2707
+  ],
+  "aabb_max": [
+   0.5758,
+   1.2144,
+   0.3558
+  ]
+ },
+ "CardboardBoxItemData": {
+  "glb": "Prefabs/CardboardBoxItemPrefab.glb",
+  "aabb_min": [
+   -0.4248,
+   -0.1805,
+   -0.2731
+  ],
+  "aabb_max": [
+   0.3829,
+   0.1792,
+   0.2731
+  ]
+ },
+ "CarnivalBalloonItemData": {
+  "glb": "Prefabs/CarnivalBalloonItemPrefab.glb",
+  "aabb_min": [
+   -0.2787,
+   -0.735,
+   -0.1872
+  ],
+  "aabb_max": [
+   0.2787,
+   0.9694,
+   0.1872
+  ]
+ },
+ "ChainsawMeleeWeapon": {
+  "glb": "Prefabs/ChainsawWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.1104,
+   -0.1413,
+   -0.5586
+  ],
+  "aabb_max": [
+   0.2446,
+   0.1742,
+   0.5383
+  ]
+ },
+ "CheckoutItemData": {
+  "glb": "Prefabs/CheckoutItemPrefab.glb",
+  "aabb_min": [
+   -0.4416,
+   -0.0203,
+   -1.102
+  ],
+  "aabb_max": [
+   0.7224,
+   0.9896,
+   1.0526
+  ]
+ },
+ "CoffeeTableItemData": {
+  "glb": "Prefabs/CoffeeTableItemPrefab.glb",
+  "aabb_min": [
+   -0.4156,
+   0,
+   -0.6802
+  ],
+  "aabb_max": [
+   0.4156,
+   0.5323,
+   0.6802
+  ]
+ },
+ "CopperPipeItemData": {
+  "glb": "Prefabs/CopperPipeItemPrefab.glb",
+  "aabb_min": [
+   -0.4377,
+   -0.0188,
+   -0.1079
+  ],
+  "aabb_max": [
+   0.4442,
+   0.0594,
+   0.0496
+  ]
+ },
+ "CreamSofaChairItemData": {
+  "glb": "Prefabs/CreamSofaChairItemPrefab.glb",
+  "aabb_min": [
+   -0.5059,
+   0,
+   -0.4381
+  ],
+  "aabb_max": [
+   0.5059,
+   1.1481,
+   0.4663
+  ]
+ },
+ "CreamSofaItemData": {
+  "glb": "Prefabs/CreamSofaItemPrefab.glb",
+  "aabb_min": [
+   -1.3981,
+   0,
+   -0.4631
+  ],
+  "aabb_max": [
+   1.3981,
+   1.1921,
+   0.4631
+  ]
+ },
+ "CrossbowWeaponData": {
+  "glb": "Prefabs/CrossbowWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.3449,
+   -0.0916,
+   -0.5446
+  ],
+  "aabb_max": [
+   0.3449,
+   0.1811,
+   0.602
+  ]
+ },
+ "CrowbarMeleeWeapon": {
+  "glb": "Prefabs/CrowbarWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0307,
+   -0.1996,
+   -0.3192
+  ],
+  "aabb_max": [
+   0.0307,
+   0.0788,
+   0.3924
+  ]
+ },
+ "CutleryClockItemData": {
+  "glb": "Prefabs/CutleryClockItemPrefab.glb",
+  "aabb_min": [
+   -0.1987,
+   -0.3636,
+   -0.3486
+  ],
+  "aabb_max": [
+   -0.0005,
+   0.3686,
+   0.3686
+  ]
+ },
+ "DarkLongRugItemData": {
+  "glb": "Prefabs/BlackLongRugItemPrefab Variant.glb",
+  "aabb_min": [
+   -0.8189,
+   0,
+   -2.1135
+  ],
+  "aabb_max": [
+   0.8189,
+   0.1387,
+   2.1135
+  ]
+ },
+ "DarkRugItemData": {
+  "glb": "Prefabs/BlackRugItemPrefab.glb",
+  "aabb_min": [
+   -0.7588,
+   -0.0238,
+   -0.9838
+  ],
+  "aabb_max": [
+   0.7588,
+   0.0991,
+   0.9838
+  ]
+ },
+ "DinoPlushItemData": {
+  "glb": "Prefabs/DinoPlushItemPrefab.glb",
+  "aabb_min": [
+   -0.095,
+   -0.0036,
+   -0.2506
+  ],
+  "aabb_max": [
+   0.095,
+   0.363,
+   0.13
+  ]
+ },
+ "DogOrnamentItemData": {
+  "glb": "Prefabs/DogOrnamentItemPrefab.glb",
+  "aabb_min": [
+   -0.0924,
+   0.0027,
+   -0.0921
+  ],
+  "aabb_max": [
+   0.0587,
+   0.2045,
+   0.1531
+  ]
+ },
+ "DogPlushItemData": {
+  "glb": "Prefabs/DogPlushItemPrefab.glb",
+  "aabb_min": [
+   -0.1571,
+   -0.0143,
+   -0.4512
+  ],
+  "aabb_max": [
+   0.1571,
+   0.4506,
+   0.2349
+  ]
+ },
+ "DoubleStorageCrateItemData": {
+  "glb": "Prefabs/DoubleStorageCrateItemPrefab.glb",
+  "aabb_min": [
+   -0.4437,
+   -0.0163,
+   -0.7035
+  ],
+  "aabb_max": [
+   0.4453,
+   0.6222,
+   0.7098
+  ]
+ },
+ "DualShelvingUnit": {
+  "glb": "Prefabs/DualShelvingUnitItemPrefab.glb",
+  "aabb_min": [
+   -0.625,
+   -0.0695,
+   -0.8763
+  ],
+  "aabb_max": [
+   0.6268,
+   1.7224,
+   0.8761
+  ]
+ },
+ "DualShelvingUnitCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "DurableMattressItemData": {
+  "glb": "Prefabs/DurableMattressItemPrefab.glb",
+  "aabb_min": [
+   -0.7332,
+   -0.075,
+   -0.9525
+  ],
+  "aabb_max": [
+   0.2205,
+   0.1209,
+   0.9437
+  ]
+ },
+ "DustbinItemData": {
+  "glb": "Prefabs/DustbinItemPrefab.glb",
+  "aabb_min": [
+   -0.1945,
+   0,
+   -0.1684
+  ],
+  "aabb_max": [
+   0.1945,
+   0.5551,
+   0.1684
+  ]
+ },
+ "ElegantTableItemData": {
+  "glb": "Prefabs/ElegantTableItemPrefab.glb",
+  "aabb_min": [
+   -0.6046,
+   0,
+   -1.223
+  ],
+  "aabb_max": [
+   0.6046,
+   0.882,
+   1.223
+  ]
+ },
+ "ExitSignItemData": {
+  "glb": "Prefabs/ExitSignItemPrefab.glb",
+  "aabb_min": [
+   -0.0448,
+   -0.0924,
+   -0.216
+  ],
+  "aabb_max": [
+   0.0092,
+   0.1197,
+   0.216
+  ]
+ },
+ "ExplosiveBarrelItemData": {
+  "glb": "Prefabs/ExplosiveBarrelItemPrefab.glb",
+  "aabb_min": [
+   -0.3631,
+   -0.5227,
+   -0.3526
+  ],
+  "aabb_max": [
+   0.3631,
+   0.5227,
+   0.3526
+  ]
+ },
+ "FanItemData": {
+  "glb": "Prefabs/FanItemPrefab.glb",
+  "aabb_min": [
+   -0.3356,
+   0,
+   -0.242
+  ],
+  "aabb_max": [
+   0.3356,
+   0.8336,
+   0.242
+  ]
+ },
+ "FancyPottedPlantItemData": {
+  "glb": "Prefabs/SmallWhitePottedPlantItemPrefabNew.glb",
+  "aabb_min": [
+   -0.2406,
+   0,
+   -0.2351
+  ],
+  "aabb_max": [
+   0.2406,
+   0.4413,
+   0.2351
+  ]
+ },
+ "FemalePictureFrameItemData": {
+  "glb": "Prefabs/FemalePictureFrameItemPrefab.glb",
+  "aabb_min": [
+   -0.0686,
+   -0.1775,
+   -0.1612
+  ],
+  "aabb_max": [
+   0.0097,
+   0.1993,
+   0.1451
+  ]
+ },
+ "FirePitItemData": {
+  "glb": "Prefabs/FirepitItemPrefab.glb",
+  "aabb_min": [
+   -0.3499,
+   0,
+   -0.359
+  ],
+  "aabb_max": [
+   0.3499,
+   1.2553,
+   0.359
+  ]
+ },
+ "FireworksRPGAmmoItem": {
+  "glb": "Prefabs/FireworksRPGItemPrefab.glb",
+  "aabb_min": [
+   -0.0667,
+   -0.0652,
+   -0.2396
+  ],
+  "aabb_max": [
+   0.0653,
+   0.0545,
+   0.5552
+  ]
+ },
+ "FirstAidBoxMedicalItemData": {
+  "glb": "Prefabs/FirstAidBoxItemPrefab.glb",
+  "aabb_min": [
+   -0.0688,
+   0,
+   -0.1741
+  ],
+  "aabb_max": [
+   0.0564,
+   0.3645,
+   0.1732
+  ]
+ },
+ "FlamethrowerWeaponData": {
+  "glb": "Prefabs/FlamethrowerWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0921,
+   -0.1327,
+   -0.785
+  ],
+  "aabb_max": [
+   0.0924,
+   0.1695,
+   0.747
+  ]
+ },
+ "FlimsyWoodenShelf": {
+  "glb": "Prefabs/FlimsyWoodenShelfItemPrefab.glb",
+  "aabb_min": [
+   -0.3183,
+   -0.2241,
+   -0.7366
+  ],
+  "aabb_max": [
+   0.3347,
+   0.071,
+   0.7588
+  ]
+ },
+ "FlimsyWoodenShelfCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "GasCanItemData": {
+  "glb": "Prefabs/GasCanItemPrefab.glb",
+  "aabb_min": [
+   -0.2016,
+   0,
+   -0.0669
+  ],
+  "aabb_max": [
+   0.2016,
+   0.5047,
+   0.0669
+  ]
+ },
+ "GlobeItemData": {
+  "glb": "Prefabs/GlobeItemPrefab.glb",
+  "aabb_min": [
+   -0.1739,
+   0,
+   -0.201
+  ],
+  "aabb_max": [
+   0.2506,
+   0.6685,
+   0.1592
+  ]
+ },
+ "GoodMeatItemData": {
+  "glb": "Prefabs/GoodMeatItemPrefab.glb",
+  "aabb_min": [
+   -0.0967,
+   -0.0529,
+   -0.1396
+  ],
+  "aabb_max": [
+   0.123,
+   0.0529,
+   0.1516
+  ]
+ },
+ "GrandfatherClockItemData": {
+  "glb": "Prefabs/GrandfatherClockItemPrefab.glb",
+  "aabb_min": [
+   -0.3317,
+   0,
+   -0.2428
+  ],
+  "aabb_max": [
+   0.3355,
+   2.2017,
+   0.2424
+  ]
+ },
+ "GreenLongDrapeItemData": {
+  "glb": "Prefabs/GreenLongDrapeItemPrefab.glb",
+  "aabb_min": [
+   -0.0664,
+   -1.1977,
+   -0.6548
+  ],
+  "aabb_max": [
+   0.0664,
+   1.0881,
+   0.6548
+  ]
+ },
+ "GreenLongRugItemData": {
+  "glb": "Prefabs/GreenLongRugItemPrefab Variant.glb",
+  "aabb_min": [
+   -0.8189,
+   0,
+   -2.1135
+  ],
+  "aabb_max": [
+   0.8189,
+   0.1387,
+   2.1135
+  ]
+ },
+ "GreenRugItemData": {
+  "glb": "Prefabs/GreenRugItemPrefab.glb",
+  "aabb_min": [
+   -0.7588,
+   -0.0238,
+   -0.9838
+  ],
+  "aabb_max": [
+   0.7588,
+   0.0991,
+   0.9838
+  ]
+ },
+ "GreenSofaChairItemData": {
+  "glb": "Prefabs/GreenSofaChairItemPrefab.glb",
+  "aabb_min": [
+   -0.5059,
+   0,
+   -0.4381
+  ],
+  "aabb_max": [
+   0.5059,
+   1.1481,
+   0.4663
+  ]
+ },
+ "GreenSofaItemData": {
+  "glb": "Prefabs/GreenSofaItemPrefab.glb",
+  "aabb_min": [
+   -1.3981,
+   0,
+   -0.4631
+  ],
+  "aabb_max": [
+   1.3981,
+   1.1921,
+   0.4631
+  ]
+ },
+ "GrenadeItemData": {
+  "glb": "Prefabs/GrenadeItemPrefab.glb",
+  "aabb_min": [
+   -0.0382,
+   0,
+   -0.0382
+  ],
+  "aabb_max": [
+   0.0768,
+   0.1576,
+   0.0382
+  ]
+ },
+ "GunballMachineItemData": {
+  "glb": "Prefabs/GunballMachineItemPrefab.glb",
+  "aabb_min": [
+   -0.253,
+   0,
+   -0.2538
+  ],
+  "aabb_max": [
+   0.2531,
+   1.3537,
+   0.2504
+  ]
+ },
+ "GunpowderItemData": {
+  "glb": "Prefabs/GunpowderItemPrefab.glb",
+  "aabb_min": [
+   -0.0603,
+   0,
+   -0.0666
+  ],
+  "aabb_max": [
+   0.0603,
+   0.1745,
+   0.0666
+  ]
+ },
+ "HammerMeleeWeapon": {
+  "glb": "Prefabs/HammerWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0329,
+   -0.0925,
+   -0.108
+  ],
+  "aabb_max": [
+   0.0329,
+   0.1216,
+   0.3813
+  ]
+ },
+ "HangingLightItemData": {
+  "glb": "Prefabs/HangingLightItemPrefab Variant.glb",
+  "aabb_min": [
+   -0.245,
+   -0.366,
+   -0.233
+  ],
+  "aabb_max": [
+   0.245,
+   0.5091,
+   0.233
+  ]
+ },
+ "HangingPaintedSkullsItemData": {
+  "glb": "Prefabs/FreeHangingSkullsItemPrefab Variant.glb",
+  "aabb_min": [
+   -0.2092,
+   -0.4108,
+   -0.1765
+  ],
+  "aabb_max": [
+   0.1747,
+   0.4939,
+   0.1765
+  ]
+ },
+ "HangingSkullsItemData": {
+  "glb": "Prefabs/HangingSkullsItemPrefab.glb",
+  "aabb_min": [
+   -0.2275,
+   -0.6364,
+   -0.2235
+  ],
+  "aabb_max": [
+   0.2222,
+   0.478,
+   0.2161
+  ]
+ },
+ "HardwoodLogItemData": {
+  "glb": "Prefabs/HardwoodLogItemPrefab.glb",
+  "aabb_min": [
+   -0.1142,
+   -0.1142,
+   -0.2977
+  ],
+  "aabb_max": [
+   0.1142,
+   0.1142,
+   0.2977
+  ]
+ },
+ "HardwoodPianoItemData": {
+  "glb": "Prefabs/HardwoodPianoItemPrefab.glb",
+  "aabb_min": [
+   -0.9956,
+   0,
+   -0.5144
+  ],
+  "aabb_max": [
+   0.9956,
+   1.5119,
+   0.5144
+  ]
+ },
+ "HardwoodPlankItemData": {
+  "glb": "Prefabs/HardwoodPlankItemPrefab.glb",
+  "aabb_min": [
+   -0.4547,
+   -0.0169,
+   -0.1461
+  ],
+  "aabb_max": [
+   0.531,
+   0.0169,
+   0.128
+  ]
+ },
+ "HealerTwinBossHeadItemData": {
+  "glb": "Prefabs/HealerSisterBossHeadItemPrefab.glb",
+  "aabb_min": [
+   -0.1652,
+   -0.5751,
+   -0.44
+  ],
+  "aabb_max": [
+   0.3682,
+   0.3772,
+   0.4591
+  ]
+ },
+ "HeavyDutyRadioItemData": {
+  "glb": "Prefabs/HeavyDutyRadioItemPrefab.glb",
+  "aabb_min": [
+   -0.2543,
+   0,
+   -0.332
+  ],
+  "aabb_max": [
+   0.2543,
+   0.6267,
+   0.332
+  ]
+ },
+ "HighGradeFloorMaterialsItemData": {
+  "glb": "Prefabs/HighGradeFloorMaterialsPrefab.glb",
+  "aabb_min": [
+   -0.453,
+   -0.0016,
+   -0.3479
+  ],
+  "aabb_max": [
+   0.3635,
+   0.4034,
+   0.4174
+  ]
+ },
+ "HighGradePaintItemData": {
+  "glb": "Prefabs/HighGradePaintBucketPrefab.glb",
+  "aabb_min": [
+   -0.1998,
+   0,
+   -0.1465
+  ],
+  "aabb_max": [
+   0.1977,
+   0.5342,
+   0.1658
+  ]
+ },
+ "HomemadeAntibioticsCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "HomemadeAntibioticsMedicalItemData": {
+  "glb": "Prefabs/HomemadeAntibioticsItemPrefab.glb",
+  "aabb_min": [
+   -0.0737,
+   0,
+   -0.0737
+  ],
+  "aabb_max": [
+   0.0737,
+   0.2366,
+   0.0737
+  ]
+ },
+ "KnifeMeleeWeapon": {
+  "glb": "Prefabs/KnifeWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0156,
+   -0.0316,
+   -0.0753
+  ],
+  "aabb_max": [
+   0.0156,
+   0.0316,
+   0.317
+  ]
+ },
+ "LargePalmPlantItemData": {
+  "glb": "Prefabs/LargePalmPlantItemPrefab.glb",
+  "aabb_min": [
+   -0.8824,
+   0,
+   -0.8759
+  ],
+  "aabb_max": [
+   0.9229,
+   1.9733,
+   0.924
+  ]
+ },
+ "LinearLightItemData": {
+  "glb": "Prefabs/LinearLightItemPrefab.glb",
+  "aabb_min": [
+   -1.1469,
+   -0.3115,
+   -0.1024
+  ],
+  "aabb_max": [
+   1.1489,
+   0.0073,
+   0.1024
+  ]
+ },
+ "LowFrequencyRadioItemData": {
+  "glb": "Prefabs/LowFrequencyRadioItemPrefab.glb",
+  "aabb_min": [
+   -0.0807,
+   0,
+   -0.1924
+  ],
+  "aabb_max": [
+   0.0596,
+   0.4082,
+   0.1939
+  ]
+ },
+ "LowGradeFloorMaterialsItemData": {
+  "glb": "Prefabs/LowGradeFloorMaterialsPrefab.glb",
+  "aabb_min": [
+   -0.453,
+   -0.0016,
+   -0.3479
+  ],
+  "aabb_max": [
+   0.3635,
+   0.4034,
+   0.4174
+  ]
+ },
+ "LowGradePaintItemData": {
+  "glb": "Prefabs/LowGradePaintBucketPrefab.glb",
+  "aabb_min": [
+   -0.1998,
+   0,
+   -0.1465
+  ],
+  "aabb_max": [
+   0.1977,
+   0.5342,
+   0.1658
+  ]
+ },
+ "MalePictureFrameItemData": {
+  "glb": "Prefabs/MalePictureFrameItemPrefab.glb",
+  "aabb_min": [
+   -0.0287,
+   -0.1868,
+   -0.1518
+  ],
+  "aabb_max": [
+   0.0287,
+   0.1876,
+   0.1518
+  ]
+ },
+ "MediumFancyPottedPlantItemData": {
+  "glb": "Prefabs/MediumWhitePottedPlantItemPrefabNew.glb",
+  "aabb_min": [
+   -0.2183,
+   -0.396,
+   -0.1968
+  ],
+  "aabb_max": [
+   0.2183,
+   0.3998,
+   0.1968
+  ]
+ },
+ "MediumStorageCrateItemData": {
+  "glb": "Prefabs/MediumStorageCrateItemPrefab.glb",
+  "aabb_min": [
+   -0.452,
+   -0.0275,
+   -0.5284
+  ],
+  "aabb_max": [
+   0.4751,
+   0.6222,
+   0.5247
+  ]
+ },
+ "MetalChairItemData": {
+  "glb": "Prefabs/RockingChairItemPrefab.glb",
+  "aabb_min": [
+   -0.369,
+   -0.0057,
+   -0.4496
+  ],
+  "aabb_max": [
+   0.369,
+   1.312,
+   0.4023
+  ]
+ },
+ "MetalPipeItemData": {
+  "glb": "Prefabs/MetalPipeItemPrefab.glb",
+  "aabb_min": [
+   -0.3087,
+   0,
+   -0.0482
+  ],
+  "aabb_max": [
+   0.3372,
+   0.0945,
+   0.061
+  ]
+ },
+ "MetalScrapItemData": {
+  "glb": "Prefabs/MetalScrapItemPrefab.glb",
+  "aabb_min": [
+   -0.1692,
+   -0.0085,
+   -0.1213
+  ],
+  "aabb_max": [
+   0.1808,
+   0.0499,
+   0.1424
+  ]
+ },
+ "MidGradeFloorMaterialsItemData": {
+  "glb": "Prefabs/MidGradeFloorMaterialsPrefab.glb",
+  "aabb_min": [
+   -0.453,
+   -0.0016,
+   -0.3479
+  ],
+  "aabb_max": [
+   0.3635,
+   0.4034,
+   0.4174
+  ]
+ },
+ "MidGradePaintItemData": {
+  "glb": "Prefabs/MidGradePaintBucketPrefab.glb",
+  "aabb_min": [
+   -0.1998,
+   0,
+   -0.1465
+  ],
+  "aabb_max": [
+   0.1977,
+   0.5342,
+   0.1658
+  ]
+ },
+ "MinigunWeaponData": {
+  "glb": "Prefabs/MinigunWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.2878,
+   -0.01,
+   -0.7466
+  ],
+  "aabb_max": [
+   0.1803,
+   0.4437,
+   0.7414
+  ]
+ },
+ "ModdedNailGunWeaponData": {
+  "glb": "Prefabs/ModdedNailGunWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0408,
+   -0.2895,
+   -0.1859
+  ],
+  "aabb_max": [
+   0.1719,
+   0.228,
+   0.1859
+  ]
+ },
+ "ModemItemData": {
+  "glb": "Prefabs/ModemItemPrefab.glb",
+  "aabb_min": [
+   -0.1057,
+   0,
+   -0.0809
+  ],
+  "aabb_max": [
+   0.1057,
+   0.1329,
+   0.0809
+  ]
+ },
+ "MolotovCocktailCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "MolotovCocktailItemData": {
+  "glb": "Prefabs/MolotovCocktailItemPrefab.glb",
+  "aabb_min": [
+   -0.0465,
+   -0.156,
+   -0.0732
+  ],
+  "aabb_max": [
+   0.0465,
+   0.1863,
+   0.0537
+  ]
+ },
+ "MouldyBreadItemData": {
+  "glb": "Prefabs/MouldyBreadItemPrefab.glb",
+  "aabb_min": [
+   -0.0729,
+   -0.0088,
+   -0.0711
+  ],
+  "aabb_max": [
+   0.0729,
+   0.0088,
+   0.0711
+  ]
+ },
+ "MountableTurretItemData": {
+  "glb": "Prefabs/MountableTurretItemPrefab.glb",
+  "aabb_min": [
+   -0.6041,
+   0,
+   -1.053
+  ],
+  "aabb_max": [
+   0.6041,
+   1.6006,
+   1.053
+  ]
+ },
+ "MutantCodItemData": {
+  "glb": "Prefabs/MutantCodItemPrefab.glb",
+  "aabb_min": [
+   -0.1446,
+   -0.6056,
+   -0.0993
+  ],
+  "aabb_max": [
+   0.1534,
+   0.494,
+   0.1373
+  ]
+ },
+ "MutantPlantItemData": {
+  "glb": "Prefabs/MutantPlantItemPrefab.glb",
+  "aabb_min": [
+   -0.2501,
+   -0.4228,
+   -0.2235
+  ],
+  "aabb_max": [
+   0.2311,
+   0.4856,
+   0.2921
+  ]
+ },
+ "MutantTunaItemData": {
+  "glb": "Prefabs/MutantTunaItemPrefab.glb",
+  "aabb_min": [
+   -0.1148,
+   -0.5772,
+   -0.0857
+  ],
+  "aabb_max": [
+   0.1106,
+   0.4909,
+   0.0973
+  ]
+ },
+ "NailBombCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "NailBombItemData": {
+  "glb": "Prefabs/NailBombItemPrefab.glb",
+  "aabb_min": [
+   -0.0779,
+   0,
+   -0.0844
+  ],
+  "aabb_max": [
+   0.1006,
+   0.2211,
+   0.087
+  ]
+ },
+ "NailGunItemData": {
+  "glb": "Prefabs/NailgunItemPrefab.glb",
+  "aabb_min": [
+   -0.0374,
+   -0.1317,
+   -0.1133
+  ],
+  "aabb_max": [
+   0.0374,
+   0.1988,
+   0.2586
+  ]
+ },
+ "NailPlankCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "NailPlankMeleeWeapon": {
+  "glb": "Prefabs/NailPlankWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.2825,
+   -0.0511,
+   -0.1133
+  ],
+  "aabb_max": [
+   0.815,
+   0.0485,
+   0.119
+  ]
+ },
+ "NailsItemData": {
+  "glb": "Prefabs/NailsItemPrefab.glb",
+  "aabb_min": [
+   -0.1184,
+   -0.0619,
+   -0.088
+  ],
+  "aabb_max": [
+   0.1055,
+   0.0825,
+   0.1003
+  ]
+ },
+ "PCItemData": {
+  "glb": "Prefabs/PCItemPrefab.glb",
+  "aabb_min": [
+   -0.2678,
+   0,
+   -0.2544
+  ],
+  "aabb_max": [
+   0.2678,
+   0.1836,
+   0.2544
+  ]
+ },
+ "PaintedSkullsItemData": {
+  "glb": "Prefabs/PaintedSkullsItemPrefab.glb",
+  "aabb_min": [
+   -0.2572,
+   -0.0087,
+   -0.2508
+  ],
+  "aabb_max": [
+   0.2597,
+   0.3835,
+   0.276
+  ]
+ },
+ "PalletItemData": {
+  "glb": "Prefabs/PalletItemPrefab.glb",
+  "aabb_min": [
+   -0.7306,
+   -0.0154,
+   -0.7752
+  ],
+  "aabb_max": [
+   0.7277,
+   0.2527,
+   0.7779
+  ]
+ },
+ "PillsMedicalItemData": {
+  "glb": "Prefabs/PillsItemPrefab.glb",
+  "aabb_min": [
+   -0.0737,
+   0,
+   -0.0737
+  ],
+  "aabb_max": [
+   0.0737,
+   0.2366,
+   0.0737
+  ]
+ },
+ "PipeWrenchItemData": {
+  "glb": "Prefabs/PipeWrenchItemPrefab.glb",
+  "aabb_min": [
+   -0.0267,
+   -0.0391,
+   -0.2373
+  ],
+  "aabb_max": [
+   0.0267,
+   0.0874,
+   0.3738
+  ]
+ },
+ "PistolWeaponData": {
+  "glb": "Prefabs/PistolWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0299,
+   -0.0988,
+   -0.0575
+  ],
+  "aabb_max": [
+   0.0308,
+   0.0874,
+   0.2131
+  ]
+ },
+ "PlankItemData": {
+  "glb": "Prefabs/PlankItemPrefab.glb",
+  "aabb_min": [
+   -0.4929,
+   -0.0169,
+   -0.1371
+  ],
+  "aabb_max": [
+   0.4929,
+   0.0169,
+   0.1371
+  ]
+ },
+ "PotItemData": {
+  "glb": "Prefabs/PotItemPrefab.glb",
+  "aabb_min": [
+   -0.3323,
+   0,
+   -0.3299
+  ],
+  "aabb_max": [
+   0.3323,
+   0.5416,
+   0.3299
+  ]
+ },
+ "PotatoFoodItemData": {
+  "glb": "Prefabs/PotatoItemPrefab.glb",
+  "aabb_min": [
+   -0.0569,
+   0,
+   -0.0737
+  ],
+  "aabb_max": [
+   0.0569,
+   0.0833,
+   0.0737
+  ]
+ },
+ "PotatoSeedItemData": {
+  "glb": "Prefabs/PotatoSeedsItemPrefab.glb",
+  "aabb_min": [
+   -0.1144,
+   0,
+   -0.0337
+  ],
+  "aabb_max": [
+   0.1144,
+   0.2759,
+   0.0337
+  ]
+ },
+ "PropaneTankItemData": {
+  "glb": "Prefabs/PropaneTankItemPrefab.glb",
+  "aabb_min": [
+   -0.1771,
+   0,
+   -0.1771
+  ],
+  "aabb_max": [
+   0.1771,
+   0.5323,
+   0.1771
+  ]
+ },
+ "PurpleLongRugItemData": {
+  "glb": "Prefabs/PurpleLongRugItemPrefab Variant.glb",
+  "aabb_min": [
+   -0.8189,
+   0,
+   -2.1135
+  ],
+  "aabb_max": [
+   0.8189,
+   0.1387,
+   2.1135
+  ]
+ },
+ "PurpleRugItemData": {
+  "glb": "Prefabs/PurpleRugItemPrefab.glb",
+  "aabb_min": [
+   -0.7588,
+   -0.0238,
+   -0.9838
+  ],
+  "aabb_max": [
+   0.7588,
+   0.0991,
+   0.9838
+  ]
+ },
+ "RadiatorItemData": {
+  "glb": "Prefabs/RadiatorItemPrefab.glb",
+  "aabb_min": [
+   -0.2155,
+   -0.3591,
+   -0.3219
+  ],
+  "aabb_max": [
+   0.2155,
+   0.3457,
+   0.3219
+  ]
+ },
+ "RebarClubMeleeWeapon": {
+  "glb": "Prefabs/RebarClubWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.2797,
+   -0.1098,
+   -0.1133
+  ],
+  "aabb_max": [
+   1.0986,
+   0.132,
+   0.0701
+  ]
+ },
+ "RedBearPlushItemData": {
+  "glb": "Prefabs/RedTeddyPlushItemPrefab.glb",
+  "aabb_min": [
+   -0.2928,
+   -0.0123,
+   -0.1559
+  ],
+  "aabb_max": [
+   0.1892,
+   0.5401,
+   0.2029
+  ]
+ },
+ "RedLongDrapeItemData": {
+  "glb": "Prefabs/RedLongDrapeItemPrefab.glb",
+  "aabb_min": [
+   -0.0664,
+   -1.1977,
+   -0.6548
+  ],
+  "aabb_max": [
+   0.0664,
+   1.0881,
+   0.6548
+  ]
+ },
+ "RedLongRugItemData": {
+  "glb": "Prefabs/RedLongRugItemPrefab Variant.glb",
+  "aabb_min": [
+   -0.8189,
+   0,
+   -2.1135
+  ],
+  "aabb_max": [
+   0.8189,
+   0.1387,
+   2.1135
+  ]
+ },
+ "RedRugItemData": {
+  "glb": "Prefabs/RedRugItemPrefab.glb",
+  "aabb_min": [
+   -0.7588,
+   -0.0238,
+   -0.9838
+  ],
+  "aabb_max": [
+   0.7588,
+   0.0991,
+   0.9838
+  ]
+ },
+ "RedSofaChairItemData": {
+  "glb": "Prefabs/RedSofaChairItemPrefab.glb",
+  "aabb_min": [
+   -0.5059,
+   0,
+   -0.4381
+  ],
+  "aabb_max": [
+   0.5059,
+   1.1481,
+   0.4663
+  ]
+ },
+ "RedSofaItemData": {
+  "glb": "Prefabs/RedSofaItemPrefab.glb",
+  "aabb_min": [
+   -1.3981,
+   0,
+   -0.4631
+  ],
+  "aabb_max": [
+   1.3981,
+   1.1921,
+   0.4631
+  ]
+ },
+ "Refrigerator": {
+  "glb": "Prefabs/FridgeItemPrefab.glb",
+  "aabb_min": [
+   -0.5575,
+   -0.0561,
+   -0.5661
+  ],
+  "aabb_max": [
+   0.5529,
+   2.3242,
+   0.5457
+  ]
+ },
+ "RelayDeviceItemData": {
+  "glb": "Prefabs/RelayDeviceItemPrefab.glb",
+  "aabb_min": [
+   -0.0662,
+   -0.0501,
+   -0.0368
+  ],
+  "aabb_max": [
+   0.0555,
+   0.3221,
+   0.0368
+  ]
+ },
+ "RemoteBombItemData": {
+  "glb": "Prefabs/RemoteBombItemPrefab.glb",
+  "aabb_min": [
+   -0.1755,
+   0,
+   -0.121
+  ],
+  "aabb_max": [
+   0.1755,
+   0.4088,
+   0.1124
+  ]
+ },
+ "RemoteDetonatorCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "RemoteDetonatorMeleeWeapon": {
+  "glb": "Prefabs/RemoteDetonatorWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.1072,
+   -0.0501,
+   -0.0481
+  ],
+  "aabb_max": [
+   0.0688,
+   0.3454,
+   0.0948
+  ]
+ },
+ "RemoteIncendiaryItemData": {
+  "glb": "Prefabs/RemoteIncendiaryItemPrefab.glb",
+  "aabb_min": [
+   -0.1857,
+   0,
+   -0.168
+  ],
+  "aabb_max": [
+   0.1857,
+   0.4734,
+   0.1639
+  ]
+ },
+ "RocketLauncherWeaponData": {
+  "glb": "Prefabs/RocketLauncherWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.9952,
+   -0.1319,
+   -0.0829
+  ],
+  "aabb_max": [
+   0.6197,
+   0.2314,
+   0.101
+  ]
+ },
+ "RockingChairItemData": {
+  "glb": "Prefabs/RockingChairItemPrefab.glb",
+  "aabb_min": [
+   -0.369,
+   -0.0057,
+   -0.4496
+  ],
+  "aabb_max": [
+   0.369,
+   1.312,
+   0.4023
+  ]
+ },
+ "RopeItemData": {
+  "glb": "Prefabs/RopeItemPrefab.glb",
+  "aabb_min": [
+   -0.3059,
+   -0.0847,
+   -0.0746
+  ],
+  "aabb_max": [
+   0.3095,
+   0.0842,
+   0.0732
+  ]
+ },
+ "RustedBarrelItemData": {
+  "glb": "Prefabs/RustedBarrelItemPrefab.glb",
+  "aabb_min": [
+   -0.359,
+   0,
+   -0.3499
+  ],
+  "aabb_max": [
+   0.359,
+   1.0314,
+   0.3499
+  ]
+ },
+ "SawLauncherWeaponData": {
+  "glb": "Prefabs/SawLauncherWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.2333,
+   -0.012,
+   -0.6539
+  ],
+  "aabb_max": [
+   0.2333,
+   0.4105,
+   0.6605
+  ]
+ },
+ "SawbladeClubMeleeWeapon": {
+  "glb": "Prefabs/SawbladeClubWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.1578,
+   -0.1308,
+   -0.0552
+  ],
+  "aabb_max": [
+   0.8617,
+   0.1285,
+   0.0552
+  ]
+ },
+ "SawbladeItemData": {
+  "glb": "Prefabs/SawbladeItemPrefab.glb",
+  "aabb_min": [
+   -0.1636,
+   -0.0179,
+   -0.166
+  ],
+  "aabb_max": [
+   0.1608,
+   0.0177,
+   0.166
+  ]
+ },
+ "SecureShelf": {
+  "glb": "Prefabs/HighValueCabinetItemPrefab.glb",
+  "aabb_min": [
+   -0.6895,
+   -0.0415,
+   -0.3205
+  ],
+  "aabb_max": [
+   0.7126,
+   1.2861,
+   0.3168
+  ]
+ },
+ "SecureTable": {
+  "glb": "Prefabs/SecureTableItemPrefab.glb",
+  "aabb_min": [
+   -0.5548,
+   -0.0275,
+   -0.869
+  ],
+  "aabb_max": [
+   0.5779,
+   1.0609,
+   0.8654
+  ]
+ },
+ "SecurityCameraItemData": {
+  "glb": "Prefabs/SecurityCameraItemPrefab.glb",
+  "aabb_min": [
+   -0.7225,
+   -0.0539,
+   -0.1035
+  ],
+  "aabb_max": [
+   0.0421,
+   0.4845,
+   0.1729
+  ]
+ },
+ "ShotgunWeaponData": {
+  "glb": "Prefabs/ShotgunWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0894,
+   -0.1027,
+   -0.0305
+  ],
+  "aabb_max": [
+   0.5272,
+   0.0889,
+   0.0305
+  ]
+ },
+ "SingerOrnamentItemData": {
+  "glb": "Prefabs/SingerOrnamentItemPrefab.glb",
+  "aabb_min": [
+   -0.0712,
+   0.0024,
+   -0.0552
+  ],
+  "aabb_max": [
+   0.1152,
+   0.3685,
+   0.0552
+  ]
+ },
+ "SkullItemData": {
+  "glb": "Prefabs/SkullItemPrefab.glb",
+  "aabb_min": [
+   -0.1564,
+   -0.1987,
+   -0.1869
+  ],
+  "aabb_max": [
+   0.1564,
+   0.2038,
+   0.152
+  ]
+ },
+ "SkullOnAStickItemData": {
+  "glb": "Prefabs/SkullOnASpikeItemPrefab.glb",
+  "aabb_min": [
+   -0.117,
+   -0.1552,
+   -0.1508
+  ],
+  "aabb_max": [
+   0.1341,
+   1.4829,
+   0.1164
+  ]
+ },
+ "SkullWallArtItemData": {
+  "glb": "Prefabs/SkullWallArtItemPrefab.glb",
+  "aabb_min": [
+   -0.1744,
+   -0.881,
+   -0.8027
+  ],
+  "aabb_max": [
+   0.1744,
+   0.881,
+   0.8027
+  ]
+ },
+ "SlatCrateItemData": {
+  "glb": "Prefabs/SlatCrateItemPrefab.glb",
+  "aabb_min": [
+   -0.2588,
+   -0.26,
+   -0.3788
+  ],
+  "aabb_max": [
+   0.2588,
+   0.1568,
+   0.3788
+  ]
+ },
+ "SleepingBagItemData": {
+  "glb": "Prefabs/SleepingBagItemPrefab.glb",
+  "aabb_min": [
+   -0.3389,
+   -0.2019,
+   -0.2019
+  ],
+  "aabb_max": [
+   0.359,
+   0.2019,
+   0.2019
+  ]
+ },
+ "SmallPottedPlantItemData": {
+  "glb": "Prefabs/SmallPottedPlantItemPrefabNew Variant.glb",
+  "aabb_min": [
+   -0.1834,
+   0.001,
+   -0.209
+  ],
+  "aabb_max": [
+   0.2637,
+   0.5533,
+   0.2331
+  ]
+ },
+ "SmileyPictureFrameItemData": {
+  "glb": "Prefabs/SmileyPictureFrameItemPrefab.glb",
+  "aabb_min": [
+   -0.1459,
+   -0.0052,
+   -0.1317
+  ],
+  "aabb_max": [
+   0.1459,
+   0.3486,
+   0.1317
+  ]
+ },
+ "SniperRifleWeaponData": {
+  "glb": "Prefabs/SniperRifleWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0597,
+   -0.1291,
+   -0.3583
+  ],
+  "aabb_max": [
+   0.0414,
+   0.1294,
+   0.9622
+  ]
+ },
+ "SpecialItemUnit": {
+  "glb": "Prefabs/SpecialItemShelfItemPrefab.glb",
+  "aabb_min": [
+   -0.678,
+   -0.0275,
+   -0.3507
+  ],
+  "aabb_max": [
+   0.701,
+   2.6029,
+   0.3804
+  ]
+ },
+ "SpecialPCItemData": {
+  "glb": "Prefabs/SpecialPCItemPrefab.glb",
+  "aabb_min": [
+   -0.0885,
+   0,
+   -0.1978
+  ],
+  "aabb_max": [
+   0.0885,
+   0.4545,
+   0.1978
+  ]
+ },
+ "SpikeWallCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "SpikeWallItemData": {
+  "glb": "Prefabs/SpikeWallItemPrefab.glb",
+  "aabb_min": [
+   -0.6455,
+   -0.2101,
+   -1.154
+  ],
+  "aabb_max": [
+   0.6455,
+   0.8111,
+   1.3833
+  ]
+ },
+ "SpikyBatCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "SpikyBatMeleeWeapon": {
+  "glb": "Prefabs/SpikedBatWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.167,
+   -0.0785,
+   -0.0791
+  ],
+  "aabb_max": [
+   0.7857,
+   0.0763,
+   0.0753
+  ]
+ },
+ "StandingLampItemData": {
+  "glb": "Prefabs/StandingLampItemPrefab.glb",
+  "aabb_min": [
+   -0.2534,
+   -0.0032,
+   -0.2268
+  ],
+  "aabb_max": [
+   0.2985,
+   1.8955,
+   0.2997
+  ]
+ },
+ "StorageCrateItemData": {
+  "glb": "Prefabs/StorageCrateItemPrefab.glb",
+  "aabb_min": [
+   -0.3702,
+   -0.0153,
+   -0.374
+  ],
+  "aabb_max": [
+   0.3892,
+   0.622,
+   0.3852
+  ]
+ },
+ "StudyDeskItemData": {
+  "glb": "Prefabs/StudyDeskItemPrefab.glb",
+  "aabb_min": [
+   -0.3744,
+   0,
+   -0.7364
+  ],
+  "aabb_max": [
+   0.3744,
+   1.009,
+   0.7364
+  ]
+ },
+ "StudyLampItemData": {
+  "glb": "Prefabs/StudyLampItemPrefab.glb",
+  "aabb_min": [
+   -0.11,
+   0,
+   -0.0903
+  ],
+  "aabb_max": [
+   0.11,
+   0.4822,
+   0.2708
+  ]
+ },
+ "StunStickMeleeWeapon": {
+  "glb": "Prefabs/StunStickWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.3379,
+   -0.063,
+   -0.0689
+  ],
+  "aabb_max": [
+   0.683,
+   0.063,
+   0.0548
+  ]
+ },
+ "SweatyRotterBossHeadItemData": {
+  "glb": "Prefabs/SweatyBossHeadItemPrefab.glb",
+  "aabb_min": [
+   -0.2499,
+   -0.6832,
+   -0.56
+  ],
+  "aabb_max": [
+   0.527,
+   0.4236,
+   0.5468
+  ]
+ },
+ "TallBonsaiItemData": {
+  "glb": "Prefabs/TallBonsaiPottedPlantItemPrefabNew Variant.glb",
+  "aabb_min": [
+   -0.1953,
+   -0.0008,
+   -0.3499
+  ],
+  "aabb_max": [
+   0.3336,
+   1.6702,
+   0.3117
+  ]
+ },
+ "TapeItemData": {
+  "glb": "Prefabs/TapeItemPrefab.glb",
+  "aabb_min": [
+   -0.1249,
+   -0.045,
+   -0.1041
+  ],
+  "aabb_max": [
+   0.1249,
+   0.045,
+   0.1041
+  ]
+ },
+ "TapedPipesCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "TapedPipesMeleeWeapon": {
+  "glb": "Prefabs/PipeWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.4667,
+   -0.0634,
+   -0.0768
+  ],
+  "aabb_max": [
+   0.4877,
+   0.0634,
+   0.033
+  ]
+ },
+ "TinnedBeansFoodItemData": {
+  "glb": "Prefabs/TinnedBeansItemPrefab.glb",
+  "aabb_min": [
+   -0.0744,
+   0,
+   -0.0643
+  ],
+  "aabb_max": [
+   0.0745,
+   0.204,
+   0.0643
+  ]
+ },
+ "TinnedFruitFoodItemData": {
+  "glb": "Prefabs/TinnedFruitItemPrefab.glb",
+  "aabb_min": [
+   -0.0743,
+   0,
+   -0.0665
+  ],
+  "aabb_max": [
+   0.0754,
+   0.204,
+   0.0644
+  ]
+ },
+ "TinnedTunaFoodItemData": {
+  "glb": "Prefabs/TinnedTunaItemPrefab.glb",
+  "aabb_min": [
+   -0.1154,
+   0.0014,
+   -0.0716
+  ],
+  "aabb_max": [
+   0.1154,
+   0.0946,
+   0.0716
+  ]
+ },
+ "TinyFlowerPotItemData": {
+  "glb": "Prefabs/TinyFlowerPotItemPrefab.glb",
+  "aabb_min": [
+   -0.1755,
+   0,
+   -0.1696
+  ],
+  "aabb_max": [
+   0.1755,
+   0.4597,
+   0.1696
+  ]
+ },
+ "TinyWhiteFlowerPotItemData": {
+  "glb": "Prefabs/TinyWhiteFlowerPotItemPrefab.glb",
+  "aabb_min": [
+   -0.1755,
+   0,
+   -0.1696
+  ],
+  "aabb_max": [
+   0.1755,
+   0.4548,
+   0.1696
+  ]
+ },
+ "TrolleyCorpseItemData": {
+  "glb": "Prefabs/TrolleyCorpseItemPrefab.glb",
+  "aabb_min": [
+   -0.3481,
+   -0.26,
+   -0.4529
+  ],
+  "aabb_max": [
+   0.3481,
+   0.2826,
+   0.5643
+  ]
+ },
+ "UnlabelledTinnedFoodItemData": {
+  "glb": "Prefabs/UnlabelledTinItemPrefab.glb",
+  "aabb_min": [
+   -0.0746,
+   0,
+   -0.0643
+  ],
+  "aabb_max": [
+   0.0742,
+   0.204,
+   0.0658
+  ]
+ },
+ "UziWeaponData": {
+  "glb": "Prefabs/UziWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0434,
+   -0.2433,
+   -0.2958
+  ],
+  "aabb_max": [
+   0.0434,
+   0.107,
+   0.3399
+  ]
+ },
+ "VaccinatorCraftingRecipe": {
+  "glb": "Prefabs/CraftingRecipeItemPrefab.glb",
+  "aabb_min": [
+   -0.0529,
+   0,
+   -0.364
+  ],
+  "aabb_max": [
+   0.0529,
+   0.1059,
+   0.364
+  ]
+ },
+ "VaccinatorMeleeWeapon": {
+  "glb": "Prefabs/VaccinatorWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.5673,
+   -0.0804,
+   -0.2828
+  ],
+  "aabb_max": [
+   0.3146,
+   0.0803,
+   0.2665
+  ]
+ },
+ "WallSpeakerItemData": {
+  "glb": "Prefabs/WallSpeakerItemPrefab.glb",
+  "aabb_min": [
+   -0.1338,
+   0,
+   -0.1524
+  ],
+  "aabb_max": [
+   0.1338,
+   0.4584,
+   0.1524
+  ]
+ },
+ "WastelandChandelierItemData": {
+  "glb": "Prefabs/WastelandChandelierItemPrefab.glb",
+  "aabb_min": [
+   -0.4449,
+   -0.4317,
+   -0.5276
+  ],
+  "aabb_max": [
+   0.4449,
+   0.493,
+   0.4623
+  ]
+ },
+ "WastelandChilledCounterItemData": {
+  "glb": "Prefabs/WastelandChilledCounterItemPrefab.glb",
+  "aabb_min": [
+   -1.1394,
+   0,
+   -0.7879
+  ],
+  "aabb_max": [
+   1.1057,
+   1.5586,
+   0.7993
+  ]
+ },
+ "WastelandChillerItemData": {
+  "glb": "Prefabs/WastelandChillerItemPrefab.glb",
+  "aabb_min": [
+   -0.8566,
+   0,
+   -0.5173
+  ],
+  "aabb_max": [
+   0.815,
+   2.4376,
+   0.5173
+  ]
+ },
+ "WhiskyFoodItemData": {
+  "glb": "Prefabs/WhiskyItemPrefab.glb",
+  "aabb_min": [
+   -0.0792,
+   0,
+   -0.0611
+  ],
+  "aabb_max": [
+   0.0779,
+   0.3981,
+   0.0611
+  ]
+ },
+ "WideWeaponRack": {
+  "glb": "Prefabs/WideWeaponRackItemPrefab.glb",
+  "aabb_min": [
+   -1.2883,
+   -0.0164,
+   -0.4191
+  ],
+  "aabb_max": [
+   1.2899,
+   1.7648,
+   0.4254
+  ]
+ },
+ "WineFoodItemData": {
+  "glb": "Prefabs/WineItemPrefab.glb",
+  "aabb_min": [
+   -0.0631,
+   0,
+   -0.0547
+  ],
+  "aabb_max": [
+   0.0631,
+   0.4278,
+   0.0547
+  ]
+ },
+ "WiringItemData": {
+  "glb": "Prefabs/MetalWiringItemPrefab.glb",
+  "aabb_min": [
+   -0.1404,
+   -0.0103,
+   -0.094
+  ],
+  "aabb_max": [
+   0.1597,
+   0.1945,
+   0.0982
+  ]
+ },
+ "WoodenBarrelItemData": {
+  "glb": "Prefabs/WoodenBarrelItemPrefab.glb",
+  "aabb_min": [
+   -0.454,
+   0,
+   -0.454
+  ],
+  "aabb_max": [
+   0.454,
+   1.1597,
+   0.454
+  ]
+ },
+ "WoodenSpearMeleeWeapon": {
+  "glb": "Prefabs/WoodenSpearWeaponItemPrefab.glb",
+  "aabb_min": [
+   -1.4417,
+   -0.0378,
+   -0.0553
+  ],
+  "aabb_max": [
+   0.8961,
+   0.0405,
+   0.0553
+  ]
+ },
+ "WorkingTVItemData": {
+  "glb": "Prefabs/WorkingTVItemPrefab.glb",
+  "aabb_min": [
+   -0.7702,
+   -0.6151,
+   0
+  ],
+  "aabb_max": [
+   0.7702,
+   0.279,
+   0.1426
+  ]
+ },
+ "WornClothItemData": {
+  "glb": "Prefabs/WornClothItemPrefab.glb",
+  "aabb_min": [
+   -0.0863,
+   -0.025,
+   -0.1266
+  ],
+  "aabb_max": [
+   0.0863,
+   0.0648,
+   0.1271
+  ]
+ },
+ "WrenchbladeMeleeWeapon": {
+  "glb": "Prefabs/WrenchbladeWeaponItemPrefab.glb",
+  "aabb_min": [
+   -0.0267,
+   -0.0391,
+   -0.2373
+  ],
+  "aabb_max": [
+   0.0323,
+   0.0944,
+   0.6457
+  ]
+ },
+ "YellowLongDrapeItemData": {
+  "glb": "Prefabs/YellowLongDrapeItemPrefab.glb",
+  "aabb_min": [
+   -0.0664,
+   -1.1977,
+   -0.6548
+  ],
+  "aabb_max": [
+   0.0664,
+   1.0881,
+   0.6548
+  ]
+ }
+}

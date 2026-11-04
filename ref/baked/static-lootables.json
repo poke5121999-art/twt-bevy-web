@@ -1,0 +1,2273 @@
+[
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab",
+  "name_term": "object_trolley",
+  "pos": [
+   104.94900997070049,
+   -0.01898856100863819,
+   -15.196941003447371
+  ],
+  "spawn": [
+   104.949005,
+   1.5230116,
+   -15.196941
+  ],
+  "active": true,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [
+   {
+    "item": "7388302bcf2c8184382a85665385dee3",
+    "quantity": 3
+   },
+   {
+    "item": "16000199b55bc73419d5a70c84944975",
+    "quantity": 2
+   }
+  ],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/SM_Prop_Car_Wrecked_OpenBoot_01 (1)/DuffleBagStaticLootableObjectPrefab",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   86.43438002314409,
+   0.255000017688926,
+   -39.017482509901434
+  ],
+  "spawn": [
+   86.43438,
+   0.73020005,
+   -39.017483
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   68.02914058478126,
+   -0.02000000106247024,
+   -72.48908877081702
+  ],
+  "spawn": [
+   68.01926,
+   0.4544969,
+   -72.51297
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (3)",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   112.82221054050767,
+   0.3340000177785373,
+   -64.74847937004209
+  ],
+  "spawn": [
+   112.705826,
+   0.79300797,
+   -64.7087
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   120.62634087353527,
+   -0.013000000689907948,
+   -49.86554670184043
+  ],
+  "spawn": [
+   120.62634,
+   0.46220002,
+   -49.865543
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (4)",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   129.48661460634014,
+   1.3410000713742847,
+   -18.56162237841305
+  ],
+  "spawn": [
+   129.4866,
+   1.8162001,
+   -18.561619
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (2)",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   116.08026909817079,
+   0.511000027199041,
+   -71.11966114990301
+  ],
+  "spawn": [
+   116.08027,
+   0.9862001,
+   -71.11966
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   70.70757479098283,
+   2.532000134763098,
+   -22.76410950321795
+  ],
+  "spawn": [
+   71.57342,
+   3.284572,
+   -22.744259
+  ],
+  "active": true,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [
+   {
+    "item": "16000199b55bc73419d5a70c84944975",
+    "quantity": 8
+   }
+  ],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/DuffleBagStaticLootableObjectPrefab (1)",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   107.15752766225968,
+   -0.13100000697024378,
+   -28.38542798466475
+  ],
+  "spawn": [
+   107.157524,
+   0.34420004,
+   -28.385427
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/TrolleyStaticLootableObjectPrefab (1)",
+  "name_term": "object_trolley",
+  "pos": [
+   69.42729569999179,
+   -0.01898856100863819,
+   -54.72810002973927
+  ],
+  "spawn": [
+   69.42729,
+   1.5230116,
+   -54.728104
+  ],
+  "active": true,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (9)",
+  "name_term": "object_cardboard_boxes",
+  "pos": [
+   79.31509886544711,
+   0.012000000640671665,
+   -77.3371875473859
+  ],
+  "spawn": [
+   79.3151,
+   0.40799996,
+   -77.33719
+  ],
+  "active": true,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [
+   {
+    "item": "01034a9f4c42e67478dfed228fb18888",
+    "quantity": 1
+   }
+  ],
+  "refresh": {
+   "chance": 1,
+   "min_items": 1,
+   "max_items": 1,
+   "possible": [
+    {
+     "item": "01034a9f4c42e67478dfed228fb18888",
+     "min": 1,
+     "max": 1,
+     "weight": 1
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (5)",
+  "name_term": "object_trash_pile",
+  "pos": [
+   117.97091915666735,
+   -0.019000001009247064,
+   -74.79031684943114
+  ],
+  "spawn": [
+   117.97092,
+   0.377,
+   -74.79031
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (4)",
+  "name_term": "object_trash_pile",
+  "pos": [
+   106.9121161855802,
+   -0.0010000000512297158,
+   -75.52142835292172
+  ],
+  "spawn": [
+   106.91212,
+   1.4000001,
+   -75.52142
+  ],
+  "active": false,
+  "loot_time": 4,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab",
+  "name_term": "object_trash_pile",
+  "pos": [
+   106.42862646234201,
+   -0.019000001009247064,
+   -17.40641903712192
+  ],
+  "spawn": [
+   106.42862,
+   1.3510001,
+   -17.406418
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (6)",
+  "name_term": "object_crates",
+  "pos": [
+   101.65909931182529,
+   -0.06100000324462082,
+   -77.4223825990845
+  ],
+  "spawn": [
+   101.6591,
+   1.334,
+   -77.42238
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (1)",
+  "name_term": "object_trash_pile",
+  "pos": [
+   83.66621705570408,
+   -0.019000001009247064,
+   -63.82422480982147
+  ],
+  "spawn": [
+   83.666214,
+   0.93700004,
+   -63.824226
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (2)",
+  "name_term": "object_crates",
+  "pos": [
+   73.51213806556483,
+   0.6010000319891277,
+   -72.81113665062057
+  ],
+  "spawn": [
+   73.51214,
+   2.211,
+   -72.81114
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (7)",
+  "name_term": "object_trash_pile",
+  "pos": [
+   122.23962293759718,
+   -0.018000000956023887,
+   -17.6775590702668
+  ],
+  "spawn": [
+   122.23962,
+   0.378,
+   -17.677559
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (3)",
+  "name_term": "object_trash_pile",
+  "pos": [
+   76.88112938451957,
+   0.5750000306053249,
+   -73.8261661135697
+  ],
+  "spawn": [
+   76.881134,
+   2.0809999,
+   -73.826164
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab (8)",
+  "name_term": "object_trash_pile",
+  "pos": [
+   64.64851588649262,
+   0.02100000111968034,
+   -29.47505696939607
+  ],
+  "spawn": [
+   64.64851,
+   1.331,
+   -29.47506
+  ],
+  "active": false,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/BaseStaticLootableObjectPrefab",
+  "name_term": "object_cardboard_boxes",
+  "pos": [
+   117.28464884118966,
+   -0.0489949726056749,
+   -19.94950893788981
+  ],
+  "spawn": [
+   117.284645,
+   0.34700504,
+   -19.949509
+  ],
+  "active": true,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [
+   {
+    "item": "01034a9f4c42e67478dfed228fb18888",
+    "quantity": 1
+   }
+  ],
+  "refresh": {
+   "chance": 1,
+   "min_items": 1,
+   "max_items": 1,
+   "possible": [
+    {
+     "item": "01034a9f4c42e67478dfed228fb18888",
+     "min": 1,
+     "max": 1,
+     "weight": 1
+    }
+   ]
+  }
+ },
+ {
+  "path": "Gameplay/Stage/OutsideEnvironment/SM_Prop_Car_Wrecked_OpenBoot_01/DuffleBagStaticLootableObjectPrefab",
+  "name_term": "object_duffle_bag",
+  "pos": [
+   98.78552906849029,
+   0.25500001357390567,
+   -27.371354849087275
+  ],
+  "spawn": [
+   98.78552,
+   0.73020005,
+   -27.371355
+  ],
+  "active": true,
+  "loot_time": 7.5,
+  "xp": 5,
+  "loot": [
+   {
+    "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+    "quantity": 4
+   }
+  ],
+  "refresh": {
+   "chance": 0.05,
+   "min_items": 1,
+   "max_items": 2,
+   "possible": [
+    {
+     "item": "876fcdb53a4cb4a46a8d038a85b13c81",
+     "min": 4,
+     "max": 8,
+     "weight": 1
+    },
+    {
+     "item": "3a1eac43593370041bbb13509035e253",
+     "min": 1,
+     "max": 2,
+     "weight": 0.8
+    },
+    {
+     "item": "5b4da7ac419919847aaa97273b8ea0a5",
+     "min": 1,
+     "max": 4,
+     "weight": 0.8
+    },
+    {
+     "item": "3bf2cec5be9a55b4abe253bcccdb85db",
+     "min": 1,
+     "max": 3,
+     "weight": 0.8
+    },
+    {
+     "item": "47b37c42b107d18449a770d88f261b15",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "7388302bcf2c8184382a85665385dee3",
+     "min": 2,
+     "max": 6,
+     "weight": 0.75
+    },
+    {
+     "item": "9a93119416a7f6f4898b8b96f08a1aab",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "c06cea3619d74a1428b81e077ad792fa",
+     "min": 3,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "710b14e30385b2147b0ee4feeaa5e879",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "9a107ff2af6bdd745aa8b4f86f936626",
+     "min": 1,
+     "max": 1,
+     "weight": 0.5
+    },
+    {
+     "item": "16000199b55bc73419d5a70c84944975",
+     "min": 2,
+     "max": 4,
+     "weight": 0.5
+    },
+    {
+     "item": "ad5864c0c61121e4697120c19038fc9a",
+     "min": 10,
+     "max": 20,
+     "weight": 0.33
+    },
+    {
+     "item": "cf8c6bd1cc6858c4899cf129a0bd6ce4",
+     "min": 8,
+     "max": 16,
+     "weight": 0.33
+    },
+    {
+     "item": "7b201f9b782590c47a1d5e368cfeed5a",
+     "min": 6,
+     "max": 14,
+     "weight": 0.33
+    }
+   ]
+  }
+ }
+]

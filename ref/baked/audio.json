@@ -1,0 +1,1764 @@
+{
+ "mixer": {
+  "npcs": {
+   "db": -0.272,
+   "linear": 0.96916
+  },
+  "ui": {
+   "db": 0.0,
+   "linear": 1.0
+  },
+  "ambience": {
+   "db": 0.0,
+   "linear": 1.0
+  },
+  "master": {
+   "db": 0.0,
+   "linear": 1.0
+  },
+  "player": {
+   "db": 0.0,
+   "linear": 1.0
+  },
+  "sfx": {
+   "db": 0.0,
+   "linear": 1.0
+  },
+  "objects": {
+   "db": -14.817,
+   "linear": 0.18162
+  },
+  "footsteps": {
+   "db": -17.939,
+   "linear": 0.12678
+  },
+  "bgm": {
+   "db": -25.146,
+   "linear": 0.0553
+  }
+ },
+ "bgm": {
+  "target_volume": 0.125,
+  "raid_multiplier": 2.0,
+  "fade_s": 1.0,
+  "day": {
+   "first_day": [
+    "idletrackbgm4.ogg"
+   ],
+   "day2": [
+    "idletrackbgm0.ogg"
+   ],
+   "default": [
+    "idletrackbgm0.ogg",
+    "idletrackbgm1.ogg",
+    "idletrackbgm2.ogg",
+    "idletrackbgm3.ogg",
+    "idletrackbgm4.ogg"
+   ]
+  },
+  "title": [
+   "titlescreenbgm.ogg"
+  ],
+  "raid": {
+   "pre": [
+    "enemy_territory_loop_twt2.ogg",
+    "danger_loop_twt2pre.ogg"
+   ],
+   "wave": {
+    "easy": [
+     "barren_combat_loop_twtraidbgm.ogg",
+     "skeletons_loop_twt2.ogg"
+    ],
+    "medium": [
+     "evading_loop_twtbgmloop.ogg",
+     "boss_battle_4_drums_only_loop_twtraidprep.ogg",
+     "skeletons_loop_twt2.ogg"
+    ],
+    "hard": [
+     "boss_battle_1_drums_only_loop_twtraidfight.ogg",
+     "boss_battle_4_drums_only_loop_twtraidprep.ogg",
+     "skeletons_loop_twt2.ogg"
+    ]
+   },
+   "post_wave": {
+    "easy": [
+     "boss_battle_1_drums_only_loop_twtraidfight.ogg",
+     "zombieattackbgm.ogg"
+    ],
+    "medium": [
+     "boss_battle_4_drums_only_loop_twtraidprep.ogg",
+     "zombieattackbgm.ogg"
+    ],
+    "hard": [
+     "boss_battle_4_drums_only_loop_twtraidprep.ogg",
+     "boss_battle_1_drums_only_loop_twtraidfight.ogg",
+     "zombieattackbgm.ogg"
+    ]
+   },
+   "last_wave": {
+    "easy": [
+     "barren_boss_loop_twt2earlyboss.ogg"
+    ],
+    "medium": [
+     "boss_battle_3_loop_twtraidbgm.ogg",
+     "desperate_battle_loop_twt2.ogg",
+     "boss_battle_5_loop_twt2boss.ogg"
+    ],
+    "hard": [
+     "enemies_loop_twtraidfight.ogg",
+     "boss_battle_2_loop_twtraidbossbgm.ogg"
+    ]
+   }
+  },
+  "difficulty_enemies": {
+   "easy_max": 20,
+   "medium_max": 50,
+   "hard_max": 100
+  }
+ },
+ "ambience": {
+  "day": {
+   "clip": "birdsambiencesfx.ogg",
+   "volume": 0.2,
+   "group": "ambience",
+   "from_hour": 6,
+   "to_hour": 19
+  },
+  "night": {
+   "clip": "shopsignneonloopsfx.ogg",
+   "volume": 0.5,
+   "group": "objects",
+   "invented": true
+  },
+  "raid": {
+   "clip": "helicopterloopsfx.ogg",
+   "volume": 0.3,
+   "group": "ambience",
+   "invented": true
+  }
+ },
+ "footsteps": {
+  "default": {
+   "clips": [
+    "roadfootstepsfx0.ogg",
+    "roadfootstepsfx1.ogg"
+   ],
+   "volume": [
+    0.5,
+    0.6
+   ],
+   "pitch": [
+    0.5,
+    1.0
+   ]
+  },
+  "grass": {
+   "clips": [
+    "grassfootstepsfx0.ogg",
+    "grassfootstepsfx1.ogg",
+    "grassfootstepsfx2.ogg"
+   ],
+   "volume": [
+    0.5,
+    0.8
+   ],
+   "pitch": [
+    0.75,
+    1.5
+   ]
+  },
+  "path": {
+   "clips": [
+    "roadfootstepsfx0.ogg",
+    "roadfootstepsfx1.ogg"
+   ],
+   "volume": [
+    0.5,
+    0.75
+   ],
+   "pitch": [
+    1.2,
+    1.5
+   ]
+  },
+  "road": {
+   "clips": [
+    "roadfootstepsfx0.ogg",
+    "roadfootstepsfx1.ogg"
+   ],
+   "volume": [
+    0.5,
+    0.75
+   ],
+   "pitch": [
+    0.75,
+    1.2
+   ]
+  },
+  "shopfloor": {
+   "clips": [
+    "carpetfootstepsfx1.ogg",
+    "carpetfootstepsfx2.ogg",
+    "carpetfootstepsfx3.ogg"
+   ],
+   "volume": [
+    0.6,
+    0.9
+   ],
+   "pitch": [
+    0.5,
+    1.75
+   ]
+  },
+  "trash": {
+   "clips": [
+    "rubblefootstepsfx1.ogg",
+    "rubblefootstepsfx2.ogg",
+    "rubblefootstepsfx3.ogg"
+   ],
+   "volume": [
+    0.5,
+    0.6
+   ],
+   "pitch": [
+    0.5,
+    1.5
+   ]
+  }
+ },
+ "events": {
+  "ui_click": {
+   "group": "ui",
+   "clips": [
+    "uiclicksfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "ui_hover": {
+   "group": "ui",
+   "clips": [
+    "uihighlightsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "ui_error": {
+   "group": "ui",
+   "clips": [
+    "uierrorsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": "name"
+  },
+  "notify": {
+   "group": "ui",
+   "clips": [
+    "defaultnotificationsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": "name"
+  },
+  "notify_warn": {
+   "group": "ui",
+   "clips": [
+    "warningnotificationsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": "name"
+  },
+  "notify_mystery": {
+   "group": "ui",
+   "clips": [
+    "mysteriousnotificationsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "raiders_notify": {
+   "group": "ui",
+   "clips": [
+    "raidersnotificationsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "raid_knowledge": {
+   "group": "ui",
+   "clips": [
+    "raidknowledgeincreasedsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "quest_new": {
+   "group": "ui",
+   "clips": [
+    "newquestsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "quest_complete": {
+   "group": "ui",
+   "clips": [
+    "questcompletesfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "levelup_service": {
+   "group": "ui",
+   "clips": [
+    "levelupservicesfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "levelup_management": {
+   "group": "ui",
+   "clips": [
+    "levelupmanagementsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "levelup_survival": {
+   "group": "ui",
+   "clips": [
+    "levelupsurvivalsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "levelup_crafting": {
+   "group": "ui",
+   "clips": [
+    "levelupcraftingsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "unlock_skill": {
+   "group": "ui",
+   "clips": [
+    "unlockskillsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "upgrade_complete": {
+   "group": "ui",
+   "clips": [
+    "upgradecompletesfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "building_complete": {
+   "group": "objects",
+   "clips": [
+    "buildingcompletesfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "hardcore_selected": {
+   "group": "ui",
+   "clips": [
+    "hardcoremodeselected.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "hardcore_death": {
+   "group": "ui",
+   "clips": [
+    "hardcoremodedeath.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "door_open": {
+   "group": "objects",
+   "clips": [
+    "dooropensfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "door_close": {
+   "group": "objects",
+   "clips": [
+    "doorclosedsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "store_open": {
+   "group": "objects",
+   "clips": [
+    "shoppowerupsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "store_close": {
+   "group": "objects",
+   "clips": [
+    "shoppowerdownsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "paid": {
+   "group": "npcs",
+   "clips": [
+    "depositbatteries0sfx.ogg",
+    "depositbatteries1sfx.ogg",
+    "depositbatteries2sfx.ogg",
+    "depositbatteries3sfx.ogg",
+    "depositbatteries4sfx.ogg",
+    "depositbatteries5sfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": "CustomerCurrencyDepot deposit AudioSource uses DepositBatteries0SFX; 1-5 are guessed variants"
+  },
+  "deposit_bin": {
+   "group": "npcs",
+   "clips": [
+    "depositbinsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "checkout_alarm": {
+   "group": "objects",
+   "clips": [
+    "checkoutalarmsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "checkout_alarm_button": {
+   "group": "objects",
+   "clips": [
+    "checkoutalarmbuttonsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "cannot_afford": {
+   "group": "ui",
+   "clips": [
+    "uierrorsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "slot_win": {
+   "group": "ui",
+   "clips": [
+    "slot_machinewinsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "wheel_tick": {
+   "group": "objects",
+   "clips": [
+    "wheeloffortuneticksfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "exotic_purchase": {
+   "group": "ui",
+   "clips": [
+    "exoticitempurchasesfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "customer_scare": {
+   "group": "npcs",
+   "clips": [
+    "malescaresfx0.ogg",
+    "malescaresfx1.ogg",
+    "malescaresfx2.ogg",
+    "femalescaresfx0.ogg",
+    "femalescaresfx1.ogg",
+    "femalescaresfx2.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "customer_saved": {
+   "group": "npcs",
+   "clips": [
+    "malesavedsfx0.ogg",
+    "malesavedsfx1.ogg",
+    "femalesavedsfx0.ogg",
+    "femalesavedsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "customer_panic": {
+   "group": "npcs",
+   "clips": [
+    "malepanicsfx0.ogg",
+    "femalepanicsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "player_yawn": {
+   "group": "player",
+   "clips": [
+    "playeryawnsfx0.ogg",
+    "playeryawnsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": "sleep"
+  },
+  "item_pickup": {
+   "group": "objects",
+   "clips": [
+    "batteriesgrabsfx0.ogg",
+    "batteriesgrabsfx1.ogg",
+    "batteriesgrabsfx2.ogg"
+   ],
+   "volume": 0.8,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "invented": true,
+   "note": "grab sound by name"
+  },
+  "item_place": {
+   "group": "objects",
+   "clips": [
+    "tincandropsfx0.ogg",
+    "tincandropsfx1.ogg",
+    "tincandropsfx2.ogg",
+    "tincandropsfx3.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "invented": true,
+   "note": "start items are tins"
+  },
+  "item_place_box": {
+   "group": "objects",
+   "clips": [
+    "cardboardboxdropsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "crate_open": {
+   "group": "objects",
+   "clips": [
+    "cardboardboxopensfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "loot_search": {
+   "group": "objects",
+   "clips": [
+    "lootcorpsesfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "paper_flip": {
+   "group": "objects",
+   "clips": [
+    "paperflipsfx0.ogg",
+    "paperflipsfx1.ogg",
+    "paperflipsfx2.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "craft_loop": {
+   "group": "objects",
+   "clips": [
+    "craftingloopsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "hammer_hit": {
+   "group": "objects",
+   "clips": [
+    "hammerhitsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "fix_door": {
+   "group": "objects",
+   "clips": [
+    "fixdoorsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "sweep": {
+   "group": "objects",
+   "clips": [
+    "sweepsfx0.ogg",
+    "sweepsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "sweep_complete": {
+   "group": "objects",
+   "clips": [
+    "sweepcompletesfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "shred": {
+   "group": "objects",
+   "clips": [
+    "shredobjectsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "radio_tune": {
+   "group": "objects",
+   "clips": [
+    "radiotunesfx0.ogg",
+    "radiotunesfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "radio_news": {
+   "group": "objects",
+   "clips": [
+    "radiohasnewssfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "generator_fix": {
+   "group": "objects",
+   "clips": [
+    "generatorfixsfx0.ogg",
+    "generatorfixsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "battery_ok": {
+   "group": "objects",
+   "clips": [
+    "batterychargedsuccesssfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "battery_fail": {
+   "group": "objects",
+   "clips": [
+    "batterychargedfailuresfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "landmark_unlock": {
+   "group": "ui",
+   "clips": [
+    "unlockshoplandmarksfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "landmark_barrier": {
+   "group": "ui",
+   "clips": [
+    "unlockbarrierlandmarksfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "landmark_scavenger": {
+   "group": "ui",
+   "clips": [
+    "unlockscavengerlandmarksfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "landmark_defeat": {
+   "group": "ui",
+   "clips": [
+    "defeatbarrierlandmarksfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "siren": {
+   "group": "objects",
+   "clips": [
+    "sirensfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "thunder": {
+   "group": "ambience",
+   "clips": [
+    "thundersfx0.ogg",
+    "thundersfx1.ogg",
+    "thundersfx2.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "horror_stinger": {
+   "group": "sfx",
+   "clips": [
+    "horrorstingersfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "car_crash": {
+   "group": "objects",
+   "clips": [
+    "carcrashsfx0.ogg",
+    "carcrashsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "explosion": {
+   "group": "sfx",
+   "clips": [
+    "etfx_explosion_bullet.ogg",
+    "etfx_explosion_grenade.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "explosion_gas": {
+   "group": "sfx",
+   "clips": [
+    "etfx_explosion_gas.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "explosion_big": {
+   "group": "sfx",
+   "clips": [
+    "etfx_explosion_nuke.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "molotov": {
+   "group": "sfx",
+   "clips": [
+    "molotovcocktailexplodesfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "fireworks": {
+   "group": "sfx",
+   "clips": [
+    "fireworksexplosionsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "wood_break": {
+   "group": "objects",
+   "clips": [
+    "wood_break.ogg",
+    "wood_break_2.ogg",
+    "wood_break_3.ogg",
+    "wood_break_4.ogg",
+    "wood_break_5.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "wood_crate_hit": {
+   "group": "objects",
+   "clips": [
+    "woodcratehitsfx0.ogg",
+    "woodcratehitsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "wood_crate_destroy": {
+   "group": "objects",
+   "clips": [
+    "woodcratedestroysfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "door_break": {
+   "group": "objects",
+   "clips": [
+    "breakopendoorsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "door_hit": {
+   "group": "objects",
+   "clips": [
+    "hitdamageabledoorsfx0.ogg",
+    "hitdamageabledoorsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "chains_break": {
+   "group": "objects",
+   "clips": [
+    "chainsbreaksfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "zombie_groan": {
+   "group": "npcs",
+   "clips": [
+    "zombie_breathing_01.ogg",
+    "zombie_breathing_03.ogg",
+    "zombie_sudden_growl_01_twt.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "zombie_hit": {
+   "group": "npcs",
+   "clips": [
+    "zombie_hit_01.ogg",
+    "zombie_hit_02.ogg",
+    "zombie_hit_03.ogg",
+    "zombie_hit_04.ogg",
+    "zombie_hit_05.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "zombie_death": {
+   "group": "npcs",
+   "clips": [
+    "zombie_death_01.ogg",
+    "zombie_death_02.ogg",
+    "zombie_death_03.ogg",
+    "zombie_death_04.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "zombie_bite": {
+   "group": "npcs",
+   "clips": [
+    "zombie_bite_01.ogg",
+    "zombie_bite_02.ogg",
+    "zombie_bite_03.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "impact_body": {
+   "group": "npcs",
+   "clips": [
+    "impacthumanbodysfx0.ogg",
+    "impacthumanbodysfx1.ogg",
+    "impacthumanbodysfx2.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "ragdoll_hit": {
+   "group": "npcs",
+   "clips": [
+    "ragdollhitsfx0.ogg",
+    "ragdollhitsfx1.ogg",
+    "ragdollhitsfx2.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "player_hurt": {
+   "group": "player",
+   "clips": [
+    "maledamagesfx0.ogg",
+    "maledamagesfx1.ogg",
+    "maledamagesfx2.ogg",
+    "maledamagesfx3.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "player_death": {
+   "group": "player",
+   "clips": [
+    "playerdeathsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "pistol_shot": {
+   "group": "sfx",
+   "clips": [
+    "pistolshotsfx0_twt.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "pistol_reload": {
+   "group": "sfx",
+   "clips": [
+    "pistolreloadsfx0_twt.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "revolver_shot": {
+   "group": "sfx",
+   "clips": [
+    "revolvershotsfx0_twt.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "rifle_shot": {
+   "group": "sfx",
+   "clips": [
+    "assaultrifleshotsfx0_twt.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "rifle_reload": {
+   "group": "sfx",
+   "clips": [
+    "assaultriflereloadsfx0_twt.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "uzi_shot": {
+   "group": "sfx",
+   "clips": [
+    "uzishotsfx0_twt.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "shotgun_shot": {
+   "group": "sfx",
+   "clips": [
+    "shotgunshotsfx0.ogg",
+    "shotgunshotsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "sniper_shot": {
+   "group": "sfx",
+   "clips": [
+    "snipershotsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "minigun_shot": {
+   "group": "sfx",
+   "clips": [
+    "minigunshotsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "minigun_reload": {
+   "group": "sfx",
+   "clips": [
+    "minigunreloadsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "rocket_shot": {
+   "group": "sfx",
+   "clips": [
+    "rocketlaunchershotsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "bow_shot": {
+   "group": "sfx",
+   "clips": [
+    "bowshotsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "bow_reload": {
+   "group": "sfx",
+   "clips": [
+    "bowreloadsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "crossbow_shot": {
+   "group": "sfx",
+   "clips": [
+    "crossbowshotsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "crossbow_reload": {
+   "group": "sfx",
+   "clips": [
+    "crossbowreloadsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "nailgun_shot": {
+   "group": "sfx",
+   "clips": [
+    "nailgunshotsfx0mp3.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "saw_launcher": {
+   "group": "sfx",
+   "clips": [
+    "sawlauncherfiresfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "melee_club": {
+   "group": "sfx",
+   "clips": [
+    "clubattacksfx0.ogg",
+    "clubattacksfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "melee_knife": {
+   "group": "sfx",
+   "clips": [
+    "knifeattacksfx0.ogg",
+    "knifeattacksfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "melee_hammer": {
+   "group": "sfx",
+   "clips": [
+    "hammerhitsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": ""
+  },
+  "flamethrower": {
+   "group": "sfx",
+   "clips": [
+    "flamethrowerstartsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "stun_gun_loop": {
+   "group": "sfx",
+   "clips": [
+    "stungunloopsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "remote_detonator": {
+   "group": "sfx",
+   "clips": [
+    "remotedetonatorclicksfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "brute_slam": {
+   "group": "npcs",
+   "clips": [
+    "bruteslamattacksfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "brute_throw": {
+   "group": "npcs",
+   "clips": [
+    "brutethrowsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "brute_idle": {
+   "group": "npcs",
+   "clips": [
+    "brutebossidlesfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "charger_jump": {
+   "group": "npcs",
+   "clips": [
+    "chargerjumpsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "charger_land": {
+   "group": "npcs",
+   "clips": [
+    "chargerlandsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "birther_hit": {
+   "group": "npcs",
+   "clips": [
+    "birtherhitsfx0.ogg",
+    "birtherhitsfx1.ogg",
+    "birtherhitsfx2.ogg",
+    "birtherhitsfx3.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "birther_birth": {
+   "group": "npcs",
+   "clips": [
+    "birthergivebirthsfx0.ogg",
+    "birthergivebirthsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "birther_death": {
+   "group": "npcs",
+   "clips": [
+    "birtherdeathsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "twins_hit": {
+   "group": "npcs",
+   "clips": [
+    "twinsbosshitsfx0.ogg",
+    "twinsbosshitsfx1.ogg",
+    "twinsbosshitsfx2.ogg",
+    "twinsbosshitsfx3.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "twins_death": {
+   "group": "npcs",
+   "clips": [
+    "twinsbossdeathsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "twins_sing": {
+   "group": "npcs",
+   "clips": [
+    "twinsbosssingsfx0.ogg",
+    "twinsbosssingsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  }
+ }
+}
