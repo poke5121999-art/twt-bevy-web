@@ -2,60 +2,377 @@
 <html lang="vi">
 <head>
 <meta charset="utf-8">
+<script>
+// Log collector, ported from the Void Diver page. Keeps the browser console (Bevy's log goes there), uncaught errors,
+// rejected promises, failed or slow requests, main-thread stalls and a heartbeat in a ring buffer. It saves the buffer
+// to localStorage every 2 s (the previous visit's log moves to a second key, so both survive a hang and a reload),
+// and uploads it to the hub's Supabase table vd_logs (db/vd-logs.sql, column build = "twt-bevy-<build>"): new lines
+// every 15 s, everything on a panic, on F8 and when the page is hidden or closed. F8 or the LOG tab on the right edge
+// also downloads twt-log-<time>.txt. ?twtlog=0 turns the upload off, ?debug=1 logs every request.
+(function () {
+  var KEY = 'twt-log', PREV = 'twt-log-prev', MAX_LINES = 3000, MAX_LINE = 1500;
+  var debug = /[?&]debug=1\b/.test(location.search);
+  var started = new Date(), lines = [], dirty = false, frames = 0, inFlight = {}, nextReq = 0;
+  try {
+    var old = localStorage.getItem(KEY);
+    if (old) localStorage.setItem(PREV, old);
+    localStorage.removeItem(KEY);
+  } catch (e) {}
+  var SB_URL = 'https://jvdguaecnllejdmgytia.supabase.co/rest/v1/vd_logs';
+  var SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp2ZGd1YWVjbmxsZWpkbWd5dGlhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODUyNDM3MTAsImV4cCI6MjEwMDgxOTcxMH0.oo1rodkh8_c7tBa-jptqHfemxmY9h8Q_r8DYrUYL9AI';
+  var upload = !/[?&]twtlog=0\b/.test(location.search);
+  var session = started.toISOString().replace(/[-:.TZ]/g, '').substr(0, 14) + '-' + Math.random().toString(36).substr(2, 6);
+  var total = 0, sentTotal = 0, uploading = false, lastPanicUpload = 0;
+  var origFetchRef = window.fetch.bind(window);
+
+  function stamp() { return ((Date.now() - started) / 1000).toFixed(1) + 's'; }
+  function text(v) {
+    if (typeof v === 'string') return v;
+    if (v instanceof Error) return v.stack || String(v);
+    try { return JSON.stringify(v); } catch (e) { return String(v); }
+  }
+  // Bevy styles its lines with %c; drop the markers and the CSS arguments that go with them.
+  function render(args) {
+    args = Array.prototype.slice.call(args);
+    if (typeof args[0] === 'string' && args[0].indexOf('%c') >= 0) {
+      var n = args[0].split('%c').length - 1;
+      args = [args[0].replace(/%c/g, '')].concat(args.slice(1 + n));
+    }
+    return args.map(text).join(' ');
+  }
+  // A message that repeats every frame (Bevy warns about full light clusters ~30 times a second on WebGL2) would push
+  // everything else out of the buffer: after 20 copies only every 1000th is kept, with its count.
+  var seen = {};
+  function add(level, msg) {
+    var key = level + msg.substr(0, 200), count = seen[key] = (seen[key] || 0) + 1;
+    if (count > 20 && count % 1000) return;
+    if (count === 20) msg += ' [repeats; from now on 1 line per 1000]';
+    if (count > 20) msg += ' [x' + count + ']';
+    var line = stamp() + ' ' + level + ' ' + msg;
+    if (line.length > MAX_LINE) line = line.substr(0, MAX_LINE) + ' ...[cut]';
+    lines.push(line);
+    total++;
+    if (lines.length > MAX_LINES) lines.splice(0, lines.length - MAX_LINES);
+    dirty = true;
+    if (/panicked at|RuntimeError|unreachable executed/.test(msg) && Date.now() - lastPanicUpload > 20000) {
+      lastPanicUpload = Date.now();
+      setTimeout(function () { ship('panic', msg.substr(0, 300), true); }, 1500);
+    }
+  }
+  function ship(trigger, note, full, closing) {
+    if (!upload || (uploading && !closing)) return Promise.resolve(false);
+    var fresh = Math.min(total - sentTotal, lines.length);
+    if (!full && fresh <= 0) return Promise.resolve(false);
+    var part = full ? lines : lines.slice(lines.length - fresh), body = part.join('\n');
+    if (closing && body.length > 60000) body = body.substr(body.length - 60000);
+    var mark = total;
+    uploading = true;
+    return origFetchRef(SB_URL, { method: 'POST', keepalive: !!closing, headers: { 'apikey': SB_KEY,
+      'Authorization': 'Bearer ' + SB_KEY, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' },
+      body: JSON.stringify({ session: session, build: 'twt-bevy-' + (window.TWT_BUILD || '?'), trigger: trigger,
+        note: note || null, url: location.href, ua: navigator.userAgent, buffer: body }) })
+      .then(function (r) { uploading = false; if (r.ok) { sentTotal = mark; return true; } return false; },
+        function () { uploading = false; return false; });
+  }
+  window.twtLog = add;
+  window.twtShipLog = ship;
+
+  ['log', 'info', 'warn', 'error', 'debug'].forEach(function (name) {
+    var orig = console[name];
+    console[name] = function () {
+      try { add(name.toUpperCase(), render(arguments)); } catch (e) {}
+      return orig.apply(console, arguments);
+    };
+  });
+  window.addEventListener('error', function (e) {
+    var t = e.target;
+    if (t && t !== window && (t.src || t.href)) { add('RESOURCE-FAIL', (t.tagName || '') + ' ' + (t.src || t.href)); return; }
+    add('UNCAUGHT', (e.message || '') + ' at ' + (e.filename || '?') + ':' + (e.lineno || 0) +
+      (e.error && e.error.stack ? '\n' + e.error.stack : ''));
+  }, true);
+  window.addEventListener('unhandledrejection', function (e) {
+    var r = e.reason;
+    if (String(r).indexOf('Using exceptions for control flow') >= 0) return;
+    add('UNHANDLED-REJECTION', r && r.stack ? r.stack : text(r));
+  });
+
+  // Requests: failures and anything over 5 s are logged (every request with ?debug=1); the heartbeat lists the ones
+  // still open, which is what an endless load waits on. The game reads files with fetch (assets) and sync XHR (data).
+  function short(url) { url = String(url); var q = url.indexOf('?'); if (q > 0) url = url.substr(0, q); return url.split('/').slice(-2).join('/'); }
+  function begin(url) { var id = ++nextReq; inFlight[id] = { url: short(url), t: Date.now() }; if (debug) add('NET', 'start ' + short(url)); return id; }
+  function end(id, status, bytes) {
+    var r = inFlight[id]; if (!r) return; delete inFlight[id];
+    var ms = Date.now() - r.t, bad = !(status >= 200 && status < 400);
+    if (bad || ms > 5000 || debug) add(bad ? 'NET-FAIL' : 'NET', r.url + ' -> ' + status + (bytes != null ? ', ' + bytes + ' bytes' : '') + ' in ' + ms + ' ms');
+  }
+  window.fetch = function (input, init) {
+    var url = input && input.url ? input.url : String(input);
+    var id = begin(url);
+    return origFetchRef(input, init).then(function (res) {
+      end(id, res.status, res.headers.get('content-length'));
+      return res;
+    }, function (err) { end(id, 'error ' + (err && err.message), null); throw err; });
+  };
+  var origOpen = XMLHttpRequest.prototype.open, origSend = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.open = function (method, url) { this.__twtUrl = url; return origOpen.apply(this, arguments); };
+  XMLHttpRequest.prototype.send = function () {
+    var xhr = this, id = begin(xhr.__twtUrl);
+    var r = origSend.apply(this, arguments);
+    if (xhr.readyState === 4) end(id, xhr.status || 'error', null); else xhr.addEventListener('loadend', function () { end(id, xhr.status || 'error', null); });
+    return r;
+  };
+
+  // Frames counted through requestAnimationFrame say whether the game loop runs. A 1 s timer that fires late means
+  // the main thread was blocked that long; such stalls are what makes the page freeze.
+  var origRaf = window.requestAnimationFrame;
+  window.requestAnimationFrame = function (cb) { return origRaf.call(window, function (t) { frames++; cb(t); }); };
+  var lastTick = Date.now(), lastBeat = Date.now();
+  setInterval(function () {
+    var now = Date.now(), late = now - lastTick - 1000; lastTick = now;
+    if (late > 1500) add('STALL', 'main thread blocked ' + (late / 1000).toFixed(1) + ' s');
+    if (now - lastBeat < 15000) return;
+    var secs = (now - lastBeat) / 1000; lastBeat = now;
+    var open = [];
+    for (var k in inFlight) { var age = (now - inFlight[k].t) / 1000; if (age > 10) open.push(inFlight[k].url + ' ' + age.toFixed(0) + ' s'); }
+    var mem = performance.memory ? ', JS heap ' + (performance.memory.usedJSHeapSize / 1048576).toFixed(0) + ' MB' : '';
+    add('BEAT', (frames / secs).toFixed(0) + ' fps' + mem + (document.hidden ? ', tab hidden' : '') +
+      (open.length ? ', requests open over 10 s: ' + open.join('; ') : ''));
+    frames = 0;
+  }, 1000);
+
+  // localStorage is shared with the game's saves (about 5 MB per site), so the stored copy keeps only the newest
+  // lines that fit in 1 MB, and a full store drops more stored lines, never the in-memory buffer or a save.
+  function flush() {
+    if (!dirty) return;
+    dirty = false;
+    var keep = lines.length, data;
+    for (var i = 0; i < 12 && keep > 0; i++) {
+      data = JSON.stringify({ start: started.toISOString(), url: location.href, lines: lines.slice(lines.length - keep) });
+      if (data.length > 1000000) { keep = Math.floor(keep / 2); continue; }
+      try { localStorage.setItem(KEY, data); return; } catch (e) { keep = Math.floor(keep / 2); }
+    }
+  }
+  setInterval(flush, 2000);
+  setInterval(function () { ship('timer'); }, 15000);
+  window.addEventListener('pagehide', function () { flush(); ship('pagehide', null, false, true); });
+  document.addEventListener('visibilitychange', function () { if (document.hidden) { flush(); ship('hidden', null, false, true); } });
+
+  function report() {
+    flush();
+    var out = ['The Walking Trade (Bevy) web log', 'exported ' + new Date().toISOString(), 'build ' + (window.TWT_BUILD || '?'),
+      'page ' + location.href, 'browser ' + navigator.userAgent, 'screen ' + screen.width + 'x' + screen.height + ' @' +
+      devicePixelRatio + ', window ' + innerWidth + 'x' + innerHeight + (navigator.deviceMemory ? ', device memory ' + navigator.deviceMemory + ' GB' : ''), ''];
+    try {
+      var prev = JSON.parse(localStorage.getItem(PREV) || 'null');
+      if (prev) out.push('===== previous visit (started ' + prev.start + ') =====', prev.lines.join('\n'), '');
+    } catch (e) { out.push('(previous visit log unreadable: ' + e + ')'); }
+    out.push('===== this visit (started ' + started.toISOString() + ') =====', lines.join('\n'));
+    return out.join('\n');
+  }
+  function save() {
+    var body = report(), name = 'twt-log-' + new Date().toISOString().replace(/[:.]/g, '-').substr(0, 19) + '.txt';
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(new Blob([body], { type: 'text/plain' }));
+    a.download = name;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(function () { URL.revokeObjectURL(a.href); }, 5000);
+    add('LOG', 'exported ' + name + ', ' + body.length + ' chars');
+    ship('F8', 'exported ' + name, true);
+  }
+  window.addEventListener('keydown', function (e) {
+    if (e.key === 'F8') { e.preventDefault(); e.stopPropagation(); save(); }
+  }, true);
+  function button() {
+    var b = document.createElement('div');
+    b.id = 'twt-log-button'; b.textContent = 'LOG'; b.title = 'Lưu log của game (F8)';
+    b.style.cssText = 'position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:50;cursor:pointer;' +
+      'writing-mode:vertical-rl;padding:10px 4px;font:600 11px/1 system-ui,sans-serif;letter-spacing:.15em;' +
+      'color:#efe3c8;background:rgba(42,32,16,.55);border:1px solid rgba(217,164,65,.5);border-right:0;' +
+      'border-radius:4px 0 0 4px;opacity:' + (debug ? '.9' : '.35');
+    b.onmouseenter = function () { b.style.opacity = '1'; };
+    b.onmouseleave = function () { b.style.opacity = debug ? '.9' : '.35'; };
+    b.onclick = save;
+    document.body.appendChild(b);
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', button); else button();
+  add('LOG', 'collector on, debug=' + debug + ', upload=' + upload + ', session ' + session + ', ' + navigator.userAgent);
+})();
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Walking Trade (Bevy)</title>
 <style>
   html, body { margin: 0; height: 100%; background: #0d0f12; overflow: hidden; font-family: system-ui, sans-serif; color: #e8e2d4; }
   #twt-canvas { display: block; width: 100%; height: 100%; outline: none; }
-  #gate { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
-          background: radial-gradient(circle at 50% 40%, #2a2419, #0d0f12 70%); cursor: pointer; text-align: center; padding: 24px; }
-  #gate h1 { margin: 0; font-size: 34px; letter-spacing: 1px; }
-  #gate p { margin: 0; max-width: 560px; line-height: 1.5; opacity: .85; }
-  #gate button { font-size: 18px; padding: 12px 34px; border-radius: 8px; border: 0; background: #d9a441; color: #1b1407; font-weight: 700; cursor: pointer; }
-  #gate .small { font-size: 13px; opacity: .6; }
-  #status { position: fixed; left: 12px; bottom: 10px; font-size: 13px; opacity: .7; pointer-events: none; }
+  #loading { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             gap: 10px; background: radial-gradient(circle at 50% 40%, #2a2419, #0d0f12 70%); text-align: center; padding: 24px;
+             transition: opacity .5s; }
+  #loading h1 { margin: 0; font-size: 34px; letter-spacing: 1px; }
+  #loading .sub { opacity: .6; margin-bottom: 22px; letter-spacing: .06em; }
+  #loading .bar { width: min(440px, 70%); height: 5px; background: #2b2418; border-radius: 3px; overflow: hidden; }
+  #loading .fill { height: 100%; width: 0; background: #d9a441; transition: width .4s; }
+  #loading .status { margin-top: 6px; opacity: .8; font-variant-numeric: tabular-nums; min-height: 1.4em; }
+  #loading .hint { font-size: 13px; opacity: .55; max-width: 560px; line-height: 1.5; margin-top: 18px; }
+  /* Spins on the compositor, so it keeps turning while the game blocks the page building the scene. */
+  #loading .spin { width: 22px; height: 22px; border: 3px solid #4a3b20; border-top-color: #d9a441; border-radius: 50%;
+                   animation: spin 1s linear infinite; will-change: transform; visibility: hidden; }
+  #loading.busy .spin { visibility: visible; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  #loading button { display: none; font-size: 18px; padding: 12px 34px; border-radius: 8px; border: 0; background: #d9a441;
+                    color: #1b1407; font-weight: 700; cursor: pointer; margin-top: 8px; }
+  #loading.ready button { display: block; }
+  #loading.ready .bar, #loading.ready .spin { display: none; }
 </style>
 </head>
 <body>
 <canvas id="twt-canvas" tabindex="0"></canvas>
-<div id="gate">
+<div id="loading">
   <h1>The Walking Trade</h1>
-  <p>Bản viết lại bằng Bevy (Rust), chạy WebAssembly trong trình duyệt. Mở quán giữa thời xác sống: nhập hàng, đặt giá, bán lấy pin, đi raid.</p>
-  <button id="start">Chơi</button>
-  <p class="small">Cần máy tính có card đồ hoạ (Chrome hoặc Edge). Lần đầu tải khoảng vài trăm MB. Save lưu trong trình duyệt.<br>
-  WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu</p>
+  <div class="sub">Mở tiệm giữa thời xác sống</div>
+  <div class="bar"><div class="fill"></div></div>
+  <div class="spin"></div>
+  <div class="status">Đang khởi động…</div>
+  <button id="start">Vào game</button>
+  <div class="hint">Cần máy tính có card đồ hoạ (Chrome hoặc Edge). Lần đầu tải khoảng 140 MB.<br>
+  WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu · F8 lưu log khi gặp lỗi</div>
 </div>
-<div id="status"></div>
 <script>
+  window.TWT_BUILD = "5848753b90f5";
   // The game reads its launch settings as environment variables (crate::vfs::var); the URL query
   // overrides any of them, e.g. ?TWT_SKIP_INTRO=1.
   window.TWT_ENV = { TWT_PLAY: "GameScene/Gameplay.glb", TWT_ASSETS: "packed", TWT_SKIP_INTRO: "0" };
   for (const [k, v] of new URLSearchParams(location.search)) if (k.startsWith("TWT_")) window.TWT_ENV[k] = v;
+
+  // Audio contexts made before the player clicks start suspended; resume every one on the first click or key.
+  (function () {
+    const made = [], Orig = window.AudioContext || window.webkitAudioContext;
+    if (!Orig) return;
+    const Wrapped = function (...a) { const c = new Orig(...a); made.push(c); return c; };
+    Wrapped.prototype = Orig.prototype;
+    window.AudioContext = window.webkitAudioContext = Wrapped;
+    const wake = () => made.forEach(c => c.state === "suspended" && c.resume());
+    ["pointerdown", "keydown"].forEach(t => window.addEventListener(t, wake, true));
+  })();
 </script>
 <script type="module">
-  import init from "./game.js";
-  const status = document.getElementById("status");
-  const gate = document.getElementById("gate");
-  let started = false;
-  async function start() {
-    if (started) return;
-    started = true;
-    gate.style.display = "none";
-    status.textContent = "Đang tải game…";
-    document.getElementById("twt-canvas").focus();
-    try {
-      await init();
-    } catch (e) {
-      // winit ends the wasm main loop by throwing a control-flow exception; that one is not a failure.
-      if (!String(e).includes("Using exceptions for control flow")) {
-        status.textContent = "Lỗi khi chạy game: " + e;
-        console.error(e);
-        return;
-      }
+  // Loading screen: a byte bar while the code and the scene download, a spinner while the game builds the scene
+  // (that work blocks the page), then a button. The game calls window.twtStage("menu") when its main menu is up and
+  // window.twtStage("scene") when the world is built (crate::vfs::page_stage).
+  const el = document.getElementById("loading"), fill = el.querySelector(".fill"), status = el.querySelector(".status");
+  const v = window.TWT_BUILD, expected = 146502043;
+  let bytes = 0, done = false, warmDone = 0, warmTotal = 0, warming = true;
+  // Reads a download chunk by chunk to move the bar. (Wrapping fetch to hand the game a Response built on a counting
+  // stream froze the page for 30 s while Chrome gathered the 61 MB scene from it.)
+  async function download(url, keep) {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
+    const reader = res.body.getReader(), chunks = [];
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      bytes += value.byteLength;
+      if (keep) chunks.push(value);
     }
-    status.textContent = "";
+    return chunks;
   }
-  gate.addEventListener("click", start);
+  const mb = n => (n / 1048576).toFixed(0);
+  function tick() {
+    if (done) return;
+    const got = Math.min(1, bytes / expected), warm = warmTotal ? warmDone / warmTotal : warming ? 0 : 1;
+    fill.style.width = (50 * got + 50 * warm).toFixed(1) + "%";
+    if (got < 0.999 || warming) {
+      status.textContent = `Đang tải ${mb(bytes)} / ${mb(expected)} MB` +
+        (warmTotal ? ` · chuẩn bị đồ hoạ ${warmDone} / ${warmTotal}` : "");
+    } else { el.classList.add("busy"); status.textContent = "Đang dựng thế giới…"; }
+    setTimeout(tick, 250);
+  }
+  tick();
+
+  // Chrome on Windows compiles each of the game's big PBR shaders for 5 to 12 s, and the game asks for them one at a
+  // time and waits on each, which froze the page for about 100 s. shaders.json holds the sources the game links
+  // (captured by tools/web/smoke.cjs with TWT_SHADERS_OUT); compiling them here with KHR_parallel_shader_compile runs
+  // in the GPU process without blocking the page, and Chrome's program cache then answers the game's identical
+  // requests in about 20 ms each. ?twtwarm=0 skips this.
+  const WGPU_EXTENSIONS = ["ANGLE_instanced_arrays", "EXT_blend_minmax", "EXT_color_buffer_float",
+    "EXT_color_buffer_half_float", "EXT_disjoint_timer_query", "EXT_disjoint_timer_query_webgl2", "EXT_float_blend",
+    "EXT_frag_depth", "EXT_shader_texture_lod", "EXT_sRGB", "EXT_texture_compression_bptc", "EXT_texture_compression_rgtc",
+    "EXT_texture_filter_anisotropic", "KHR_parallel_shader_compile", "OES_element_index_uint", "OES_fbo_render_mipmap",
+    "OES_standard_derivatives", "OES_texture_float", "OES_texture_float_linear", "OES_texture_half_float",
+    "OES_texture_half_float_linear", "OES_vertex_array_object", "OVR_multiview2", "WEBGL_color_buffer_float",
+    "WEBGL_compressed_texture_astc", "WEBGL_compressed_texture_etc", "WEBGL_compressed_texture_etc1",
+    "WEBGL_compressed_texture_pvrtc", "WEBGL_compressed_texture_s3tc", "WEBGL_compressed_texture_s3tc_srgb",
+    "WEBGL_debug_renderer_info", "WEBGL_debug_shaders", "WEBGL_depth_texture", "WEBGL_draw_buffers", "WEBGL_lose_context"];
+  async function warmShaders() {
+    if (/[?&]twtwarm=0\b/.test(location.search)) return;
+    const t0 = performance.now();
+    const res = await fetch(`./shaders.json?v=${v}`);
+    if (!res.ok) return;
+    const { programs } = await res.json();
+    // Chrome's program cache only answers a context set up like the one that compiled the program: enabled extensions
+    // change how ANGLE translates a shader, and one extra extension is a miss. So this context is made the way wgpu
+    // makes the game's, with no antialias and exactly the extensions wgpu asks for (recorded from the game's context
+    // by smoke.cjs TWT_GLSTATS; most are not in WebGL2 and come back null).
+    const gl = document.createElement("canvas").getContext("webgl2", { antialias: false });
+    const ext = gl && gl.getExtension("KHR_parallel_shader_compile");
+    if (!ext) { console.log("[twt-warm] no KHR_parallel_shader_compile, skipped"); return; }
+    for (const name of WGPU_EXTENSIONS) gl.getExtension(name);
+    warmTotal = programs.length;
+    const linked = programs.map(sources => {
+      const p = gl.createProgram();
+      sources.forEach((s, i) => {
+        const sh = gl.createShader(i ? gl.FRAGMENT_SHADER : gl.VERTEX_SHADER);
+        gl.shaderSource(sh, s); gl.compileShader(sh); gl.attachShader(p, sh);
+      });
+      gl.linkProgram(p);
+      return p;
+    });
+    while ((warmDone = linked.filter(p => gl.getProgramParameter(p, ext.COMPLETION_STATUS_KHR)).length) < linked.length)
+      await new Promise(r => setTimeout(r, 100));
+    const ok = linked.filter(p => gl.getProgramParameter(p, gl.LINK_STATUS)).length;
+    console.log(`[twt-warm] ${ok} / ${linked.length} programs compiled in ${((performance.now() - t0) / 1000).toFixed(1)} s`);
+    if (/[?&]twtwarmcheck=1\b/.test(location.search)) {
+      // Diagnostic: relink the first program in a fresh context the way the game does; a cache hit takes ~20 ms.
+      const g2 = document.createElement("canvas").getContext("webgl2", { antialias: false });
+      for (const name of WGPU_EXTENSIONS) g2.getExtension(name);
+      const p = g2.createProgram();
+      programs[0].forEach((s, i) => { const sh = g2.createShader(i ? g2.FRAGMENT_SHADER : g2.VERTEX_SHADER); g2.shaderSource(sh, s); g2.compileShader(sh); g2.attachShader(p, sh); });
+      const t = performance.now(); g2.linkProgram(p); g2.getProgramParameter(p, g2.LINK_STATUS);
+      console.log(`[twt-warm] check: relinking program 0 in a fresh context took ${Math.round(performance.now() - t)} ms`);
+    }
+    window.twtWarmGl = gl;
+  }
+  const warmed = warmShaders().catch(e => console.warn("[twt-warm] failed: " + e)).finally(() => { warming = false; });
+  // The opening scene downloads now, alongside the code; the game's own request later reads it from the HTTP cache.
+  download("./packed/GameScene/Gameplay.glb.zst", false).catch(e => console.warn("[twt-loading] scene prefetch: " + e));
+  const wasm = download(`./game_bg.wasm?v=${v}`, true)
+    .then(chunks => new Response(new Blob(chunks), { headers: { "Content-Type": "application/wasm" } }));
+  window.twtStage = stage => {
+    console.log(`[twt-loading] ${stage} after ${(performance.now() / 1000).toFixed(1)} s, ${mb(bytes)} MB downloaded`);
+    if (stage !== "scene" || done) return;
+    done = true;
+    el.classList.remove("busy");
+    el.classList.add("ready");
+    status.textContent = "Xong rồi";
+  };
+  document.getElementById("start").addEventListener("click", () => {
+    el.style.opacity = "0";
+    setTimeout(() => el.remove(), 600);
+    document.getElementById("twt-canvas").focus();
+  });
+
+  const { default: init } = await import(`./game.js?v=${v}`);
+  // The game starts once the shaders are compiled, so its own links all hit Chrome's program cache.
+  await warmed;
+  try {
+    await init({ module_or_path: wasm });
+  } catch (e) {
+    // winit ends the wasm main loop by throwing a control-flow exception; that one is not a failure.
+    if (!String(e).includes("Using exceptions for control flow")) {
+      done = true;
+      el.classList.remove("busy");
+      status.textContent = "Lỗi khi chạy game: " + e + " (bấm F8 để lưu log)";
+      console.error(e);
+    }
+  }
 </script>
 </body>
 </html>
