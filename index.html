@@ -205,6 +205,9 @@
 <style>
   html, body { margin: 0; height: 100%; background: #0d0f12; overflow: hidden; font-family: system-ui, sans-serif; color: #e8e2d4; }
   #twt-canvas { display: block; width: 100%; height: 100%; outline: none; }
+  /* Render scale (low quality): the box shrinks to a share of the window and a transform stretches it back, so the game
+     draws fewer pixels. Pointer offsets stay in the box's own (untransformed) space, which is what the game reads. */
+  #twt-view { position: fixed; left: 0; top: 0; width: 100%; height: 100%; transform-origin: 0 0; }
   #loading { position: fixed; inset: 0; z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center;
              gap: 10px; background: radial-gradient(circle at 50% 40%, #2a2419, #0d0f12 70%); text-align: center; padding: 24px;
              transition: opacity .5s; }
@@ -226,7 +229,7 @@
 </style>
 </head>
 <body>
-<canvas id="twt-canvas" tabindex="0"></canvas>
+<div id="twt-view"><canvas id="twt-canvas" tabindex="0"></canvas></div>
 <div id="loading">
   <h1>The Walking Trade</h1>
   <div class="sub">Mở tiệm giữa thời xác sống</div>
@@ -238,10 +241,23 @@
   WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu<br>Log của game tự gửi về cho người làm game, bạn không cần làm gì.</div>
 </div>
 <script>
-  window.TWT_BUILD = "f87fcc9f25c5";
+  window.TWT_BUILD = "5bf61ad622af";
   // The game reads its launch settings as environment variables (crate::vfs::var); the URL query
   // overrides any of them, e.g. ?TWT_SKIP_INTRO=1.
   window.TWT_ENV = { TWT_PLAY: "GameScene/Gameplay.glb", TWT_ASSETS: "packed", TWT_SKIP_INTRO: "0" };
+  // Called by the game (crate::vfs::page_call): share of the canvas's pixels to render, and the drop to low quality
+  // after a slow stretch, remembered for the next visit.
+  window.twtRenderScale = s => {
+    s = Math.min(1, Math.max(0.25, Number(s) || 1));
+    const v = document.getElementById("twt-view");
+    v.style.width = v.style.height = (100 * s) + "%";
+    v.style.transform = s < 1 ? "scale(" + (1 / s) + ")" : "";
+    console.log("[twt-quality] render scale " + s);
+  };
+  window.twtQualityDropped = q => {
+    try { localStorage.setItem("twt-quality", q); } catch (e) {}
+    console.warn("[twt-quality] dropped to " + q + " in game");
+  };
   for (const [k, v] of new URLSearchParams(location.search)) if (k.startsWith("TWT_")) window.TWT_ENV[k] = v;
 
   // Audio contexts made before the player clicks start suspended; resume every one on the first click or key.
@@ -260,7 +276,7 @@
   // (that work blocks the page), then a button. The game calls window.twtStage("menu") when its main menu is up and
   // window.twtStage("scene") when the world is built (crate::vfs::page_stage).
   const el = document.getElementById("loading"), fill = el.querySelector(".fill"), status = el.querySelector(".status");
-  const v = window.TWT_BUILD, expected = 147931631;
+  const v = window.TWT_BUILD, expected = 148080087;
   let bytes = 0, done = false, warmDone = 0, warmTotal = 0, warming = true;
   // What this machine offers, logged so a report says why a page stalled; a machine that cannot run the game is told
   // so before it downloads 140 MB. Textures ship as BC7, which phones, iPads and many Macs cannot read.
@@ -272,6 +288,19 @@
       bc7: has("EXT_texture_compression_bptc"), parallelCompile: has("KHR_parallel_shader_compile"),
       cores: navigator.hardwareConcurrency, memoryGB: navigator.deviceMemory, screen: `${screen.width}x${screen.height}@${devicePixelRatio}` };
     console.log("[twt-gpu] " + JSON.stringify(gpu));
+    // Graphics quality (game/src/quality.rs). A machine without a graphics card starts on low; so does one where a
+    // previous run dropped to low by itself. `?TWT_QUALITY=high` overrides both.
+    if (!window.TWT_ENV.TWT_QUALITY) {
+      let remembered = null;
+      try { remembered = localStorage.getItem("twt-quality"); } catch (e) {}
+      const weakGpu = /SwiftShader|llvmpipe|softpipe|Microsoft Basic|Intel|Radeon\(TM\) Graphics|Radeon Graphics|Vega \d+ Graphics|Mali|Adreno|PowerVR|Apple/i.test(gpu.renderer);
+      const reason = remembered === "low" ? "dropped to low on an earlier run"
+        : weakGpu ? "integrated or software GPU" : gpu.cores && gpu.cores <= 4 ? gpu.cores + " cores"
+        : gpu.memoryGB && gpu.memoryGB <= 4 ? gpu.memoryGB + " GB" : "";
+      // High is left unset: an explicit TWT_QUALITY=high also turns off the in-game drop to low.
+      if (reason) window.TWT_ENV.TWT_QUALITY = "low";
+      console.log("[twt-quality] " + (reason ? "low (" + reason + ")" : "high, drops to low in game if slow"));
+    }
     if (probe) probe.getExtension("WEBGL_lose_context")?.loseContext();
     const why = !gpu.webgl2 ? "Trình duyệt hoặc card đồ hoạ của máy này không chạy được WebGL2 (có thể card đồ hoạ đang bị tắt trong cài đặt trình duyệt)."
       : !gpu.bc7 ? "Máy này không đọc được loại texture game dùng (BC7). Điện thoại, iPad và nhiều máy Mac không chạy được game này."
