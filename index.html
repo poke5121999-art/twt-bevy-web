@@ -186,7 +186,7 @@
   }, true);
   function button() {
     var b = document.createElement('div');
-    b.id = 'twt-log-button'; b.textContent = 'LOG'; b.title = 'Lưu log của game (F8)';
+    b.id = 'twt-log-button'; b.textContent = 'LOG'; b.title = 'Log đã tự gửi về; bấm để tải thêm một bản về máy (F8)';
     b.style.cssText = 'position:fixed;right:0;top:50%;transform:translateY(-50%);z-index:50;cursor:pointer;' +
       'writing-mode:vertical-rl;padding:10px 4px;font:600 11px/1 system-ui,sans-serif;letter-spacing:.15em;' +
       'color:#efe3c8;background:rgba(42,32,16,.55);border:1px solid rgba(217,164,65,.5);border-right:0;' +
@@ -235,10 +235,10 @@
   <div class="status">Đang khởi động…</div>
   <button id="start">Vào game</button>
   <div class="hint">Cần máy tính có card đồ hoạ (Chrome hoặc Edge). Lần đầu tải khoảng 140 MB.<br>
-  WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu · F8 lưu log khi gặp lỗi</div>
+  WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu<br>Log của game tự gửi về cho người làm game, bạn không cần làm gì.</div>
 </div>
 <script>
-  window.TWT_BUILD = "5848753b90f5";
+  window.TWT_BUILD = "ad64e299e96f";
   // The game reads its launch settings as environment variables (crate::vfs::var); the URL query
   // overrides any of them, e.g. ?TWT_SKIP_INTRO=1.
   window.TWT_ENV = { TWT_PLAY: "GameScene/Gameplay.glb", TWT_ASSETS: "packed", TWT_SKIP_INTRO: "0" };
@@ -260,7 +260,7 @@
   // (that work blocks the page), then a button. The game calls window.twtStage("menu") when its main menu is up and
   // window.twtStage("scene") when the world is built (crate::vfs::page_stage).
   const el = document.getElementById("loading"), fill = el.querySelector(".fill"), status = el.querySelector(".status");
-  const v = window.TWT_BUILD, expected = 146502043;
+  const v = window.TWT_BUILD, expected = 146481259;
   let bytes = 0, done = false, warmDone = 0, warmTotal = 0, warming = true;
   // Reads a download chunk by chunk to move the bar. (Wrapping fetch to hand the game a Response built on a counting
   // stream froze the page for 30 s while Chrome gathered the 61 MB scene from it.)
@@ -318,7 +318,11 @@
     if (!ext) { console.log("[twt-warm] no KHR_parallel_shader_compile, skipped"); return; }
     for (const name of WGPU_EXTENSIONS) gl.getExtension(name);
     warmTotal = programs.length;
-    const linked = programs.map(sources => {
+    // Chrome compiles every pending program at once on a GPU-process thread each, so handing it all 17 took 9 to 11 of
+    // a 12-thread PC's cores for 80 s and lagged the whole machine. A few at a time keeps the rest of the PC free.
+    const jobs = Number((location.search.match(/[?&]twtwarmjobs=(\d+)/) || [])[1]) ||
+      Math.max(1, Math.floor((navigator.hardwareConcurrency || 4) / 4));
+    const link = sources => {
       const p = gl.createProgram();
       sources.forEach((s, i) => {
         const sh = gl.createShader(i ? gl.FRAGMENT_SHADER : gl.VERTEX_SHADER);
@@ -326,11 +330,16 @@
       });
       gl.linkProgram(p);
       return p;
-    });
-    while ((warmDone = linked.filter(p => gl.getProgramParameter(p, ext.COMPLETION_STATUS_KHR)).length) < linked.length)
+    };
+    const linked = [], pending = [];
+    for (let next = 0; warmDone < programs.length; ) {
+      while (pending.length < jobs && next < programs.length) { const p = link(programs[next++]); linked.push(p); pending.push(p); }
       await new Promise(r => setTimeout(r, 100));
+      for (let i = pending.length - 1; i >= 0; i--)
+        if (gl.getProgramParameter(pending[i], ext.COMPLETION_STATUS_KHR)) { pending.splice(i, 1); warmDone++; }
+    }
     const ok = linked.filter(p => gl.getProgramParameter(p, gl.LINK_STATUS)).length;
-    console.log(`[twt-warm] ${ok} / ${linked.length} programs compiled in ${((performance.now() - t0) / 1000).toFixed(1)} s`);
+    console.log(`[twt-warm] ${ok} / ${linked.length} programs compiled in ${((performance.now() - t0) / 1000).toFixed(1)} s, ${jobs} at a time`);
     if (/[?&]twtwarmcheck=1\b/.test(location.search)) {
       // Diagnostic: relink the first program in a fresh context the way the game does; a cache hit takes ~20 ms.
       const g2 = document.createElement("canvas").getContext("webgl2", { antialias: false });
@@ -376,8 +385,9 @@
     if (!String(e).includes("Using exceptions for control flow")) {
       done = true;
       el.classList.remove("busy");
-      status.textContent = "Lỗi khi chạy game: " + e + " (bấm F8 để lưu log)";
+      status.textContent = "Lỗi khi chạy game: " + e + " (log đã tự gửi về)";
       console.error(e);
+      window.twtShipLog && window.twtShipLog("error", String(e).slice(0, 300), true);
     }
   }
 </script>
