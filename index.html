@@ -238,7 +238,7 @@
   WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu<br>Log của game tự gửi về cho người làm game, bạn không cần làm gì.</div>
 </div>
 <script>
-  window.TWT_BUILD = "5dc69985921c";
+  window.TWT_BUILD = "bbe2716d9216";
   // The game reads its launch settings as environment variables (crate::vfs::var); the URL query
   // overrides any of them, e.g. ?TWT_SKIP_INTRO=1.
   window.TWT_ENV = { TWT_PLAY: "GameScene/Gameplay.glb", TWT_ASSETS: "packed", TWT_SKIP_INTRO: "0" };
@@ -260,7 +260,7 @@
   // (that work blocks the page), then a button. The game calls window.twtStage("menu") when its main menu is up and
   // window.twtStage("scene") when the world is built (crate::vfs::page_stage).
   const el = document.getElementById("loading"), fill = el.querySelector(".fill"), status = el.querySelector(".status");
-  const v = window.TWT_BUILD, expected = 147903393;
+  const v = window.TWT_BUILD, expected = 148001694;
   let bytes = 0, done = false, warmDone = 0, warmTotal = 0, warming = true;
   // What this machine offers, logged so a report says why a page stalled; a machine that cannot run the game is told
   // so before it downloads 140 MB. Textures ship as BC7, which phones, iPads and many Macs cannot read.
@@ -340,10 +340,11 @@
     if (!ext) { console.log("[twt-warm] no KHR_parallel_shader_compile, skipped"); return; }
     for (const name of WGPU_EXTENSIONS) gl.getExtension(name);
     warmTotal = programs.length;
-    // Chrome compiles every pending program at once on a GPU-process thread each, so handing it all 17 took 9 to 11 of
-    // a 12-thread PC's cores for 80 s and lagged the whole machine. A few at a time keeps the rest of the PC free.
+    // Chrome compiles every pending program at once on a GPU-process thread each: all 20 at once took 75-89 % of a
+    // 12-thread PC. Half the threads (measured 2026-11-05 with the 2x2 shadow filter: 72 s at 50 % CPU, against 101 s at
+    // 26 % for a quarter and 56 s at 75 % for all) keeps the other half of the PC free.
     const jobs = Number((location.search.match(/[?&]twtwarmjobs=(\d+)/) || [])[1]) ||
-      Math.max(1, Math.floor((navigator.hardwareConcurrency || 4) / 4));
+      Math.max(1, Math.floor((navigator.hardwareConcurrency || 4) / 2));
     const link = sources => {
       const p = gl.createProgram();
       sources.forEach((s, i) => {
