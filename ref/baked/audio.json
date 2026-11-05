@@ -276,8 +276,8 @@
     1.0,
     1.0
    ],
-   "invented": true,
-   "note": "name"
+   "invented": false,
+   "note": "GreenCheck, GreenDelivery"
   },
   "notify_warn": {
    "group": "ui",
@@ -289,8 +289,8 @@
     1.0,
     1.0
    ],
-   "invented": true,
-   "note": "name"
+   "invented": false,
+   "note": "RedExclamation, YellowExclamation"
   },
   "notify_mystery": {
    "group": "ui",
@@ -302,8 +302,21 @@
     1.0,
     1.0
    ],
-   "invented": true,
-   "note": ""
+   "invented": false,
+   "note": "YellowMerchant"
+  },
+  "notify_mission": {
+   "group": "ui",
+   "clips": [
+    "powerup_upgrade_35_twtsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "MissionComplete"
   },
   "raiders_notify": {
    "group": "ui",

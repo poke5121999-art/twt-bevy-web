@@ -1,0 +1,346 @@
+{
+ "AK47WeaponData": {
+  "pivot": [
+   0.2,
+   -0.21,
+   -0.37
+  ],
+  "prefab": "AK47WeaponFPSEquipmentPrefab"
+ },
+ "AutoMinigunWeaponData": {
+  "pivot": [
+   0.2,
+   -0.21,
+   -0.37
+  ],
+  "prefab": "MinigunWeaponFPSEquipmentPrefab"
+ },
+ "AxeMeleeWeapon": {
+  "pivot": [
+   0.33158,
+   -0.44162,
+   -0.77265
+  ],
+  "prefab": "AxeWeaponFPSEquipmentPrefab"
+ },
+ "BandageMedicalItemData": {
+  "pivot": [
+   0.24,
+   -0.33,
+   -0.7
+  ],
+  "prefab": "BandageFPSEquipmentPrefab"
+ },
+ "BatMeleeWeapon": {
+  "pivot": [
+   0.33,
+   -0.69,
+   -0.64
+  ],
+  "prefab": "BatWeaponFPSEquipmentPrefab"
+ },
+ "BladedWrenchMeleeWeapon": {
+  "pivot": [
+   0.29625,
+   -0.18781,
+   -0.65014
+  ],
+  "prefab": "BladedWrenchWeaponFPSEquipmentPrefab"
+ },
+ "BoneDaggerMeleeWeapon": {
+  "pivot": [
+   0.28,
+   -0.36,
+   -0.7
+  ],
+  "prefab": "BoneDaggerWeaponFPSEquipmentPrefab"
+ },
+ "BoneItemData": {
+  "pivot": [
+   0.28,
+   -0.14,
+   -0.69
+  ],
+  "prefab": "BoneFPSEquipmentPrefab"
+ },
+ "BoneRevolverWeaponData": {
+  "pivot": [
+   0.17,
+   -0.16377,
+   -0.34636
+  ],
+  "prefab": "BoneRevolverWeaponFPSEquipmentPrefab"
+ },
+ "BowWeaponData": {
+  "pivot": [
+   0.13184,
+   -0.27554,
+   -0.74953
+  ],
+  "prefab": "BowWeaponFPSEquipmentPrefab"
+ },
+ "BuildPlayerActionItem": {
+  "pivot": [
+   0.28,
+   -0.36,
+   -0.7
+  ],
+  "prefab": "BuildHammerFPSEquipmentPrefab"
+ },
+ "ChainsawMeleeWeapon": {
+  "pivot": [
+   0.34,
+   -0.27,
+   -0.42
+  ],
+  "prefab": "ChainsawWeaponFPSEquipmentPrefab"
+ },
+ "CrossbowWeaponData": {
+  "pivot": [
+   0.2,
+   -0.21,
+   -0.37
+  ],
+  "prefab": "CrossbowWeaponFPSEquipmentPrefab"
+ },
+ "CrowbarMeleeWeapon": {
+  "pivot": [
+   0.28,
+   -0.36,
+   -0.7
+  ],
+  "prefab": "CrowbarWeaponFPSEquipmentPrefab"
+ },
+ "FirstAidBoxMedicalItemData": {
+  "pivot": [
+   0.28462,
+   -0.14923,
+   -0.73944
+  ],
+  "prefab": "FirstAidBoxFPSEquipmentPrefab"
+ },
+ "FlamethrowerWeaponData": {
+  "pivot": [
+   0.2,
+   -0.21,
+   -0.37
+  ],
+  "prefab": "FlamethrowerWeaponFPSEquipmentPrefab"
+ },
+ "GrenadeItemData": {
+  "pivot": [
+   0.24,
+   -0.33,
+   -0.7
+  ],
+  "prefab": "GrenadeFPSEquipmentPrefab"
+ },
+ "HammerMeleeWeapon": {
+  "pivot": [
+   0.28,
+   -0.36,
+   -0.7
+  ],
+  "prefab": "HammerWeaponFPSEquipmentPrefab"
+ },
+ "HomemadeAntibioticsMedicalItemData": {
+  "pivot": [
+   0.24,
+   -0.33,
+   -0.7
+  ],
+  "prefab": "AntibioticsFPSEquipmentPrefab"
+ },
+ "KnifeMeleeWeapon": {
+  "pivot": [
+   0.28,
+   -0.36,
+   -0.7
+  ],
+  "prefab": "KnifeWeaponFPSEquipmentPrefab"
+ },
+ "MinigunWeaponData": {
+  "pivot": [
+   0.2,
+   -0.21,
+   -0.37
+  ],
+  "prefab": "MinigunWeaponFPSEquipmentPrefab"
+ },
+ "ModdedNailGunWeaponData": {
+  "pivot": [
+   0.2,
+   -0.21,
+   -0.37
+  ],
+  "prefab": "ModdedNailgunWeaponFPSEquipmentPrefab"
+ },
+ "MolotovCocktailItemData": {
+  "pivot": [
+   0.24,
+   -0.33,
+   -0.7
+  ],
+  "prefab": "MolotovCocktailFPSEquipmentPrefab"
+ },
+ "MountableTurretWeaponData": {
+  "pivot": [
+   0.2,
+   -0.21,
+   -0.37
+  ],
+  "prefab": "AK47WeaponFPSEquipmentPrefab"
+ },
+ "NailBombItemData": {
+  "pivot": [
+   0.24,
+   -0.33,
+   -0.7
+  ],
+  "prefab": "NailBombFPSEquipmentPrefab"
+ },
+ "NailPlankMeleeWeapon": {
+  "pivot": [
+   0.33,
+   -0.63102,
+   -0.65102
+  ],
+  "prefab": "NailPlankWeaponFPSEquipmentPrefab"
+ },
+ "PaintingSurface": {
+  "pivot": [
+   0.3,
+   -0.4,
+   -0.451
+  ],
+  "prefab": "PaintingFPSEquipmentPrefab"
+ },
+ "PillsMedicalItemData": {
+  "pivot": [
+   0.24,
+   -0.33,
+   -0.7
+  ],
+  "prefab": "PillsFPSEquipmentPrefab"
+ },
+ "PistolWeaponData": {
+  "pivot": [
+   0.17,
+   -0.14,
+   -0.37
+  ],
+  "prefab": "PistolWeaponFPSEquipmentPrefab"
+ },
+ "RebarClubMeleeWeapon": {
+  "pivot": [
+   0.19422,
+   -0.81785,
+   -0.61638
+  ],
+  "prefab": "RebarClubWeaponFPSEquipmentPrefab"
+ },
+ "RemoteDetonatorMeleeWeapon": {
+  "pivot": [
+   0.27,
+   -0.23,
+   -0.66
+  ],
+  "prefab": "RemoteDetonatorWeaponFPSEquipmentPrefab"
+ },
+ "RocketLauncherWeaponData": {
+  "pivot": [
+   0.2,
+   -0.2,
+   -0.58
+  ],
+  "prefab": "RocketLauncherWeaponFPSEquipmentPrefab"
+ },
+ "SawLauncherWeaponData": {
+  "pivot": [
+   0.2,
+   -0.42,
+   -0.4
+  ],
+  "prefab": "SawLauncherWeaponFPSEquipmentPrefab"
+ },
+ "SawbladeClubMeleeWeapon": {
+  "pivot": [
+   0.36258,
+   -0.62007,
+   -0.93886
+  ],
+  "prefab": "SawbladeClubWeaponFPSEquipmentPrefab"
+ },
+ "ShotgunWeaponData": {
+  "pivot": [
+   0.2,
+   -0.14,
+   -0.37
+  ],
+  "prefab": "ShotgunWeaponFPSEquipmentPrefab"
+ },
+ "SniperRifleWeaponData": {
+  "pivot": [
+   0.2,
+   -0.15,
+   -0.37
+  ],
+  "prefab": "SniperRifleWeaponFPSEquipmentPrefab"
+ },
+ "SpikyBatMeleeWeapon": {
+  "pivot": [
+   0.33,
+   -0.69,
+   -0.64
+  ],
+  "prefab": "SpikedBatWeaponFPSEquipmentPrefab"
+ },
+ "StunStickMeleeWeapon": {
+  "pivot": [
+   0.51,
+   -0.36,
+   -1.13
+  ],
+  "prefab": "StunStickWeaponFPSEquipmentPrefab"
+ },
+ "TapedPipesMeleeWeapon": {
+  "pivot": [
+   0.21332,
+   -0.362,
+   -0.55778
+  ],
+  "prefab": "PipeWeaponFPSEquipmentPrefab"
+ },
+ "UziWeaponData": {
+  "pivot": [
+   0.186,
+   -0.133,
+   -0.49
+  ],
+  "prefab": "UziWeaponFPSEquipmentPrefab"
+ },
+ "VaccinatorMeleeWeapon": {
+  "pivot": [
+   0.30114,
+   -0.51528,
+   -0.72855
+  ],
+  "prefab": "VaccinatorWeaponFPSEquipmentPrefab"
+ },
+ "WoodenSpearMeleeWeapon": {
+  "pivot": [
+   0.59,
+   -0.69,
+   -0.51
+  ],
+  "prefab": "WoodenSpearWeaponFPSEquipmentPrefab"
+ },
+ "WrenchbladeMeleeWeapon": {
+  "pivot": [
+   0.33068,
+   -0.45662,
+   -0.84311
+  ],
+  "prefab": "WrenchbladeWeaponFPSEquipmentPrefab"
+ }
+}

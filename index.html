@@ -238,7 +238,7 @@
   WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu<br>Log của game tự gửi về cho người làm game, bạn không cần làm gì.</div>
 </div>
 <script>
-  window.TWT_BUILD = "ad64e299e96f";
+  window.TWT_BUILD = "5dc69985921c";
   // The game reads its launch settings as environment variables (crate::vfs::var); the URL query
   // overrides any of them, e.g. ?TWT_SKIP_INTRO=1.
   window.TWT_ENV = { TWT_PLAY: "GameScene/Gameplay.glb", TWT_ASSETS: "packed", TWT_SKIP_INTRO: "0" };
@@ -260,8 +260,30 @@
   // (that work blocks the page), then a button. The game calls window.twtStage("menu") when its main menu is up and
   // window.twtStage("scene") when the world is built (crate::vfs::page_stage).
   const el = document.getElementById("loading"), fill = el.querySelector(".fill"), status = el.querySelector(".status");
-  const v = window.TWT_BUILD, expected = 146481259;
+  const v = window.TWT_BUILD, expected = 147903393;
   let bytes = 0, done = false, warmDone = 0, warmTotal = 0, warming = true;
+  // What this machine offers, logged so a report says why a page stalled; a machine that cannot run the game is told
+  // so before it downloads 140 MB. Textures ship as BC7, which phones, iPads and many Macs cannot read.
+  {
+    const probe = document.createElement("canvas").getContext("webgl2", { antialias: false });
+    const info = probe && probe.getExtension("WEBGL_debug_renderer_info");
+    const has = n => !!(probe && probe.getExtension(n));
+    const gpu = { webgl2: !!probe, renderer: info ? probe.getParameter(info.UNMASKED_RENDERER_WEBGL) : probe ? "hidden" : "none",
+      bc7: has("EXT_texture_compression_bptc"), parallelCompile: has("KHR_parallel_shader_compile"),
+      cores: navigator.hardwareConcurrency, memoryGB: navigator.deviceMemory, screen: `${screen.width}x${screen.height}@${devicePixelRatio}` };
+    console.log("[twt-gpu] " + JSON.stringify(gpu));
+    if (probe) probe.getExtension("WEBGL_lose_context")?.loseContext();
+    const why = !gpu.webgl2 ? "Trình duyệt hoặc card đồ hoạ của máy này không chạy được WebGL2 (có thể card đồ hoạ đang bị tắt trong cài đặt trình duyệt)."
+      : !gpu.bc7 ? "Máy này không đọc được loại texture game dùng (BC7). Điện thoại, iPad và nhiều máy Mac không chạy được game này."
+      : "";
+    if (why && !/[?&]twtforce=1\b/.test(location.search)) {
+      el.querySelector(".bar").style.display = "none";
+      status.textContent = why + " Hãy mở bằng Chrome hoặc Edge trên máy tính Windows có card đồ hoạ.";
+      console.warn("[twt-loading] stopped: " + why);
+      window.twtShipLog && window.twtShipLog("unsupported", why, true);
+      await new Promise(() => {});
+    }
+  }
   // Reads a download chunk by chunk to move the bar. (Wrapping fetch to hand the game a Response built on a counting
   // stream froze the page for 30 s while Chrome gathered the 61 MB scene from it.)
   async function download(url, keep) {
@@ -356,7 +378,7 @@
   download("./packed/GameScene/Gameplay.glb.zst", false).catch(e => console.warn("[twt-loading] scene prefetch: " + e));
   // The game reads its data files (about 1.5 MB) with synchronous XHR, each one blocking the page for a round trip;
   // fetched here first, those reads come from the HTTP cache. build_site.py fills the list.
-  const preloaded = Promise.all(["dirs.json", "zst.json", "ref/baked/audio.json", "ref/baked/catalog.ron", "ref/baked/clips.json", "ref/baked/cutscenes.json", "ref/baked/hidden-at-start.json", "ref/baked/lighting.json", "ref/baked/loc_en.json", "ref/baked/navmesh.json", "ref/baked/prefab-tiles.json", "ref/baked/prefab_list.json", "ref/baked/prefabs.json", "ref/baked/shop-layout.json", "ref/baked/static-lootables.json", "ref/baked/worldmap.json", "packed/fonts/Oswald-Bold.ttf"].map(u => download("./" + u, false)
+  const preloaded = Promise.all(["dirs.json", "zst.json", "ref/baked/audio.json", "ref/baked/boundaries.json", "ref/baked/catalog.ron", "ref/baked/clips.json", "ref/baked/cutscenes.json", "ref/baked/fps-equipment.json", "ref/baked/hidden-at-start.json", "ref/baked/lighting.json", "ref/baked/loc_en.json", "ref/baked/navmesh.json", "ref/baked/paint-sweeps.json", "ref/baked/prefab-tiles.json", "ref/baked/prefab_list.json", "ref/baked/prefabs.json", "ref/baked/shop-layout.json", "ref/baked/staff-views.json", "ref/baked/static-lootables.json", "ref/baked/worldmap.json", "packed/fonts/Oswald-Bold.ttf"].map(u => download("./" + u, false)
     .catch(e => console.warn("[twt-loading] preload: " + e))));
   const wasm = download(`./game_bg.wasm?v=${v}`, true)
     .then(chunks => new Response(new Blob(chunks), { headers: { "Content-Type": "application/wasm" } }));
