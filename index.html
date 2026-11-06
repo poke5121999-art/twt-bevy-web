@@ -241,7 +241,7 @@
   WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu<br>Log của game tự gửi về cho người làm game, bạn không cần làm gì.</div>
 </div>
 <script>
-  window.TWT_BUILD = "b378d9bfe179";
+  window.TWT_BUILD = "f7e11d4b0462";
   // The game reads its launch settings as environment variables (crate::vfs::var); the URL query
   // overrides any of them, e.g. ?TWT_SKIP_INTRO=1.
   window.TWT_ENV = { TWT_PLAY: "GameScene/Gameplay.glb", TWT_ASSETS: "packed", TWT_SKIP_INTRO: "0" };
@@ -276,7 +276,7 @@
   // (that work blocks the page), then a button. The game calls window.twtStage("menu") when its main menu is up and
   // window.twtStage("scene") when the world is built (crate::vfs::page_stage).
   const el = document.getElementById("loading"), fill = el.querySelector(".fill"), status = el.querySelector(".status");
-  const v = window.TWT_BUILD, expected = 151947904;
+  const v = window.TWT_BUILD, expected = 151921222;
   let bytes = 0, done = false, warmDone = 0, warmTotal = 0, warming = true;
   // What this machine offers, logged so a report says why a page stalled; a machine that cannot run the game is told
   // so before it downloads 140 MB. Textures ship as BC7, which phones, iPads and many Macs cannot read.
