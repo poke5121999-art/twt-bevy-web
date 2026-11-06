@@ -276,7 +276,7 @@
   // (that work blocks the page), then a button. The game calls window.twtStage("menu") when its main menu is up and
   // window.twtStage("scene") when the world is built (crate::vfs::page_stage).
   const el = document.getElementById("loading"), fill = el.querySelector(".fill"), status = el.querySelector(".status");
-  const v = window.TWT_BUILD, expected = 148299777;
+  const v = window.TWT_BUILD, expected = 149210476;
   let bytes = 0, done = false, warmDone = 0, warmTotal = 0, warming = true;
   // What this machine offers, logged so a report says why a page stalled; a machine that cannot run the game is told
   // so before it downloads 140 MB. Textures ship as BC7, which phones, iPads and many Macs cannot read.
