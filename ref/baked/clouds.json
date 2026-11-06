@@ -1,0 +1,3286 @@
+{
+ "settings": {
+  "overheadCloudAltitude": 1000.0,
+  "overheadCloudSize": 10.0,
+  "overheadCloudStep": 2,
+  "overheadCloudAnimationSpeed": 10.0,
+  "overheadCloudFlowDirectionX": 1.0,
+  "overheadCloudFlowDirectionZ": 1.0,
+  "enableOverheadCloud": true,
+  "enableHorizonCloud": true,
+  "horizonCloudStartPosition": -0.009999999776482582,
+  "horizonCloudEndPosition": 0.3499999940395355,
+  "horizonCloudSize": 5.0,
+  "horizonCloudStep": 25,
+  "horizonCloudAnimationSpeed": 50.0
+ },
+ "texture": "textures/CloudNoise.png",
+ "day": [
+  {
+   "hour": 0.0,
+   "OverheadCloudColor": [
+    0.2645,
+    0.1934,
+    1.0,
+    0.7843
+   ],
+   "OverheadCloudRemapMin": -0.5,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0,
+    0.0568,
+    0.4717,
+    1.0
+   ]
+  },
+  {
+   "hour": 0.25,
+   "OverheadCloudColor": [
+    0.2858,
+    0.2168,
+    1.0,
+    0.7907
+   ],
+   "OverheadCloudRemapMin": -0.49854,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0117,
+    0.0765,
+    0.4815,
+    1.0
+   ]
+  },
+  {
+   "hour": 0.5,
+   "OverheadCloudColor": [
+    0.3072,
+    0.2402,
+    1.0,
+    0.7972
+   ],
+   "OverheadCloudRemapMin": -0.49427,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0234,
+    0.0961,
+    0.4913,
+    1.0
+   ]
+  },
+  {
+   "hour": 0.75,
+   "OverheadCloudColor": [
+    0.3285,
+    0.2636,
+    1.0,
+    0.8036
+   ],
+   "OverheadCloudRemapMin": -0.48733,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0351,
+    0.1158,
+    0.5011,
+    1.0
+   ]
+  },
+  {
+   "hour": 1.0,
+   "OverheadCloudColor": [
+    0.3499,
+    0.2871,
+    1.0,
+    0.81
+   ],
+   "OverheadCloudRemapMin": -0.47788,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0468,
+    0.1354,
+    0.5108,
+    1.0
+   ]
+  },
+  {
+   "hour": 1.25,
+   "OverheadCloudColor": [
+    0.3712,
+    0.3105,
+    1.0,
+    0.8164
+   ],
+   "OverheadCloudRemapMin": -0.46609,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0585,
+    0.1551,
+    0.5206,
+    1.0
+   ]
+  },
+  {
+   "hour": 1.5,
+   "OverheadCloudColor": [
+    0.3926,
+    0.3339,
+    1.0,
+    0.8228
+   ],
+   "OverheadCloudRemapMin": -0.45209,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0702,
+    0.1747,
+    0.5304,
+    1.0
+   ]
+  },
+  {
+   "hour": 1.75,
+   "OverheadCloudColor": [
+    0.4139,
+    0.3573,
+    1.0,
+    0.8292
+   ],
+   "OverheadCloudRemapMin": -0.43605,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0819,
+    0.1944,
+    0.5402,
+    1.0
+   ]
+  },
+  {
+   "hour": 2.0,
+   "OverheadCloudColor": [
+    0.4353,
+    0.3807,
+    1.0,
+    0.8357
+   ],
+   "OverheadCloudRemapMin": -0.41811,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0936,
+    0.214,
+    0.55,
+    1.0
+   ]
+  },
+  {
+   "hour": 2.25,
+   "OverheadCloudColor": [
+    0.4566,
+    0.4041,
+    1.0,
+    0.8421
+   ],
+   "OverheadCloudRemapMin": -0.39844,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1052,
+    0.2337,
+    0.5598,
+    1.0
+   ]
+  },
+  {
+   "hour": 2.5,
+   "OverheadCloudColor": [
+    0.478,
+    0.4275,
+    1.0,
+    0.8485
+   ],
+   "OverheadCloudRemapMin": -0.37719,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1169,
+    0.2533,
+    0.5696,
+    1.0
+   ]
+  },
+  {
+   "hour": 2.75,
+   "OverheadCloudColor": [
+    0.4993,
+    0.451,
+    1.0,
+    0.8549
+   ],
+   "OverheadCloudRemapMin": -0.35451,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1286,
+    0.2729,
+    0.5794,
+    1.0
+   ]
+  },
+  {
+   "hour": 3.0,
+   "OverheadCloudColor": [
+    0.5207,
+    0.4744,
+    1.0,
+    0.8613
+   ],
+   "OverheadCloudRemapMin": -0.33055,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1403,
+    0.2926,
+    0.5891,
+    1.0
+   ]
+  },
+  {
+   "hour": 3.25,
+   "OverheadCloudColor": [
+    0.542,
+    0.4978,
+    1.0,
+    0.8678
+   ],
+   "OverheadCloudRemapMin": -0.30548,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.152,
+    0.3122,
+    0.5989,
+    1.0
+   ]
+  },
+  {
+   "hour": 3.5,
+   "OverheadCloudColor": [
+    0.5634,
+    0.5212,
+    1.0,
+    0.8742
+   ],
+   "OverheadCloudRemapMin": -0.27943,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1637,
+    0.3319,
+    0.6087,
+    1.0
+   ]
+  },
+  {
+   "hour": 3.75,
+   "OverheadCloudColor": [
+    0.5847,
+    0.5446,
+    1.0,
+    0.8806
+   ],
+   "OverheadCloudRemapMin": -0.25258,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1754,
+    0.3515,
+    0.6185,
+    1.0
+   ]
+  },
+  {
+   "hour": 4.0,
+   "OverheadCloudColor": [
+    0.6061,
+    0.568,
+    1.0,
+    0.887
+   ],
+   "OverheadCloudRemapMin": -0.22507,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1871,
+    0.3712,
+    0.6283,
+    1.0
+   ]
+  },
+  {
+   "hour": 4.25,
+   "OverheadCloudColor": [
+    0.6275,
+    0.5915,
+    1.0,
+    0.8934
+   ],
+   "OverheadCloudRemapMin": -0.19705,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1988,
+    0.3908,
+    0.6381,
+    1.0
+   ]
+  },
+  {
+   "hour": 4.5,
+   "OverheadCloudColor": [
+    0.6488,
+    0.6149,
+    1.0,
+    0.8999
+   ],
+   "OverheadCloudRemapMin": -0.16868,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2105,
+    0.4105,
+    0.6479,
+    1.0
+   ]
+  },
+  {
+   "hour": 4.75,
+   "OverheadCloudColor": [
+    0.6702,
+    0.6383,
+    1.0,
+    0.9063
+   ],
+   "OverheadCloudRemapMin": -0.14012,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2222,
+    0.4301,
+    0.6577,
+    1.0
+   ]
+  },
+  {
+   "hour": 5.0,
+   "OverheadCloudColor": [
+    0.6915,
+    0.6617,
+    1.0,
+    0.9127
+   ],
+   "OverheadCloudRemapMin": -0.11152,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2339,
+    0.4498,
+    0.6674,
+    1.0
+   ]
+  },
+  {
+   "hour": 5.25,
+   "OverheadCloudColor": [
+    0.7129,
+    0.6851,
+    1.0,
+    0.9191
+   ],
+   "OverheadCloudRemapMin": -0.08303,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2456,
+    0.4694,
+    0.6772,
+    1.0
+   ]
+  },
+  {
+   "hour": 5.5,
+   "OverheadCloudColor": [
+    0.7342,
+    0.7085,
+    1.0,
+    0.9255
+   ],
+   "OverheadCloudRemapMin": -0.0548,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2573,
+    0.4891,
+    0.687,
+    1.0
+   ]
+  },
+  {
+   "hour": 5.75,
+   "OverheadCloudColor": [
+    0.7556,
+    0.7319,
+    1.0,
+    0.932
+   ],
+   "OverheadCloudRemapMin": -0.027,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.269,
+    0.5087,
+    0.6968,
+    1.0
+   ]
+  },
+  {
+   "hour": 6.0,
+   "OverheadCloudColor": [
+    0.7769,
+    0.7554,
+    1.0,
+    0.9384
+   ],
+   "OverheadCloudRemapMin": 0.00023,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2807,
+    0.5284,
+    0.7066,
+    1.0
+   ]
+  },
+  {
+   "hour": 6.25,
+   "OverheadCloudColor": [
+    0.7983,
+    0.7788,
+    1.0,
+    0.9448
+   ],
+   "OverheadCloudRemapMin": 0.02672,
+   "OverheadCloudRemapMax": 1.01519,
+   "HorizonCloudColor": [
+    0.2924,
+    0.548,
+    0.7164,
+    1.0
+   ]
+  },
+  {
+   "hour": 6.5,
+   "OverheadCloudColor": [
+    0.8196,
+    0.8022,
+    1.0,
+    0.9512
+   ],
+   "OverheadCloudRemapMin": 0.05239,
+   "OverheadCloudRemapMax": 1.05903,
+   "HorizonCloudColor": [
+    0.304,
+    0.5677,
+    0.7262,
+    1.0
+   ]
+  },
+  {
+   "hour": 6.75,
+   "OverheadCloudColor": [
+    0.841,
+    0.8256,
+    1.0,
+    0.9576
+   ],
+   "OverheadCloudRemapMin": 0.07723,
+   "OverheadCloudRemapMax": 1.12891,
+   "HorizonCloudColor": [
+    0.3157,
+    0.5873,
+    0.736,
+    1.0
+   ]
+  },
+  {
+   "hour": 7.0,
+   "OverheadCloudColor": [
+    0.8623,
+    0.849,
+    1.0,
+    0.9641
+   ],
+   "OverheadCloudRemapMin": 0.10121,
+   "OverheadCloudRemapMax": 1.22222,
+   "HorizonCloudColor": [
+    0.3274,
+    0.607,
+    0.7458,
+    1.0
+   ]
+  },
+  {
+   "hour": 7.25,
+   "OverheadCloudColor": [
+    0.8837,
+    0.8724,
+    1.0,
+    0.9705
+   ],
+   "OverheadCloudRemapMin": 0.12432,
+   "OverheadCloudRemapMax": 1.33637,
+   "HorizonCloudColor": [
+    0.3391,
+    0.6266,
+    0.7555,
+    1.0
+   ]
+  },
+  {
+   "hour": 7.5,
+   "OverheadCloudColor": [
+    0.905,
+    0.8959,
+    1.0,
+    0.9769
+   ],
+   "OverheadCloudRemapMin": 0.14653,
+   "OverheadCloudRemapMax": 1.46875,
+   "HorizonCloudColor": [
+    0.3508,
+    0.6463,
+    0.7653,
+    1.0
+   ]
+  },
+  {
+   "hour": 7.75,
+   "OverheadCloudColor": [
+    0.9264,
+    0.9193,
+    1.0,
+    0.9833
+   ],
+   "OverheadCloudRemapMin": 0.16783,
+   "OverheadCloudRemapMax": 1.61675,
+   "HorizonCloudColor": [
+    0.3625,
+    0.6659,
+    0.7751,
+    1.0
+   ]
+  },
+  {
+   "hour": 8.0,
+   "OverheadCloudColor": [
+    0.9477,
+    0.9427,
+    1.0,
+    0.9897
+   ],
+   "OverheadCloudRemapMin": 0.18818,
+   "OverheadCloudRemapMax": 1.77778,
+   "HorizonCloudColor": [
+    0.3742,
+    0.6856,
+    0.7849,
+    1.0
+   ]
+  },
+  {
+   "hour": 8.25,
+   "OverheadCloudColor": [
+    0.9691,
+    0.9661,
+    1.0,
+    0.9962
+   ],
+   "OverheadCloudRemapMin": 0.20758,
+   "OverheadCloudRemapMax": 1.94922,
+   "HorizonCloudColor": [
+    0.3859,
+    0.7052,
+    0.7947,
+    1.0
+   ]
+  },
+  {
+   "hour": 8.5,
+   "OverheadCloudColor": [
+    0.9904,
+    0.9895,
+    1.0,
+    0.9995
+   ],
+   "OverheadCloudRemapMin": 0.226,
+   "OverheadCloudRemapMax": 2.12847,
+   "HorizonCloudColor": [
+    0.3976,
+    0.7249,
+    0.8045,
+    1.0
+   ]
+  },
+  {
+   "hour": 8.75,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9984
+   ],
+   "OverheadCloudRemapMin": 0.24343,
+   "OverheadCloudRemapMax": 2.31293,
+   "HorizonCloudColor": [
+    0.4093,
+    0.7445,
+    0.8143,
+    1.0
+   ]
+  },
+  {
+   "hour": 9.0,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9973
+   ],
+   "OverheadCloudRemapMin": 0.25983,
+   "OverheadCloudRemapMax": 2.5,
+   "HorizonCloudColor": [
+    0.421,
+    0.7642,
+    0.8241,
+    1.0
+   ]
+  },
+  {
+   "hour": 9.25,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9962
+   ],
+   "OverheadCloudRemapMin": 0.2752,
+   "OverheadCloudRemapMax": 2.68707,
+   "HorizonCloudColor": [
+    0.4327,
+    0.7838,
+    0.8338,
+    1.0
+   ]
+  },
+  {
+   "hour": 9.5,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.995
+   ],
+   "OverheadCloudRemapMin": 0.2895,
+   "OverheadCloudRemapMax": 2.87153,
+   "HorizonCloudColor": [
+    0.4444,
+    0.8035,
+    0.8436,
+    1.0
+   ]
+  },
+  {
+   "hour": 9.75,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9939
+   ],
+   "OverheadCloudRemapMin": 0.30273,
+   "OverheadCloudRemapMax": 3.05078,
+   "HorizonCloudColor": [
+    0.4561,
+    0.8231,
+    0.8534,
+    1.0
+   ]
+  },
+  {
+   "hour": 10.0,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9928
+   ],
+   "OverheadCloudRemapMin": 0.31486,
+   "OverheadCloudRemapMax": 3.22222,
+   "HorizonCloudColor": [
+    0.4678,
+    0.8428,
+    0.8632,
+    1.0
+   ]
+  },
+  {
+   "hour": 10.25,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9916
+   ],
+   "OverheadCloudRemapMin": 0.32586,
+   "OverheadCloudRemapMax": 3.38325,
+   "HorizonCloudColor": [
+    0.4795,
+    0.8624,
+    0.873,
+    1.0
+   ]
+  },
+  {
+   "hour": 10.5,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9905
+   ],
+   "OverheadCloudRemapMin": 0.33573,
+   "OverheadCloudRemapMax": 3.53125,
+   "HorizonCloudColor": [
+    0.4911,
+    0.8821,
+    0.8828,
+    1.0
+   ]
+  },
+  {
+   "hour": 10.75,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9894
+   ],
+   "OverheadCloudRemapMin": 0.34443,
+   "OverheadCloudRemapMax": 3.66363,
+   "HorizonCloudColor": [
+    0.5028,
+    0.9017,
+    0.8926,
+    1.0
+   ]
+  },
+  {
+   "hour": 11.0,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9883
+   ],
+   "OverheadCloudRemapMin": 0.35195,
+   "OverheadCloudRemapMax": 3.77778,
+   "HorizonCloudColor": [
+    0.5145,
+    0.9214,
+    0.9024,
+    1.0
+   ]
+  },
+  {
+   "hour": 11.25,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9871
+   ],
+   "OverheadCloudRemapMin": 0.35827,
+   "OverheadCloudRemapMax": 3.87109,
+   "HorizonCloudColor": [
+    0.5262,
+    0.941,
+    0.9121,
+    1.0
+   ]
+  },
+  {
+   "hour": 11.5,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.986
+   ],
+   "OverheadCloudRemapMin": 0.36337,
+   "OverheadCloudRemapMax": 3.94097,
+   "HorizonCloudColor": [
+    0.5379,
+    0.9607,
+    0.9219,
+    1.0
+   ]
+  },
+  {
+   "hour": 11.75,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9849
+   ],
+   "OverheadCloudRemapMin": 0.36722,
+   "OverheadCloudRemapMax": 3.98481,
+   "HorizonCloudColor": [
+    0.5496,
+    0.9803,
+    0.9317,
+    1.0
+   ]
+  },
+  {
+   "hour": 12.0,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9837
+   ],
+   "OverheadCloudRemapMin": 0.36981,
+   "OverheadCloudRemapMax": 4.0,
+   "HorizonCloudColor": [
+    0.5613,
+    1.0,
+    0.9415,
+    1.0
+   ]
+  },
+  {
+   "hour": 12.25,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9826
+   ],
+   "OverheadCloudRemapMin": 0.37112,
+   "OverheadCloudRemapMax": 3.98481,
+   "HorizonCloudColor": [
+    0.5496,
+    0.9803,
+    0.9317,
+    1.0
+   ]
+  },
+  {
+   "hour": 12.5,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9815
+   ],
+   "OverheadCloudRemapMin": 0.37112,
+   "OverheadCloudRemapMax": 3.94097,
+   "HorizonCloudColor": [
+    0.5379,
+    0.9606,
+    0.9219,
+    1.0
+   ]
+  },
+  {
+   "hour": 12.75,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9804
+   ],
+   "OverheadCloudRemapMin": 0.3698,
+   "OverheadCloudRemapMax": 3.87109,
+   "HorizonCloudColor": [
+    0.5262,
+    0.9409,
+    0.9121,
+    1.0
+   ]
+  },
+  {
+   "hour": 13.0,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9792
+   ],
+   "OverheadCloudRemapMin": 0.36714,
+   "OverheadCloudRemapMax": 3.77778,
+   "HorizonCloudColor": [
+    0.5146,
+    0.9213,
+    0.9023,
+    1.0
+   ]
+  },
+  {
+   "hour": 13.25,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9781
+   ],
+   "OverheadCloudRemapMin": 0.36311,
+   "OverheadCloudRemapMax": 3.66363,
+   "HorizonCloudColor": [
+    0.5029,
+    0.9016,
+    0.8925,
+    1.0
+   ]
+  },
+  {
+   "hour": 13.5,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.977
+   ],
+   "OverheadCloudRemapMin": 0.35769,
+   "OverheadCloudRemapMax": 3.53125,
+   "HorizonCloudColor": [
+    0.4912,
+    0.8819,
+    0.8827,
+    1.0
+   ]
+  },
+  {
+   "hour": 13.75,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9758
+   ],
+   "OverheadCloudRemapMin": 0.35087,
+   "OverheadCloudRemapMax": 3.38325,
+   "HorizonCloudColor": [
+    0.4795,
+    0.8622,
+    0.8728,
+    1.0
+   ]
+  },
+  {
+   "hour": 14.0,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9747
+   ],
+   "OverheadCloudRemapMin": 0.34262,
+   "OverheadCloudRemapMax": 3.22222,
+   "HorizonCloudColor": [
+    0.4678,
+    0.8425,
+    0.863,
+    1.0
+   ]
+  },
+  {
+   "hour": 14.25,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9736
+   ],
+   "OverheadCloudRemapMin": 0.33292,
+   "OverheadCloudRemapMax": 3.05078,
+   "HorizonCloudColor": [
+    0.4561,
+    0.8228,
+    0.8532,
+    1.0
+   ]
+  },
+  {
+   "hour": 14.5,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9725
+   ],
+   "OverheadCloudRemapMin": 0.32176,
+   "OverheadCloudRemapMax": 2.87153,
+   "HorizonCloudColor": [
+    0.4444,
+    0.8031,
+    0.8434,
+    1.0
+   ]
+  },
+  {
+   "hour": 14.75,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9713
+   ],
+   "OverheadCloudRemapMin": 0.30911,
+   "OverheadCloudRemapMax": 2.68707,
+   "HorizonCloudColor": [
+    0.4327,
+    0.7834,
+    0.8336,
+    1.0
+   ]
+  },
+  {
+   "hour": 15.0,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9702
+   ],
+   "OverheadCloudRemapMin": 0.29495,
+   "OverheadCloudRemapMax": 2.5,
+   "HorizonCloudColor": [
+    0.421,
+    0.7637,
+    0.8238,
+    1.0
+   ]
+  },
+  {
+   "hour": 15.25,
+   "OverheadCloudColor": [
+    1.0,
+    1.0,
+    1.0,
+    0.9691
+   ],
+   "OverheadCloudRemapMin": 0.27926,
+   "OverheadCloudRemapMax": 2.31293,
+   "HorizonCloudColor": [
+    0.4093,
+    0.744,
+    0.814,
+    1.0
+   ]
+  },
+  {
+   "hour": 15.5,
+   "OverheadCloudColor": [
+    1.0,
+    0.9985,
+    0.9741,
+    0.9679
+   ],
+   "OverheadCloudRemapMin": 0.26202,
+   "OverheadCloudRemapMax": 2.12847,
+   "HorizonCloudColor": [
+    0.3976,
+    0.7244,
+    0.8042,
+    1.0
+   ]
+  },
+  {
+   "hour": 15.75,
+   "OverheadCloudColor": [
+    1.0,
+    0.9951,
+    0.9162,
+    0.9567
+   ],
+   "OverheadCloudRemapMin": 0.24322,
+   "OverheadCloudRemapMax": 1.94922,
+   "HorizonCloudColor": [
+    0.3859,
+    0.7047,
+    0.7944,
+    1.0
+   ]
+  },
+  {
+   "hour": 16.0,
+   "OverheadCloudColor": [
+    1.0,
+    0.9916,
+    0.8582,
+    0.9386
+   ],
+   "OverheadCloudRemapMin": 0.22282,
+   "OverheadCloudRemapMax": 1.77778,
+   "HorizonCloudColor": [
+    0.3742,
+    0.685,
+    0.7845,
+    1.0
+   ]
+  },
+  {
+   "hour": 16.25,
+   "OverheadCloudColor": [
+    1.0,
+    0.9882,
+    0.8003,
+    0.9205
+   ],
+   "OverheadCloudRemapMin": 0.20082,
+   "OverheadCloudRemapMax": 1.61675,
+   "HorizonCloudColor": [
+    0.3625,
+    0.6653,
+    0.7747,
+    1.0
+   ]
+  },
+  {
+   "hour": 16.5,
+   "OverheadCloudColor": [
+    1.0,
+    0.9848,
+    0.7423,
+    0.9025
+   ],
+   "OverheadCloudRemapMin": 0.17719,
+   "OverheadCloudRemapMax": 1.46875,
+   "HorizonCloudColor": [
+    0.3508,
+    0.6456,
+    0.7649,
+    1.0
+   ]
+  },
+  {
+   "hour": 16.75,
+   "OverheadCloudColor": [
+    1.0,
+    0.9814,
+    0.6844,
+    0.8844
+   ],
+   "OverheadCloudRemapMin": 0.1519,
+   "OverheadCloudRemapMax": 1.33637,
+   "HorizonCloudColor": [
+    0.3391,
+    0.6259,
+    0.7551,
+    1.0
+   ]
+  },
+  {
+   "hour": 17.0,
+   "OverheadCloudColor": [
+    1.0,
+    0.9779,
+    0.6264,
+    0.8664
+   ],
+   "OverheadCloudRemapMin": 0.12494,
+   "OverheadCloudRemapMax": 1.22222,
+   "HorizonCloudColor": [
+    0.3274,
+    0.6062,
+    0.7453,
+    1.0
+   ]
+  },
+  {
+   "hour": 17.25,
+   "OverheadCloudColor": [
+    1.0,
+    0.9745,
+    0.5685,
+    0.8483
+   ],
+   "OverheadCloudRemapMin": 0.0963,
+   "OverheadCloudRemapMax": 1.12891,
+   "HorizonCloudColor": [
+    0.3157,
+    0.5865,
+    0.7355,
+    1.0
+   ]
+  },
+  {
+   "hour": 17.5,
+   "OverheadCloudColor": [
+    1.0,
+    0.9711,
+    0.5105,
+    0.8303
+   ],
+   "OverheadCloudRemapMin": 0.06594,
+   "OverheadCloudRemapMax": 1.05903,
+   "HorizonCloudColor": [
+    0.3041,
+    0.5668,
+    0.7257,
+    1.0
+   ]
+  },
+  {
+   "hour": 17.75,
+   "OverheadCloudColor": [
+    0.9881,
+    0.9565,
+    0.4849,
+    0.8122
+   ],
+   "OverheadCloudRemapMin": 0.03384,
+   "OverheadCloudRemapMax": 1.01519,
+   "HorizonCloudColor": [
+    0.2924,
+    0.5471,
+    0.7159,
+    1.0
+   ]
+  },
+  {
+   "hour": 18.0,
+   "OverheadCloudColor": [
+    0.9591,
+    0.9259,
+    0.5055,
+    0.7941
+   ],
+   "OverheadCloudRemapMin": 0.0,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2807,
+    0.5275,
+    0.7061,
+    1.0
+   ]
+  },
+  {
+   "hour": 18.25,
+   "OverheadCloudColor": [
+    0.93,
+    0.8954,
+    0.5261,
+    0.7761
+   ],
+   "OverheadCloudRemapMin": -0.03443,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.269,
+    0.5078,
+    0.6962,
+    1.0
+   ]
+  },
+  {
+   "hour": 18.5,
+   "OverheadCloudColor": [
+    0.901,
+    0.8648,
+    0.5467,
+    0.758
+   ],
+   "OverheadCloudRemapMin": -0.0682,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2573,
+    0.4881,
+    0.6864,
+    1.0
+   ]
+  },
+  {
+   "hour": 18.75,
+   "OverheadCloudColor": [
+    0.872,
+    0.8342,
+    0.5673,
+    0.74
+   ],
+   "OverheadCloudRemapMin": -0.10125,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2456,
+    0.4684,
+    0.6766,
+    1.0
+   ]
+  },
+  {
+   "hour": 19.0,
+   "OverheadCloudColor": [
+    0.843,
+    0.8036,
+    0.5879,
+    0.7219
+   ],
+   "OverheadCloudRemapMin": -0.1335,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2339,
+    0.4487,
+    0.6668,
+    1.0
+   ]
+  },
+  {
+   "hour": 19.25,
+   "OverheadCloudColor": [
+    0.814,
+    0.7731,
+    0.6085,
+    0.7039
+   ],
+   "OverheadCloudRemapMin": -0.16489,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2222,
+    0.429,
+    0.657,
+    1.0
+   ]
+  },
+  {
+   "hour": 19.5,
+   "OverheadCloudColor": [
+    0.785,
+    0.7425,
+    0.6291,
+    0.6858
+   ],
+   "OverheadCloudRemapMin": -0.19533,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.2105,
+    0.4093,
+    0.6472,
+    1.0
+   ]
+  },
+  {
+   "hour": 19.75,
+   "OverheadCloudColor": [
+    0.756,
+    0.7119,
+    0.6497,
+    0.6678
+   ],
+   "OverheadCloudRemapMin": -0.22476,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1988,
+    0.3896,
+    0.6374,
+    1.0
+   ]
+  },
+  {
+   "hour": 20.0,
+   "OverheadCloudColor": [
+    0.727,
+    0.6813,
+    0.6703,
+    0.6497
+   ],
+   "OverheadCloudRemapMin": -0.25311,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1871,
+    0.3699,
+    0.6276,
+    1.0
+   ]
+  },
+  {
+   "hour": 20.25,
+   "OverheadCloudColor": [
+    0.6979,
+    0.6508,
+    0.6909,
+    0.6316
+   ],
+   "OverheadCloudRemapMin": -0.28029,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1754,
+    0.3502,
+    0.6178,
+    1.0
+   ]
+  },
+  {
+   "hour": 20.5,
+   "OverheadCloudColor": [
+    0.6689,
+    0.6202,
+    0.7115,
+    0.6136
+   ],
+   "OverheadCloudRemapMin": -0.30625,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1637,
+    0.3306,
+    0.6079,
+    1.0
+   ]
+  },
+  {
+   "hour": 20.75,
+   "OverheadCloudColor": [
+    0.6399,
+    0.5896,
+    0.7321,
+    0.5955
+   ],
+   "OverheadCloudRemapMin": -0.3309,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.152,
+    0.3109,
+    0.5981,
+    1.0
+   ]
+  },
+  {
+   "hour": 21.0,
+   "OverheadCloudColor": [
+    0.6109,
+    0.559,
+    0.7527,
+    0.5775
+   ],
+   "OverheadCloudRemapMin": -0.35418,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1403,
+    0.2912,
+    0.5883,
+    1.0
+   ]
+  },
+  {
+   "hour": 21.25,
+   "OverheadCloudColor": [
+    0.5819,
+    0.5285,
+    0.7733,
+    0.5594
+   ],
+   "OverheadCloudRemapMin": -0.37602,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1286,
+    0.2715,
+    0.5785,
+    1.0
+   ]
+  },
+  {
+   "hour": 21.5,
+   "OverheadCloudColor": [
+    0.5529,
+    0.4979,
+    0.794,
+    0.5414
+   ],
+   "OverheadCloudRemapMin": -0.39633,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1169,
+    0.2518,
+    0.5687,
+    1.0
+   ]
+  },
+  {
+   "hour": 21.75,
+   "OverheadCloudColor": [
+    0.5239,
+    0.4673,
+    0.8146,
+    0.5233
+   ],
+   "OverheadCloudRemapMin": -0.41505,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.1052,
+    0.2321,
+    0.5589,
+    1.0
+   ]
+  },
+  {
+   "hour": 22.0,
+   "OverheadCloudColor": [
+    0.4949,
+    0.4368,
+    0.8352,
+    0.5052
+   ],
+   "OverheadCloudRemapMin": -0.43211,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0936,
+    0.2124,
+    0.5491,
+    1.0
+   ]
+  },
+  {
+   "hour": 22.25,
+   "OverheadCloudColor": [
+    0.4658,
+    0.4062,
+    0.8558,
+    0.4872
+   ],
+   "OverheadCloudRemapMin": -0.44743,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0819,
+    0.1927,
+    0.5393,
+    1.0
+   ]
+  },
+  {
+   "hour": 22.5,
+   "OverheadCloudColor": [
+    0.4368,
+    0.3756,
+    0.8764,
+    0.4691
+   ],
+   "OverheadCloudRemapMin": -0.46094,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0702,
+    0.173,
+    0.5295,
+    1.0
+   ]
+  },
+  {
+   "hour": 22.75,
+   "OverheadCloudColor": [
+    0.4078,
+    0.345,
+    0.897,
+    0.4511
+   ],
+   "OverheadCloudRemapMin": -0.47258,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0585,
+    0.1534,
+    0.5196,
+    1.0
+   ]
+  },
+  {
+   "hour": 23.0,
+   "OverheadCloudColor": [
+    0.3788,
+    0.3145,
+    0.9176,
+    0.433
+   ],
+   "OverheadCloudRemapMin": -0.48226,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0468,
+    0.1337,
+    0.5098,
+    1.0
+   ]
+  },
+  {
+   "hour": 23.25,
+   "OverheadCloudColor": [
+    0.3498,
+    0.2839,
+    0.9382,
+    0.415
+   ],
+   "OverheadCloudRemapMin": -0.48991,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0351,
+    0.114,
+    0.5,
+    1.0
+   ]
+  },
+  {
+   "hour": 23.5,
+   "OverheadCloudColor": [
+    0.3208,
+    0.2533,
+    0.9588,
+    0.3969
+   ],
+   "OverheadCloudRemapMin": -0.49547,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0234,
+    0.0943,
+    0.4902,
+    1.0
+   ]
+  },
+  {
+   "hour": 23.75,
+   "OverheadCloudColor": [
+    0.2918,
+    0.2227,
+    0.9794,
+    0.3788
+   ],
+   "OverheadCloudRemapMin": -0.49885,
+   "OverheadCloudRemapMax": 1.0,
+   "HorizonCloudColor": [
+    0.0117,
+    0.0746,
+    0.4804,
+    1.0
+   ]
+  }
+ ],
+ "raid": [
+  {
+   "hour": 0.0,
+   "OverheadCloudColor": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.0,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 0.25,
+   "OverheadCloudColor": [
+    0.0025,
+    0.0003,
+    0.0003,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.01042,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 0.5,
+   "OverheadCloudColor": [
+    0.0051,
+    0.0007,
+    0.0007,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.02083,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 0.75,
+   "OverheadCloudColor": [
+    0.0076,
+    0.001,
+    0.001,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.03125,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 1.0,
+   "OverheadCloudColor": [
+    0.0102,
+    0.0014,
+    0.0014,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.04167,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 1.25,
+   "OverheadCloudColor": [
+    0.0127,
+    0.0017,
+    0.0017,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.05208,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 1.5,
+   "OverheadCloudColor": [
+    0.0152,
+    0.0021,
+    0.0021,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.0625,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 1.75,
+   "OverheadCloudColor": [
+    0.0178,
+    0.0024,
+    0.0024,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.07292,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 2.0,
+   "OverheadCloudColor": [
+    0.0203,
+    0.0028,
+    0.0028,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.08333,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0012,
+    1.0
+   ]
+  },
+  {
+   "hour": 2.25,
+   "OverheadCloudColor": [
+    0.0229,
+    0.0031,
+    0.0031,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.09375,
+   "HorizonCloudColor": [
+    0.068,
+    0.0003,
+    0.0014,
+    1.0
+   ]
+  },
+  {
+   "hour": 2.5,
+   "OverheadCloudColor": [
+    0.0254,
+    0.0035,
+    0.0035,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.10417,
+   "HorizonCloudColor": [
+    0.0707,
+    0.0008,
+    0.0019,
+    1.0
+   ]
+  },
+  {
+   "hour": 2.75,
+   "OverheadCloudColor": [
+    0.0279,
+    0.0038,
+    0.0038,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.11458,
+   "HorizonCloudColor": [
+    0.0733,
+    0.0013,
+    0.0024,
+    1.0
+   ]
+  },
+  {
+   "hour": 3.0,
+   "OverheadCloudColor": [
+    0.0305,
+    0.0042,
+    0.0042,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.125,
+   "HorizonCloudColor": [
+    0.0759,
+    0.0018,
+    0.0029,
+    1.0
+   ]
+  },
+  {
+   "hour": 3.25,
+   "OverheadCloudColor": [
+    0.033,
+    0.0045,
+    0.0045,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.13542,
+   "HorizonCloudColor": [
+    0.0785,
+    0.0023,
+    0.0033,
+    1.0
+   ]
+  },
+  {
+   "hour": 3.5,
+   "OverheadCloudColor": [
+    0.0356,
+    0.0049,
+    0.0049,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.14583,
+   "HorizonCloudColor": [
+    0.0811,
+    0.0028,
+    0.0038,
+    1.0
+   ]
+  },
+  {
+   "hour": 3.75,
+   "OverheadCloudColor": [
+    0.0381,
+    0.0052,
+    0.0052,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.15625,
+   "HorizonCloudColor": [
+    0.0837,
+    0.0033,
+    0.0043,
+    1.0
+   ]
+  },
+  {
+   "hour": 4.0,
+   "OverheadCloudColor": [
+    0.0406,
+    0.0056,
+    0.0056,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.16667,
+   "HorizonCloudColor": [
+    0.0863,
+    0.0038,
+    0.0048,
+    1.0
+   ]
+  },
+  {
+   "hour": 4.25,
+   "OverheadCloudColor": [
+    0.0432,
+    0.0059,
+    0.0059,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.17708,
+   "HorizonCloudColor": [
+    0.0889,
+    0.0043,
+    0.0052,
+    1.0
+   ]
+  },
+  {
+   "hour": 4.5,
+   "OverheadCloudColor": [
+    0.0457,
+    0.0063,
+    0.0063,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.1875,
+   "HorizonCloudColor": [
+    0.0915,
+    0.0048,
+    0.0057,
+    1.0
+   ]
+  },
+  {
+   "hour": 4.75,
+   "OverheadCloudColor": [
+    0.0483,
+    0.0066,
+    0.0066,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.19792,
+   "HorizonCloudColor": [
+    0.0941,
+    0.0053,
+    0.0062,
+    1.0
+   ]
+  },
+  {
+   "hour": 5.0,
+   "OverheadCloudColor": [
+    0.0508,
+    0.0069,
+    0.0069,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.20833,
+   "HorizonCloudColor": [
+    0.0967,
+    0.0058,
+    0.0067,
+    1.0
+   ]
+  },
+  {
+   "hour": 5.25,
+   "OverheadCloudColor": [
+    0.0533,
+    0.0073,
+    0.0073,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.21875,
+   "HorizonCloudColor": [
+    0.0994,
+    0.0063,
+    0.0071,
+    1.0
+   ]
+  },
+  {
+   "hour": 5.5,
+   "OverheadCloudColor": [
+    0.0559,
+    0.0076,
+    0.0076,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.22917,
+   "HorizonCloudColor": [
+    0.102,
+    0.0069,
+    0.0076,
+    1.0
+   ]
+  },
+  {
+   "hour": 5.75,
+   "OverheadCloudColor": [
+    0.0584,
+    0.008,
+    0.008,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.23958,
+   "HorizonCloudColor": [
+    0.1046,
+    0.0074,
+    0.0081,
+    1.0
+   ]
+  },
+  {
+   "hour": 6.0,
+   "OverheadCloudColor": [
+    0.061,
+    0.0083,
+    0.0083,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.25,
+   "HorizonCloudColor": [
+    0.1072,
+    0.0079,
+    0.0086,
+    1.0
+   ]
+  },
+  {
+   "hour": 6.25,
+   "OverheadCloudColor": [
+    0.0635,
+    0.0087,
+    0.0087,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.26042,
+   "HorizonCloudColor": [
+    0.1098,
+    0.0084,
+    0.0091,
+    1.0
+   ]
+  },
+  {
+   "hour": 6.5,
+   "OverheadCloudColor": [
+    0.066,
+    0.009,
+    0.009,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.27083,
+   "HorizonCloudColor": [
+    0.1124,
+    0.0089,
+    0.0095,
+    1.0
+   ]
+  },
+  {
+   "hour": 6.75,
+   "OverheadCloudColor": [
+    0.0686,
+    0.0094,
+    0.0094,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.28125,
+   "HorizonCloudColor": [
+    0.115,
+    0.0094,
+    0.01,
+    1.0
+   ]
+  },
+  {
+   "hour": 7.0,
+   "OverheadCloudColor": [
+    0.0711,
+    0.0097,
+    0.0097,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.29167,
+   "HorizonCloudColor": [
+    0.1176,
+    0.0099,
+    0.0105,
+    1.0
+   ]
+  },
+  {
+   "hour": 7.25,
+   "OverheadCloudColor": [
+    0.0737,
+    0.0101,
+    0.0101,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.30208,
+   "HorizonCloudColor": [
+    0.1202,
+    0.0104,
+    0.011,
+    1.0
+   ]
+  },
+  {
+   "hour": 7.5,
+   "OverheadCloudColor": [
+    0.0762,
+    0.0104,
+    0.0104,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.3125,
+   "HorizonCloudColor": [
+    0.1228,
+    0.0109,
+    0.0114,
+    1.0
+   ]
+  },
+  {
+   "hour": 7.75,
+   "OverheadCloudColor": [
+    0.0787,
+    0.0108,
+    0.0108,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.32292,
+   "HorizonCloudColor": [
+    0.1255,
+    0.0114,
+    0.0119,
+    1.0
+   ]
+  },
+  {
+   "hour": 8.0,
+   "OverheadCloudColor": [
+    0.0813,
+    0.0111,
+    0.0111,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.33333,
+   "HorizonCloudColor": [
+    0.1281,
+    0.0119,
+    0.0124,
+    1.0
+   ]
+  },
+  {
+   "hour": 8.25,
+   "OverheadCloudColor": [
+    0.0838,
+    0.0115,
+    0.0115,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.34375,
+   "HorizonCloudColor": [
+    0.1307,
+    0.0124,
+    0.0129,
+    1.0
+   ]
+  },
+  {
+   "hour": 8.5,
+   "OverheadCloudColor": [
+    0.0864,
+    0.0118,
+    0.0118,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.35417,
+   "HorizonCloudColor": [
+    0.1333,
+    0.0129,
+    0.0133,
+    1.0
+   ]
+  },
+  {
+   "hour": 8.75,
+   "OverheadCloudColor": [
+    0.0889,
+    0.0122,
+    0.0122,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.36458,
+   "HorizonCloudColor": [
+    0.1359,
+    0.0134,
+    0.0138,
+    1.0
+   ]
+  },
+  {
+   "hour": 9.0,
+   "OverheadCloudColor": [
+    0.0914,
+    0.0125,
+    0.0125,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.375,
+   "HorizonCloudColor": [
+    0.1385,
+    0.0139,
+    0.0143,
+    1.0
+   ]
+  },
+  {
+   "hour": 9.25,
+   "OverheadCloudColor": [
+    0.094,
+    0.0129,
+    0.0129,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.38542,
+   "HorizonCloudColor": [
+    0.1411,
+    0.0145,
+    0.0148,
+    1.0
+   ]
+  },
+  {
+   "hour": 9.5,
+   "OverheadCloudColor": [
+    0.0965,
+    0.0132,
+    0.0132,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.39583,
+   "HorizonCloudColor": [
+    0.1437,
+    0.015,
+    0.0153,
+    1.0
+   ]
+  },
+  {
+   "hour": 9.75,
+   "OverheadCloudColor": [
+    0.0991,
+    0.0136,
+    0.0136,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.40625,
+   "HorizonCloudColor": [
+    0.1463,
+    0.0155,
+    0.0157,
+    1.0
+   ]
+  },
+  {
+   "hour": 10.0,
+   "OverheadCloudColor": [
+    0.1016,
+    0.0139,
+    0.0139,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.41667,
+   "HorizonCloudColor": [
+    0.1489,
+    0.016,
+    0.0162,
+    1.0
+   ]
+  },
+  {
+   "hour": 10.25,
+   "OverheadCloudColor": [
+    0.1041,
+    0.0142,
+    0.0142,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.42708,
+   "HorizonCloudColor": [
+    0.1515,
+    0.0165,
+    0.0167,
+    1.0
+   ]
+  },
+  {
+   "hour": 10.5,
+   "OverheadCloudColor": [
+    0.1067,
+    0.0146,
+    0.0146,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.4375,
+   "HorizonCloudColor": [
+    0.1542,
+    0.017,
+    0.0172,
+    1.0
+   ]
+  },
+  {
+   "hour": 10.75,
+   "OverheadCloudColor": [
+    0.1092,
+    0.0149,
+    0.0149,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.44792,
+   "HorizonCloudColor": [
+    0.1568,
+    0.0175,
+    0.0176,
+    1.0
+   ]
+  },
+  {
+   "hour": 11.0,
+   "OverheadCloudColor": [
+    0.1118,
+    0.0153,
+    0.0153,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.45833,
+   "HorizonCloudColor": [
+    0.1594,
+    0.018,
+    0.0181,
+    1.0
+   ]
+  },
+  {
+   "hour": 11.25,
+   "OverheadCloudColor": [
+    0.1143,
+    0.0156,
+    0.0156,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.46875,
+   "HorizonCloudColor": [
+    0.162,
+    0.0185,
+    0.0186,
+    1.0
+   ]
+  },
+  {
+   "hour": 11.5,
+   "OverheadCloudColor": [
+    0.1168,
+    0.016,
+    0.016,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.47917,
+   "HorizonCloudColor": [
+    0.1646,
+    0.019,
+    0.0191,
+    1.0
+   ]
+  },
+  {
+   "hour": 11.75,
+   "OverheadCloudColor": [
+    0.1194,
+    0.0163,
+    0.0163,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.48958,
+   "HorizonCloudColor": [
+    0.1672,
+    0.0195,
+    0.0195,
+    1.0
+   ]
+  },
+  {
+   "hour": 12.0,
+   "OverheadCloudColor": [
+    0.1219,
+    0.0167,
+    0.0167,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.5,
+   "HorizonCloudColor": [
+    0.1698,
+    0.02,
+    0.02,
+    1.0
+   ]
+  },
+  {
+   "hour": 12.25,
+   "OverheadCloudColor": [
+    0.1208,
+    0.0165,
+    0.0165,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.51042,
+   "HorizonCloudColor": [
+    0.1673,
+    0.0195,
+    0.0195,
+    1.0
+   ]
+  },
+  {
+   "hour": 12.5,
+   "OverheadCloudColor": [
+    0.1182,
+    0.0162,
+    0.0162,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.52083,
+   "HorizonCloudColor": [
+    0.1648,
+    0.0191,
+    0.0191,
+    1.0
+   ]
+  },
+  {
+   "hour": 12.75,
+   "OverheadCloudColor": [
+    0.1157,
+    0.0158,
+    0.0158,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.53125,
+   "HorizonCloudColor": [
+    0.1623,
+    0.0186,
+    0.0186,
+    1.0
+   ]
+  },
+  {
+   "hour": 13.0,
+   "OverheadCloudColor": [
+    0.1131,
+    0.0155,
+    0.0155,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.54167,
+   "HorizonCloudColor": [
+    0.1598,
+    0.0181,
+    0.0181,
+    1.0
+   ]
+  },
+  {
+   "hour": 13.25,
+   "OverheadCloudColor": [
+    0.1105,
+    0.0151,
+    0.0151,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.55208,
+   "HorizonCloudColor": [
+    0.1573,
+    0.0176,
+    0.0176,
+    1.0
+   ]
+  },
+  {
+   "hour": 13.5,
+   "OverheadCloudColor": [
+    0.1079,
+    0.0148,
+    0.0148,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.5625,
+   "HorizonCloudColor": [
+    0.1548,
+    0.0171,
+    0.0171,
+    1.0
+   ]
+  },
+  {
+   "hour": 13.75,
+   "OverheadCloudColor": [
+    0.1054,
+    0.0144,
+    0.0144,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.57292,
+   "HorizonCloudColor": [
+    0.1523,
+    0.0166,
+    0.0166,
+    1.0
+   ]
+  },
+  {
+   "hour": 14.0,
+   "OverheadCloudColor": [
+    0.1028,
+    0.0141,
+    0.0141,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.58333,
+   "HorizonCloudColor": [
+    0.1498,
+    0.0161,
+    0.0161,
+    1.0
+   ]
+  },
+  {
+   "hour": 14.25,
+   "OverheadCloudColor": [
+    0.1002,
+    0.0137,
+    0.0137,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.59375,
+   "HorizonCloudColor": [
+    0.1473,
+    0.0157,
+    0.0157,
+    1.0
+   ]
+  },
+  {
+   "hour": 14.5,
+   "OverheadCloudColor": [
+    0.0977,
+    0.0134,
+    0.0134,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.60417,
+   "HorizonCloudColor": [
+    0.1448,
+    0.0152,
+    0.0152,
+    1.0
+   ]
+  },
+  {
+   "hour": 14.75,
+   "OverheadCloudColor": [
+    0.0951,
+    0.013,
+    0.013,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.61458,
+   "HorizonCloudColor": [
+    0.1423,
+    0.0147,
+    0.0147,
+    1.0
+   ]
+  },
+  {
+   "hour": 15.0,
+   "OverheadCloudColor": [
+    0.0925,
+    0.0127,
+    0.0127,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.625,
+   "HorizonCloudColor": [
+    0.1398,
+    0.0142,
+    0.0142,
+    1.0
+   ]
+  },
+  {
+   "hour": 15.25,
+   "OverheadCloudColor": [
+    0.09,
+    0.0123,
+    0.0123,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.63542,
+   "HorizonCloudColor": [
+    0.1373,
+    0.0137,
+    0.0137,
+    1.0
+   ]
+  },
+  {
+   "hour": 15.5,
+   "OverheadCloudColor": [
+    0.0874,
+    0.012,
+    0.012,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.64583,
+   "HorizonCloudColor": [
+    0.1348,
+    0.0132,
+    0.0132,
+    1.0
+   ]
+  },
+  {
+   "hour": 15.75,
+   "OverheadCloudColor": [
+    0.0848,
+    0.0116,
+    0.0116,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.65625,
+   "HorizonCloudColor": [
+    0.1323,
+    0.0127,
+    0.0127,
+    1.0
+   ]
+  },
+  {
+   "hour": 16.0,
+   "OverheadCloudColor": [
+    0.0822,
+    0.0113,
+    0.0113,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.66667,
+   "HorizonCloudColor": [
+    0.1298,
+    0.0123,
+    0.0123,
+    1.0
+   ]
+  },
+  {
+   "hour": 16.25,
+   "OverheadCloudColor": [
+    0.0797,
+    0.0109,
+    0.0109,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.67708,
+   "HorizonCloudColor": [
+    0.1273,
+    0.0118,
+    0.0118,
+    1.0
+   ]
+  },
+  {
+   "hour": 16.5,
+   "OverheadCloudColor": [
+    0.0771,
+    0.0105,
+    0.0105,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.6875,
+   "HorizonCloudColor": [
+    0.1248,
+    0.0113,
+    0.0113,
+    1.0
+   ]
+  },
+  {
+   "hour": 16.75,
+   "OverheadCloudColor": [
+    0.0745,
+    0.0102,
+    0.0102,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.69792,
+   "HorizonCloudColor": [
+    0.1223,
+    0.0108,
+    0.0108,
+    1.0
+   ]
+  },
+  {
+   "hour": 17.0,
+   "OverheadCloudColor": [
+    0.072,
+    0.0098,
+    0.0098,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.70833,
+   "HorizonCloudColor": [
+    0.1198,
+    0.0103,
+    0.0103,
+    1.0
+   ]
+  },
+  {
+   "hour": 17.25,
+   "OverheadCloudColor": [
+    0.0694,
+    0.0095,
+    0.0095,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.71875,
+   "HorizonCloudColor": [
+    0.1173,
+    0.0098,
+    0.0098,
+    1.0
+   ]
+  },
+  {
+   "hour": 17.5,
+   "OverheadCloudColor": [
+    0.0668,
+    0.0091,
+    0.0091,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.72917,
+   "HorizonCloudColor": [
+    0.1148,
+    0.0093,
+    0.0093,
+    1.0
+   ]
+  },
+  {
+   "hour": 17.75,
+   "OverheadCloudColor": [
+    0.0643,
+    0.0088,
+    0.0088,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.73958,
+   "HorizonCloudColor": [
+    0.1123,
+    0.0089,
+    0.0089,
+    1.0
+   ]
+  },
+  {
+   "hour": 18.0,
+   "OverheadCloudColor": [
+    0.0617,
+    0.0084,
+    0.0084,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.75,
+   "HorizonCloudColor": [
+    0.1098,
+    0.0084,
+    0.0084,
+    1.0
+   ]
+  },
+  {
+   "hour": 18.25,
+   "OverheadCloudColor": [
+    0.0591,
+    0.0081,
+    0.0081,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.76042,
+   "HorizonCloudColor": [
+    0.1073,
+    0.0079,
+    0.0079,
+    1.0
+   ]
+  },
+  {
+   "hour": 18.5,
+   "OverheadCloudColor": [
+    0.0565,
+    0.0077,
+    0.0077,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.77083,
+   "HorizonCloudColor": [
+    0.1048,
+    0.0074,
+    0.0074,
+    1.0
+   ]
+  },
+  {
+   "hour": 18.75,
+   "OverheadCloudColor": [
+    0.054,
+    0.0074,
+    0.0074,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.78125,
+   "HorizonCloudColor": [
+    0.1023,
+    0.0069,
+    0.0069,
+    1.0
+   ]
+  },
+  {
+   "hour": 19.0,
+   "OverheadCloudColor": [
+    0.0514,
+    0.007,
+    0.007,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.79167,
+   "HorizonCloudColor": [
+    0.0998,
+    0.0064,
+    0.0064,
+    1.0
+   ]
+  },
+  {
+   "hour": 19.25,
+   "OverheadCloudColor": [
+    0.0488,
+    0.0067,
+    0.0067,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.80208,
+   "HorizonCloudColor": [
+    0.0973,
+    0.0059,
+    0.0059,
+    1.0
+   ]
+  },
+  {
+   "hour": 19.5,
+   "OverheadCloudColor": [
+    0.0463,
+    0.0063,
+    0.0063,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.8125,
+   "HorizonCloudColor": [
+    0.0947,
+    0.0055,
+    0.0055,
+    1.0
+   ]
+  },
+  {
+   "hour": 19.75,
+   "OverheadCloudColor": [
+    0.0437,
+    0.006,
+    0.006,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.82292,
+   "HorizonCloudColor": [
+    0.0922,
+    0.005,
+    0.005,
+    1.0
+   ]
+  },
+  {
+   "hour": 20.0,
+   "OverheadCloudColor": [
+    0.0411,
+    0.0056,
+    0.0056,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.83333,
+   "HorizonCloudColor": [
+    0.0897,
+    0.0045,
+    0.0045,
+    1.0
+   ]
+  },
+  {
+   "hour": 20.25,
+   "OverheadCloudColor": [
+    0.0386,
+    0.0053,
+    0.0053,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.84375,
+   "HorizonCloudColor": [
+    0.0872,
+    0.004,
+    0.004,
+    1.0
+   ]
+  },
+  {
+   "hour": 20.5,
+   "OverheadCloudColor": [
+    0.036,
+    0.0049,
+    0.0049,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.85417,
+   "HorizonCloudColor": [
+    0.0847,
+    0.0035,
+    0.0035,
+    1.0
+   ]
+  },
+  {
+   "hour": 20.75,
+   "OverheadCloudColor": [
+    0.0334,
+    0.0046,
+    0.0046,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.86458,
+   "HorizonCloudColor": [
+    0.0822,
+    0.003,
+    0.003,
+    1.0
+   ]
+  },
+  {
+   "hour": 21.0,
+   "OverheadCloudColor": [
+    0.0308,
+    0.0042,
+    0.0042,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.875,
+   "HorizonCloudColor": [
+    0.0797,
+    0.0025,
+    0.0025,
+    1.0
+   ]
+  },
+  {
+   "hour": 21.25,
+   "OverheadCloudColor": [
+    0.0283,
+    0.0039,
+    0.0039,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.88542,
+   "HorizonCloudColor": [
+    0.0772,
+    0.0021,
+    0.0021,
+    1.0
+   ]
+  },
+  {
+   "hour": 21.5,
+   "OverheadCloudColor": [
+    0.0257,
+    0.0035,
+    0.0035,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.89583,
+   "HorizonCloudColor": [
+    0.0747,
+    0.0016,
+    0.0016,
+    1.0
+   ]
+  },
+  {
+   "hour": 21.75,
+   "OverheadCloudColor": [
+    0.0231,
+    0.0032,
+    0.0032,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.90625,
+   "HorizonCloudColor": [
+    0.0722,
+    0.0011,
+    0.0011,
+    1.0
+   ]
+  },
+  {
+   "hour": 22.0,
+   "OverheadCloudColor": [
+    0.0206,
+    0.0028,
+    0.0028,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.91667,
+   "HorizonCloudColor": [
+    0.0697,
+    0.0006,
+    0.0006,
+    1.0
+   ]
+  },
+  {
+   "hour": 22.25,
+   "OverheadCloudColor": [
+    0.018,
+    0.0025,
+    0.0025,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.92708,
+   "HorizonCloudColor": [
+    0.0672,
+    0.0001,
+    0.0001,
+    1.0
+   ]
+  },
+  {
+   "hour": 22.5,
+   "OverheadCloudColor": [
+    0.0154,
+    0.0021,
+    0.0021,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.9375,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "hour": 22.75,
+   "OverheadCloudColor": [
+    0.0129,
+    0.0018,
+    0.0018,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.94792,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "hour": 23.0,
+   "OverheadCloudColor": [
+    0.0103,
+    0.0014,
+    0.0014,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.95833,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "hour": 23.25,
+   "OverheadCloudColor": [
+    0.0077,
+    0.0011,
+    0.0011,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.96875,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "hour": 23.5,
+   "OverheadCloudColor": [
+    0.0051,
+    0.0007,
+    0.0007,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.97917,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "hour": 23.75,
+   "OverheadCloudColor": [
+    0.0026,
+    0.0004,
+    0.0004,
+    1.0
+   ],
+   "OverheadCloudRemapMin": 1.0,
+   "OverheadCloudRemapMax": 0.98958,
+   "HorizonCloudColor": [
+    0.0667,
+    0.0,
+    0.0,
+    1.0
+   ]
+  }
+ ]
+}

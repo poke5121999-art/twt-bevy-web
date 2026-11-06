@@ -227,6 +227,58 @@
   }
  },
  "events": {
+  "blood_handle": {
+   "group": "sfx",
+   "clips": [
+    "syringedropsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "ExtractBloodFPSEquipment._handleSound (SyringeDropSFX0), agent D r2"
+  },
+  "blood_inject": {
+   "group": "sfx",
+   "clips": [
+    "extractbloodinjectsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "ExtractBloodFPSEquipment._injectSound (ExtractBloodInjectSFX1), agent D r2"
+  },
+  "blood_extract": {
+   "group": "sfx",
+   "clips": [
+    "extractbloodsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "ExtractBloodFPSEquipment._extractSound (ExtractBloodSFX), agent D r2"
+  },
+  "blood_pull_out": {
+   "group": "sfx",
+   "clips": [
+    "extractbloodinjectsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "ExtractBloodFPSEquipment._pullOutSound (ExtractBloodInjectSFX0), agent D r2"
+  },
   "ui_click": {
    "group": "ui",
    "clips": [

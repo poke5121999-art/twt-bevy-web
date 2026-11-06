@@ -1,4 +1,5 @@
 {
+"gameplay_need_meat_warning": "Insufficient Good Meat nearby to give.",
 "crafting_materials": "Materials",
 "day_count": "Day {[VALUE]}",
 "day_plus": "{[VALUE]} Day",
@@ -1761,5 +1762,14 @@
 "world_landmark_zombie_horde_defeated_desc": "Breath in this brief victory… We've managed to defeat the zombie horde.",
 "world_landmark_zombie_horde_desc": "Send staff members here to clear a path. The better their Combat Power the higher chance at success.",
 "world_landmark_zombie_horde_info0": "Further access to the city will be available in coming updates! Thank you for your patience.",
-"world_landmark_zombie_horde_name": "Zombie Horde"
+"world_landmark_zombie_horde_name": "Zombie Horde",
+"gameplay_serving_take": "Take the customer's offering...",
+"gameplay_serving_give": "Give the customer batteries...",
+"gameplay_serving_to_pay": "left to pay",
+"gameplay_serving_these_items": "these items",
+"gameplay_accept": "Accept",
+"gameplay_decline": "Decline",
+"gameplay_barter": "Barter",
+"gameplay_alarm_cannot_be_used": "There is no reason to sound the alarm right now.",
+"dialogue_staff_need_weapon": "I need a weapon if you want me to keep the store safe."
 }
