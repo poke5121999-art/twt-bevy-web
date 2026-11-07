@@ -241,7 +241,7 @@
   WASD đi · chuột nhìn · E dùng · Esc nhả chuột / menu<br>Log của game tự gửi về cho người làm game, bạn không cần làm gì.</div>
 </div>
 <script>
-  window.TWT_BUILD = "054a0370a4a4";
+  window.TWT_BUILD = "c8507bb9288a";
   // The game reads its launch settings as environment variables (crate::vfs::var); the URL query
   // overrides any of them, e.g. ?TWT_SKIP_INTRO=1.
   window.TWT_ENV = { TWT_PLAY: "GameScene/Gameplay.glb", TWT_ASSETS: "packed", TWT_SKIP_INTRO: "0" };
@@ -276,7 +276,7 @@
   // (that work blocks the page), then a button. The game calls window.twtStage("menu") when its main menu is up and
   // window.twtStage("scene") when the world is built (crate::vfs::page_stage).
   const el = document.getElementById("loading"), fill = el.querySelector(".fill"), status = el.querySelector(".status");
-  const v = window.TWT_BUILD, expected = 151545924;
+  const v = window.TWT_BUILD, expected = 152755348;
   let bytes = 0, done = false, warmDone = 0, warmTotal = 0, warming = true;
   // What this machine offers, logged so a report says why a page stalled; a machine that cannot run the game is told
   // so before it downloads 140 MB. Textures ship as BC7, which phones, iPads and many Macs cannot read.
@@ -408,7 +408,7 @@
   download("./packed/GameScene/Gameplay.glb.zst", false).catch(e => console.warn("[twt-loading] scene prefetch: " + e));
   // The game reads its data files (about 1.5 MB) with synchronous XHR, each one blocking the page for a round trip;
   // fetched here first, those reads come from the HTTP cache. build_site.py fills the list.
-  const preloaded = Promise.all(["dirs.json", "zst.json", "ref/baked/audio.json", "ref/baked/boundaries.json", "ref/baked/catalog.ron", "ref/baked/clips.json", "ref/baked/clouds.json", "ref/baked/cutscenes.json", "ref/baked/fps-equipment.json", "ref/baked/hidden-at-start.json", "ref/baked/lighting.json", "ref/baked/loc_en.json", "ref/baked/navmesh.json", "ref/baked/paint-sweeps.json", "ref/baked/prefab-tiles.json", "ref/baked/prefab_list.json", "ref/baked/prefabs.json", "ref/baked/shadow-casters-off.json", "ref/baked/shop-layout.json", "ref/baked/staff-views.json", "ref/baked/static-lootables.json", "ref/baked/worldmap.json", "packed/fonts/Oswald-Bold.ttf"].map(u => download("./" + u, false)
+  const preloaded = Promise.all(["dirs.json", "zst.json", "ref/baked/audio.json", "ref/baked/boundaries.json", "ref/baked/catalog.ron", "ref/baked/clips.json", "ref/baked/clouds.json", "ref/baked/cutscenes.json", "ref/baked/fps-clips.json", "ref/baked/fps-equipment.json", "ref/baked/hidden-at-start.json", "ref/baked/lighting.json", "ref/baked/loc_en.json", "ref/baked/navmesh.json", "ref/baked/paint-sweeps.json", "ref/baked/prefab-tiles.json", "ref/baked/prefab_list.json", "ref/baked/prefabs.json", "ref/baked/shadow-casters-off.json", "ref/baked/shop-layout.json", "ref/baked/staff-views.json", "ref/baked/stars.json", "ref/baked/static-lootables.json", "ref/baked/worldmap.json", "packed/fonts/Oswald-Bold.ttf"].map(u => download("./" + u, false)
     .catch(e => console.warn("[twt-loading] preload: " + e))));
   const wasm = download(`./game_bg.wasm?v=${v}`, true)
     .then(chunks => new Response(new Blob(chunks), { headers: { "Content-Type": "application/wasm" } }));

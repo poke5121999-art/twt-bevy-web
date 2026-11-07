@@ -227,58 +227,6 @@
   }
  },
  "events": {
-  "blood_handle": {
-   "group": "sfx",
-   "clips": [
-    "syringedropsfx0.ogg"
-   ],
-   "volume": 1.0,
-   "pitch": [
-    1.0,
-    1.0
-   ],
-   "invented": false,
-   "note": "ExtractBloodFPSEquipment._handleSound (SyringeDropSFX0), agent D r2"
-  },
-  "blood_inject": {
-   "group": "sfx",
-   "clips": [
-    "extractbloodinjectsfx1.ogg"
-   ],
-   "volume": 1.0,
-   "pitch": [
-    1.0,
-    1.0
-   ],
-   "invented": false,
-   "note": "ExtractBloodFPSEquipment._injectSound (ExtractBloodInjectSFX1), agent D r2"
-  },
-  "blood_extract": {
-   "group": "sfx",
-   "clips": [
-    "extractbloodsfx.ogg"
-   ],
-   "volume": 1.0,
-   "pitch": [
-    1.0,
-    1.0
-   ],
-   "invented": false,
-   "note": "ExtractBloodFPSEquipment._extractSound (ExtractBloodSFX), agent D r2"
-  },
-  "blood_pull_out": {
-   "group": "sfx",
-   "clips": [
-    "extractbloodinjectsfx0.ogg"
-   ],
-   "volume": 1.0,
-   "pitch": [
-    1.0,
-    1.0
-   ],
-   "invented": false,
-   "note": "ExtractBloodFPSEquipment._pullOutSound (ExtractBloodInjectSFX0), agent D r2"
-  },
   "ui_click": {
    "group": "ui",
    "clips": [
@@ -847,6 +795,19 @@
    "invented": true,
    "note": ""
   },
+  "blueprint_flip": {
+   "group": "player",
+   "clips": [
+    "paperflipsfx1.ogg"
+   ],
+   "volume": 0.33,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "invented": false,
+   "note": ""
+  },
   "craft_loop": {
    "group": "objects",
    "clips": [
@@ -912,6 +873,85 @@
    ],
    "invented": true,
    "note": ""
+  },
+  "blood_handle": {
+   "group": "sfx",
+   "clips": [
+    "syringedropsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "ExtractBloodFPSEquipment._handleSound (SyringeDropSFX0), agent D r2"
+  },
+  "blood_inject": {
+   "group": "sfx",
+   "clips": [
+    "extractbloodinjectsfx1.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "ExtractBloodFPSEquipment._injectSound (ExtractBloodInjectSFX1), agent D r2"
+  },
+  "blood_extract": {
+   "group": "sfx",
+   "clips": [
+    "extractbloodsfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "ExtractBloodFPSEquipment._extractSound (ExtractBloodSFX), agent D r2"
+  },
+  "blood_pull_out": {
+   "group": "sfx",
+   "clips": [
+    "extractbloodinjectsfx0.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": false,
+   "note": "ExtractBloodFPSEquipment._pullOutSound (ExtractBloodInjectSFX0), agent D r2"
+  },
+  "sweep_brush": {
+   "group": "player",
+   "clips": [
+    "sweepsfx0.ogg",
+    "sweepsfx1.ogg"
+   ],
+   "volume": 0.265,
+   "pitch": [
+    0.8,
+    1.0
+   ],
+   "invented": false,
+   "note": ""
+  },
+  "sweep_glass": {
+   "group": "objects",
+   "clips": [
+    "sweepglasssfx.ogg"
+   ],
+   "volume": 1.0,
+   "pitch": [
+    1.0,
+    1.0
+   ],
+   "invented": true,
+   "note": "10 refs = 10 glass piles"
   },
   "shred": {
    "group": "objects",
