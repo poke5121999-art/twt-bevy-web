@@ -95,6 +95,14 @@
   ],
   "prefab": "ChainsawWeaponFPSEquipmentPrefab"
  },
+ "CraftingStation": {
+  "pivot": [
+   0.28,
+   -0.36,
+   -0.7
+  ],
+  "prefab": "CraftingFPSEquipmentPrefab"
+ },
  "CrossbowWeaponData": {
   "pivot": [
    0.2,
@@ -158,6 +166,14 @@
    -0.7
   ],
   "prefab": "KnifeWeaponFPSEquipmentPrefab"
+ },
+ "LearningCraftingRecipe": {
+  "pivot": [
+   0.0,
+   -0.09,
+   -0.81
+  ],
+  "prefab": "LearningCraftingRecipeFPSEquipmentPrefab"
  },
  "MinigunWeaponData": {
   "pivot": [

@@ -795,6 +795,19 @@
    "invented": true,
    "note": ""
   },
+  "blueprint_flip": {
+   "group": "player",
+   "clips": [
+    "paperflipsfx1.ogg"
+   ],
+   "volume": 0.33,
+   "pitch": [
+    0.9,
+    1.1
+   ],
+   "invented": false,
+   "note": ""
+  },
   "craft_loop": {
    "group": "objects",
    "clips": [
